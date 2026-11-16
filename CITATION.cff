@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use these data, please cite ONCOJ (see README) and this repository."
+title: "Lexica Japonesica Aperta"
+authors:
+  - family-names: Shiratori
+    given-names: Shiori
+repository-code: "https://github.com/anti-tail/LexicaJaponesicaAperta"
+license: CC-BY-4.0
+references:
+  - type: database
+    title: "Oxford-NINJAL Corpus of Old Japanese"
+    authors:
+      - name: "National Institute for Japanese Language and Linguistics"
+    year: 2021
+    url: "https://oncoj.ninjal.ac.jp/"
+    license: CC-BY-4.0

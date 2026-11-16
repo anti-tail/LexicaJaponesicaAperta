@@ -1,0 +1,313 @@
+{
+  "@context": [
+    "http://www.w3.org/ns/csvw",
+    {
+      "@language": "en"
+    }
+  ],
+  "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Dictionary",
+  "dc:title": "Lexica Japonesica Aperta: Old Japanese data derived from the Oxford-NINJAL Corpus of Old Japanese",
+  "dc:license": "https://creativecommons.org/licenses/by/4.0/",
+  "dc:source": "sources.bib",
+  "dc:description": "ONCOJ 2021.12 (oncoj.csv, lexicon.xml) converted to CLDF by Lexica Japonesica (tools/export_aperta.py).",
+  "dialect": {
+    "commentPrefix": null
+  },
+  "tables": [
+    {
+      "url": "languages.csv",
+      "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#LanguageTable",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+            "datatype": "string"
+          },
+          {
+            "name": "Name",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#name",
+            "datatype": "string"
+          },
+          {
+            "name": "Glottocode",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#glottocode",
+            "datatype": "string"
+          },
+          {
+            "name": "ISO639P3code",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#iso639P3code",
+            "datatype": "string"
+          }
+        ],
+        "primaryKey": [
+          "ID"
+        ]
+      }
+    },
+    {
+      "url": "entries.csv",
+      "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#EntryTable",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+            "datatype": "string",
+            "dc:description": "ONCOJ lemma ID (a suffix _2 marks a second entry sharing the same ID in lexicon.xml)"
+          },
+          {
+            "name": "Language_ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+            "datatype": "string"
+          },
+          {
+            "name": "Headword",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#headword",
+            "datatype": "string",
+            "dc:description": "First orthographic form in ONCOJ lexicon.xml"
+          },
+          {
+            "name": "Part_Of_Speech",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#partOfSpeech",
+            "datatype": "string"
+          },
+          {
+            "name": "Forms",
+            "separator": " / ",
+            "datatype": "string",
+            "dc:description": "All orth forms of the ONCOJ entry"
+          },
+          {
+            "name": "Token_Count",
+            "datatype": "integer",
+            "dc:description": "Number of corpus tokens with this lemma (as word or compound)"
+          }
+        ],
+        "primaryKey": [
+          "ID"
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": [
+              "Language_ID"
+            ],
+            "reference": {
+              "resource": "languages.csv",
+              "columnReference": [
+                "ID"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "senses.csv",
+      "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#SenseTable",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+            "datatype": "string"
+          },
+          {
+            "name": "Entry_ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#entryReference",
+            "datatype": "string"
+          },
+          {
+            "name": "Description",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#description",
+            "datatype": "string"
+          }
+        ],
+        "primaryKey": [
+          "ID"
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": [
+              "Entry_ID"
+            ],
+            "reference": {
+              "resource": "entries.csv",
+              "columnReference": [
+                "ID"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "examples.csv",
+      "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#ExampleTable",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+            "datatype": "string",
+            "dc:description": "ONCOJ text ID, e.g. MYS.1.1"
+          },
+          {
+            "name": "Language_ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#languageReference",
+            "datatype": "string"
+          },
+          {
+            "name": "Primary_Text",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#primaryText",
+            "datatype": "string",
+            "dc:description": "Text in the original script (man'yōgana), phrases joined"
+          },
+          {
+            "name": "Analyzed_Word",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#analyzedWord",
+            "separator": "\t",
+            "datatype": "string",
+            "dc:description": "ONCOJ phonological transcription, one item per token"
+          },
+          {
+            "name": "Gloss",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#gloss",
+            "separator": "\t",
+            "datatype": "string",
+            "dc:description": "Part-of-speech tag of each token"
+          },
+          {
+            "name": "Translated_Text",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#translatedText",
+            "datatype": "string"
+          },
+          {
+            "name": "Source",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#source",
+            "separator": ";",
+            "datatype": "string"
+          },
+          {
+            "name": "Collection",
+            "datatype": "string"
+          },
+          {
+            "name": "Transliteration",
+            "datatype": "string",
+            "dc:description": "ONCOJ =N line"
+          },
+          {
+            "name": "Phrases",
+            "separator": "\t",
+            "datatype": "string",
+            "dc:description": "Original-script phrases (ONCOJ n@ segments)"
+          }
+        ],
+        "primaryKey": [
+          "ID"
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": [
+              "Language_ID"
+            ],
+            "reference": {
+              "resource": "languages.csv",
+              "columnReference": [
+                "ID"
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "url": "tokens.csv",
+      "tableSchema": {
+        "columns": [
+          {
+            "name": "ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#id",
+            "datatype": "string"
+          },
+          {
+            "name": "Example_ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#exampleReference",
+            "datatype": "string"
+          },
+          {
+            "name": "Position",
+            "datatype": "integer"
+          },
+          {
+            "name": "Phrase",
+            "datatype": "integer",
+            "dc:description": "Index into Phrases of the example (1-based)"
+          },
+          {
+            "name": "Form",
+            "datatype": "string",
+            "dc:description": "ONCOJ transcription"
+          },
+          {
+            "name": "POS",
+            "datatype": "string",
+            "dc:description": "ONCOJ tag of the token"
+          },
+          {
+            "name": "Entry_ID",
+            "propertyUrl": "http://cldf.clld.org/v1.0/terms.rdf#entryReference",
+            "datatype": "string",
+            "dc:description": "ONCOJ lemma of the token (component lemma inside compounds)"
+          },
+          {
+            "name": "Compound_Entry_ID",
+            "datatype": "string",
+            "dc:description": "ONCOJ lemma of the whole compound, if any"
+          },
+          {
+            "name": "Compound_POS",
+            "datatype": "string"
+          },
+          {
+            "name": "Script",
+            "datatype": "string",
+            "dc:description": "ONCOJ script tag: PHON, LOG, PHON-KUN, PHON-ON, NLOG, PLOG, ILL"
+          },
+          {
+            "name": "Path",
+            "datatype": "string",
+            "dc:description": "ONCOJ phrase-structure labels above the token"
+          },
+          {
+            "name": "ONCOJ_Lemma",
+            "datatype": "string",
+            "dc:description": "Lemma ID as given in oncoj.csv (kept even when absent from lexicon.xml)"
+          },
+          {
+            "name": "ONCOJ_Compound_Lemma",
+            "datatype": "string",
+            "dc:description": "Compound lemma ID as given in oncoj.csv"
+          }
+        ],
+        "primaryKey": [
+          "ID"
+        ],
+        "foreignKeys": [
+          {
+            "columnReference": [
+              "Example_ID"
+            ],
+            "reference": {
+              "resource": "examples.csv",
+              "columnReference": [
+                "ID"
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
