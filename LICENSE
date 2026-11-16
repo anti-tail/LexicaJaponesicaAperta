@@ -4,4 +4,4 @@ Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 
 The data in oncoj/ are adapted from the Oxford-NINJAL Corpus of Old Japanese (ONCOJ), whose corpus annotation is
 licensed under CC BY 4.0: National Institute for Japanese Language and Linguistics (2021) "Oxford-NINJAL Corpus of
-Old Japanese" http://oncoj.ninjal.ac.jp/. The changes made are listed in oncoj/README.md.
+Old Japanese" http://oncoj.ninjal.ac.jp/. The changes made are listed in oncoj/README.md and docs/README.md (search interface in docs/).
