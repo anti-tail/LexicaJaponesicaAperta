@@ -29,12 +29,29 @@ code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0
 <span class="sp"><a href="./">← Search</a><a href="../guide.html">日本語</a></span></header>
 <main>
 <nav class="toc"><b>Contents</b><ol>
+<li><a href="#t0">About this page</a></li>
+<li><a href="#t5">What is ONCOJ?</a></li>
 <li><a href="#t1">Reading the transcription (Frellesvig–Whitman notation)</a></li>
 <li><a href="#t2">ONCOJ and Chūnagon (Corpus of Historical Japanese)</a></li>
 <li><a href="#t3">How this search page handles the data</a></li>
 <li><a href="#t4">Sources and links</a></li></ol></nav>
 
-<h2 id="t1">1. Reading the transcription (Frellesvig–Whitman notation)</h2>
+<h2 id="t0">1. About this page</h2>
+<p>Kätö nö Sıma is a tool for searching early texts of the Japonic (Japonesian) languages together, built as part of the comparative lexical database Lexica Japonesica.
+The full, local version also searches other materials in the same interface, but some of them cannot be published for copyright reasons, so this public version contains only the Old Japanese data of ONCOJ.
+The query languages, tag look-up and the display of structural types and paradigms are shared across all materials.</p>
+
+<h2 id="t5">2. What is ONCOJ?</h2>
+<p>ONCOJ, the Oxford-NINJAL Corpus of Old Japanese, is a corpus of Old Japanese built jointly by the University of Oxford and the National Institute for Japanese Language and Linguistics (NINJAL).
+It aims to make all Old Japanese texts available as a lemmatized, parsed and annotated digital corpus. The project started in 2011 and was called the Oxford Corpus of Old Japanese (OCOJ) until 2017.</p>
+<ul>
+<li>The current version contains all Old Japanese poetry, about 90,000 words; prose texts are not yet included.</li>
+<li>Poems are given in original script and phonemic transcription, and each word is annotated for lemma, mode of writing (phonographic or logographic), morphology, constituency and grammatical function.</li>
+<li>A dictionary with English glosses is linked to the lemmas by ID.</li>
+<li>The ONCOJ website offers tree search and downloads; the annotation is published under CC BY 4.0.</li>
+</ul>
+
+<h2 id="t1">3. Reading the transcription (Frellesvig–Whitman notation)</h2>
 <p>ONCOJ gives each poem in its original script (man'yōgana and logograms) side by side with a phonemic romanization. The romanization follows the notation of Frellesvig and Whitman (F&amp;W),
 which writes the <i>kō-rui</i> / <i>otsu-rui</i> distinctions of Old Japanese (the so-called <i>jōdai tokushu kanazukai</i>) by inserting <b>w</b> or <b>y</b> between consonant and vowel.</p>
 <h3>Kō and otsu syllables</h3>
@@ -48,7 +65,7 @@ which writes the <i>kō-rui</i> / <i>otsu-rui</i> distinctions of Old Japanese (
 Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syllables without the distinction).</p>
 <div class="wrap"><table>
 <tr><th>F&amp;W</th><td class="m">ki</td><td class="m">kwi</td><td class="m">kye</td><td class="m">ke</td><td class="m">kwo</td><td class="m">ko</td></tr>
-<tr><th>subscript notation</th><td>ki₁</td><td>ki₂</td><td>ke₁</td><td>ke₂</td><td>ko₁</td><td>ko₂</td></tr>
+<tr><th>numbered notation</th><td>ki₁</td><td>ki₂</td><td>ke₁</td><td>ke₂</td><td>ko₁</td><td>ko₂</td></tr>
 </table></div>
 <p class="note">The <span class="m">mwo / mo</span> distinction is found only in the Kojiki songs (37 tokens of <span class="m">mwo</span> in this corpus).</p>
 <h3>Vowel-initial syllables and other consonants</h3>
@@ -59,7 +76,7 @@ Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syll
 <li>In the lexicon, bound morphemes are written with hyphens (<span class="m">-ki-</span>, the past auxiliary), and each lemma has an ID such as <span class="m">L050083</span>.</li>
 </ul>
 
-<h2 id="t2">2. ONCOJ and Chūnagon (Corpus of Historical Japanese)</h2>
+<h2 id="t2">4. ONCOJ and Chūnagon (Corpus of Historical Japanese)</h2>
 <p>Besides ONCOJ, Old Japanese can be searched in the Nara period series of NINJAL's <i>Corpus of Historical Japanese</i> (CHJ) through the search application Chūnagon. Both involve NINJAL, but they are built differently and are good at different things.</p>
 <div class="wrap"><table>
 <tr><th></th><th>ONCOJ (the data on this page)</th><th>CHJ Nara series (Chūnagon)</th></tr>
@@ -74,7 +91,7 @@ Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syll
 · <b>Comparison with later periods</b> on the same criteria, the prose of senmyō and norito, or vocabulary searches on a reading text → Chūnagon (CHJ)</div>
 <p class="note">The same poem may be read (<i>kun</i>) or segmented differently in the two corpora. The ONCOJ tree view links to the corresponding CHJ Nara-period text.</p>
 
-<h2 id="t3">3. How this search page handles the data</h2>
+<h2 id="t3">5. How this search page handles the data</h2>
 <ul>
 <li>The data come from the ONCOJ psd (tree) files. Lemma-ID nodes are folded into their POS nodes and writing nodes (PHON, LOG …) become word attributes; the annotation itself is unchanged. See “Tags &amp; structure” → “Data model” on the search page.</li>
 <li>“ignore kō/otsu” removes the w/y (<span class="m">kwo→ko</span>, <span class="m">pwi→pi</span>, <span class="m">kye→ke</span>) before matching, in both the data and the query; “ignore voicing” treats <span class="m">g/k z/s d/t b/p</span> as the same.</li>
@@ -82,7 +99,7 @@ Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syll
 <li>Kakyō hyōshiki is not included in this version.</li>
 </ul>
 
-<h2 id="t4">4. Sources and links</h2>
+<h2 id="t4">6. Sources and links</h2>
 <ul>
 <li>Oxford-NINJAL Corpus of Old Japanese (ONCOJ): <a href="https://oncoj.ninjal.ac.jp/">https://oncoj.ninjal.ac.jp/</a> (the transcription and the list of texts are on the front page)</li>
 <li>NINJAL, Corpus of Historical Japanese: <a href="https://clrd.ninjal.ac.jp/chj/">https://clrd.ninjal.ac.jp/chj/</a>; Chūnagon: <a href="https://chunagon.ninjal.ac.jp/">https://chunagon.ninjal.ac.jp/</a></li>
