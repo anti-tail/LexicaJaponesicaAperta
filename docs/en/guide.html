@@ -41,7 +41,7 @@ code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0
 The full, local version also searches other materials in the same interface, but some of them cannot be published for copyright reasons, so this public version contains only the Old Japanese data of ONCOJ.
 The query languages, tag look-up and the display of structural types and paradigms are shared across all materials.</p>
 <p>The name Kätö nö Sıma is a reconstruction under the eight-vowel hypothesis for Proto-Japonesian proposed by Shiori Shiratori:
-<span class="m">*Kätö</span> ‘word’, <span class="m">*nö</span> ‘GEN’, <span class="m">*S[ı]ma</span> ‘island’, meaning “island of language”.</p>
+<span class="m">*kätö</span> ‘word’, <span class="m">*nö</span> ‘GEN’, <span class="m">*s[ı]ma</span> ‘island’, meaning “island of language”.</p>
 <p>We call the language family Japonesian rather than Japonic. The name Japonic gives the impression that its members are not on an equal footing, and it has not been well received, mainly by people in the Ryukyu Arc.</p>
 
 <h2 id="t5">2. What is ONCOJ?</h2>
@@ -98,7 +98,7 @@ Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syll
 <ul>
 <li>The data come from the ONCOJ psd (tree) files. Lemma-ID nodes are folded into their POS nodes and writing nodes (PHON, LOG …) become word attributes; the annotation itself is unchanged. See “Tags &amp; structure” → “Data model” on the search page.</li>
 <li>“ignore kō/otsu” removes the w/y (<span class="m">kwo→ko</span>, <span class="m">pwi→pi</span>, <span class="m">kye→ke</span>) before matching, in both the data and the query; “ignore voicing” treats <span class="m">g/k z/s d/t b/p</span> as the same.</li>
-<li>In “Words” mode Old Japanese can also be typed in kana (<span class="m">ひとのこ</span>). Kana cannot show kō/otsu or voicing, so such searches ignore both.</li>
+<li>In “Words” mode Old Japanese can also be typed in kana (<span class="m">ヒとのコ</span>). Katakana is read as kō or as a syllable without the distinction, hiragana as otsu, and dakuten marks voicing: <span class="m">ヒとのコ</span> = <span class="m">pitonokwo</span>, <span class="m">こひ</span> = <span class="m">kopwi</span>. Kana cannot distinguish e from ye, so <span class="m">エ</span> matches both. Hiragana へ looks like katakana ヘ, so it is displayed in the search box as 倍, the source character of the hentaigana.</li>
 <li>Kakyō hyōshiki is not included in this version.</li>
 </ul>
 
