@@ -1,0 +1,29 @@
+name: 言島への意見 / Feedback on Kätö nö Sıma
+description: 要望・不具合・データやタグの誤り・質問 / Requests, bugs, data or tag errors, questions
+labels: [feedback]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 種類 / Type
+      options:
+        - 要望・提案 / request
+        - 不具合 / bug
+        - データ・タグの誤り / data
+        - 質問 / question
+        - その他 / other
+    validations:
+      required: true
+  - type: textarea
+    id: message
+    attributes:
+      label: 内容 / Message
+      description: 気づいたこと，困っていること，こうなるとよいこと / What you noticed, what was difficult, what would help
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 画面の状態 / Context
+      description: 検索画面の「意見を送る」から開くと自動で入る（検索式・資料・歌の ID・版） / Filled in automatically from the Feedback button (query, sources, poem ID, version)
+      render: text
