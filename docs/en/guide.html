@@ -97,10 +97,9 @@ Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syll
 
 <h2 id="t3">5. How this search page handles the data</h2>
 <ul>
-<li>The data come from the ONCOJ psd (tree) files. Lemma-ID nodes are folded into their POS nodes and writing nodes (PHON, LOG …) become word attributes; the annotation itself is unchanged. See “Tags &amp; structure” → “Data model” on the search page.</li>
+<li>The data come from the ONCOJ working data (psd trees and dictionary) downloaded from the search interface on 2026-11-18, including the 40 poems of the Kakyō hyōshiki. Lemma-ID nodes are folded into their POS nodes and writing nodes (PHON, LOG …) become word attributes; the annotation itself is unchanged. See “Tags &amp; structure” → “Data model” on the search page.</li>
 <li>“ignore kō/otsu” removes the w/y (<span class="m">kwo→ko</span>, <span class="m">pwi→pi</span>, <span class="m">kye→ke</span>) before matching, in both the data and the query; “ignore voicing” treats <span class="m">g/k z/s d/t b/p</span> as the same.</li>
 <li>In “Words” mode Old Japanese can also be typed in kana (<span class="m">ヒとのコ</span>). Katakana is read as kō or as a syllable without the distinction, hiragana as otsu, and dakuten marks voicing: <span class="m">ヒとのコ</span> = <span class="m">pitonokwo</span>, <span class="m">こひ</span> = <span class="m">kopwi</span>. Following the source characters, katakana <span class="m">エ</span> (from 江) is ye and hiragana <span class="m">え</span> (from 衣) is e. Hiragana へ looks like katakana ヘ, so it is displayed in the search box as the hentaigana 𛂳, derived from 倍.</li>
-<li>Kakyō hyōshiki is not included in this version.</li>
 </ul>
 
 <h2 id="t4">6. Sources and links</h2>
