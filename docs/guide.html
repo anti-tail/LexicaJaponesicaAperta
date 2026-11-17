@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>解説：転写と ONCOJ ― 言島 Kätö nö Sıma</title><style>:root{--paper:#f6f1e7;--paper2:#efe7d6;--ink:#2b2622;--muted:#7a6f63;--line:#d9cdb6;--accent:#8e2b2b;
+--mincho:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP","MS PMincho",serif;
+--gothic:"Hiragino Sans","Yu Gothic UI","Yu Gothic","Noto Sans JP","Meiryo",sans-serif;--mono:ui-monospace,"Cascadia Mono",Consolas,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 var(--gothic)}
+header{background:var(--accent);color:#fff;padding:8px 18px;display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+header h1{font:600 17px/1.3 var(--mincho);margin:0;letter-spacing:.06em}
+header a{color:#fff;font-size:13px}
+header .sp{margin-left:auto;display:flex;gap:14px}
+main{max-width:860px;margin:0 auto;padding:18px 20px 60px}
+h2{font:600 21px/1.4 var(--mincho);margin:34px 0 8px;padding-bottom:4px;border-bottom:2px solid var(--line)}
+h3{font:600 16px/1.4 var(--mincho);margin:22px 0 6px}
+nav.toc{background:var(--paper2);border:1px solid var(--line);border-radius:6px;padding:8px 16px;font-size:14px}
+nav.toc ol{margin:4px 0;padding-left:20px}
+table{border-collapse:collapse;margin:8px 0 12px;font-size:14px;width:100%;background:#fffdf8}
+th,td{border:1px solid var(--line);padding:5px 8px;vertical-align:top;text-align:left}
+th{background:var(--paper2);font-weight:600}
+td.c,th.c{text-align:center}
+code,.m{font-family:var(--mono);font-size:.93em}
+code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0 3px}
+.note{color:var(--muted);font-size:13.5px}
+.box{background:#fffdf8;border-left:4px solid var(--accent);padding:6px 12px;margin:10px 0}
+.wrap{overflow-x:auto}
+@media (max-width:640px){body{font-size:14.5px}main{padding:12px 12px 40px}th,td{padding:4px 5px}}
+</style></head><body>
+<header><h1>言島 <span style="font-weight:400;font-size:14px">Kätö nö Sıma</span></h1><span>解説</span>
+<span class="sp"><a href="./">← 検索画面へ</a><a href="en/guide.html">English</a></span></header>
+<main>
+<nav class="toc"><b>目次</b><ol>
+<li><a href="#t1">転写の読み方（Frellesvig–Whitman 式）</a></li>
+<li><a href="#t2">ONCOJ と「中納言」（日本語歴史コーパス）のちがい</a></li>
+<li><a href="#t3">この検索画面での扱い</a></li>
+<li><a href="#t4">出典・リンク</a></li></ol></nav>
+
+<h2 id="t1">1. 転写の読み方（Frellesvig–Whitman 式）</h2>
+<p>ONCOJ は歌を，原文（万葉仮名・漢字）と並べて，ローマ字の音素表記で示している．この表記は Frellesvig と Whitman による方式（以下 F&amp;W 式）で，
+いわゆる上代特殊仮名遣いの甲類・乙類を，子音と母音のあいだに <b>w</b> か <b>y</b> を入れて書き分ける．</p>
+
+<h3>甲類・乙類</h3>
+<div class="wrap"><table>
+<tr><th>母音</th><th>甲類</th><th>乙類</th><th>区別のない音節</th><th>区別のある子音（コーパス中）</th></tr>
+<tr><td class="c">イ段</td><td><code>Ci</code>　<span class="m">pi</span> 日</td><td><code>Cwi</code>　<span class="m">pwi</span> 火</td><td><code>Ci</code>　<span class="m">ti</span> 血</td><td class="m">k g p b m</td></tr>
+<tr><td class="c">エ段</td><td><code>Cye</code>　<span class="m">mye</span> 女</td><td><code>Ce</code>　<span class="m">me</span> 目</td><td><code>Ce</code>　<span class="m">te</span> 手</td><td class="m">k g p b m</td></tr>
+<tr><td class="c">オ段</td><td><code>Cwo</code>　<span class="m">kwo</span> 子</td><td><code>Co</code>　<span class="m">ko</span> 此</td><td><code>Co</code>　<span class="m">po</span> 穂</td><td class="m">k g t d n s z y r m</td></tr>
+</table></div>
+<p>注意：<b>w・y が甲類・乙類のどちらに付くかは段によって違う</b>．イ段は乙類に w（<span class="m">kwi</span> ＝キ乙），
+エ段は甲類に y（<span class="m">kye</span> ＝ケ甲），オ段は甲類に w（<span class="m">kwo</span> ＝コ甲）．つまり w・y の付かない <span class="m">ki ke ko</span> は，それぞれキ甲・ケ乙・コ乙と，区別のない音節を表す．
+国内の論文でよく見る <span class="m">ki₁／ki₂</span>，「キ甲／キ乙」との対応は次のとおり：</p>
+<div class="wrap"><table>
+<tr><th>F&amp;W 式</th><td class="m">ki</td><td class="m">kwi</td><td class="m">kye</td><td class="m">ke</td><td class="m">kwo</td><td class="m">ko</td></tr>
+<tr><th>甲乙</th><td>キ甲 (ki₁)</td><td>キ乙 (ki₂)</td><td>ケ甲 (ke₁)</td><td>ケ乙 (ke₂)</td><td>コ甲 (ko₁)</td><td>コ乙 (ko₂)</td></tr>
+</table></div>
+<p class="note">オ段の <span class="m">mwo／mo</span> の区別は古事記歌謡に限られる（このコーパスでは <span class="m">mwo</span> が 37 語）．</p>
+
+<h3>母音で始まる音節，そのほかの子音</h3>
+<ul>
+<li>母音だけの音節と，ヤ行・ワ行の音節は書き分ける：<span class="m">i</span>（イ）／<span class="m">wi</span>（ヰ），<span class="m">e</span>（ア行エ）／<span class="m">ye</span>（ヤ行エ）／<span class="m">we</span>（ヱ），<span class="m">o</span>（オ）／<span class="m">wo</span>（ヲ）．
+ここでの <span class="m">wi ye wo</span> は子音のない「乙類・甲類」ではなく，ワ行・ヤ行の音節．</li>
+<li>ハ行は <span class="m">p</span>（<span class="m">pana</span> 花），濁音は <span class="m">b d g z</span>．ほかは <span class="m">k s t n m y r w</span>．</li>
+<li>w・y は甲乙を ASCII で書き分けるための約束で，そのまま発音を表すものとは限らない．甲乙の音価には諸説ある．</li>
+<li>見出し語では，付属語・活用語尾などの拘束形態を <span class="m">-ki-</span>（過去の助動詞）のようにハイフンで示す．各見出しには <span class="m">L050083</span> のような番号がある．</li>
+</ul>
+
+<h2 id="t2">2. ONCOJ と「中納言」（日本語歴史コーパス）のちがい</h2>
+<p>上代語の用例を探すには，ONCOJ のほかに，国立国語研究所の『日本語歴史コーパス（CHJ）』奈良時代編を，検索アプリ「中納言」で引く方法がある．
+どちらも国語研が関わっているが，作り方と得意なことがかなり違う．</p>
+<div class="wrap"><table>
+<tr><th></th><th>ONCOJ（この画面のデータ）</th><th>CHJ 奈良時代編（中納言）</th></tr>
+<tr><th>収録</th><td>上代の韻文すべて：古事記歌謡，日本書紀歌謡，風土記歌謡，仏足石歌，萬葉集，歌経標式，続日本紀歌謡，上宮聖徳法王帝説．約 9 万語</td><td>Ⅰ萬葉集（約 10 万語），Ⅱ続日本紀宣命（約 2 万語），Ⅲ延喜式祝詞（約 0.9 万語）．記紀歌謡などはない</td></tr>
+<tr><th>本文</th><td>原文と，F&amp;W 式の音素表記．甲乙を転写そのもので区別．語ごとに表記の種類（表音・表語など）の情報</td><td>漢字仮名交じりの訓読文（萬葉集は『新編日本古典文学全集』による）に単語情報を付けたもの．原文も参照できる．読みは仮名なので，甲乙は原文の万葉仮名で確かめる</td></tr>
+<tr><th>語の単位</th><td>独自の辞書の見出し（英語の語釈つき）．自立語と拘束形態（助動詞・活用語尾など）を分ける</td><td>UniDic の短単位・長単位．語彙素・品詞・活用型・活用形などが，平安時代以降の各編や現代語のコーパスと同じ枠組み</td></tr>
+<tr><th>構文</th><td>句構造の木（Keyaki Treebank の方針による）と文法機能（主語・目的語・関係節など）</td><td>なし（語の並び・共起で探す）</td></tr>
+<tr><th>検索</th><td>ONCOJ のサイト（木の検索・辞書），この画面．データはダウンロードでき，注釈は CC BY 4.0</td><td>中納言（無料・要登録）．短単位・長単位・文字列などで検索し，前後の共起条件も付けられる</td></tr>
+</table></div>
+<div class="box"><b>使い分けの目安</b><br>
+・係り結び・関係節・語順など<b>構造</b>を問う，甲乙を含めて<b>音形</b>で引く，歌謡まで含めて上代の韻文を網羅する → ONCOJ<br>
+・平安時代以降と<b>同じ基準で比べる</b>，宣命・祝詞の散文を見る，訓読文で語彙を引く → 中納言（CHJ）</div>
+<p class="note">同じ歌でも，訓（読み方）や語の切り方が両者で違うことがある．ONCOJ の木の表示画面には，対応する CHJ 奈良時代編のテキストへのリンクがある．</p>
+
+<h2 id="t3">3. この検索画面での扱い</h2>
+<ul>
+<li>データは ONCOJ の psd ファイル（木）から作った．見出し番号のノードを上の品詞ノードにたたみ，表記のノード（PHON・LOG など）は語の属性にした．注釈の中身は変えていない．
+くわしくは検索画面の「タグと構造」→「データの形」．</li>
+<li>「甲乙を区別しない」にすると <span class="m">kwo→ko</span>，<span class="m">pwi→pi</span>，<span class="m">kye→ke</span> のように w・y を外してから照合する（検索語にも同じ変換をかける）．「清濁を区別しない」は <span class="m">g/k z/s d/t b/p</span> を同じとみる．</li>
+<li>「ことば」モードでは，かな（<span class="m">ひとのこ</span>）でも上代語を引ける．かなは甲乙・清濁を書き分けられないので，甲乙と清濁を区別しない検索になる．</li>
+<li>歌経標式は，この画面の版には入っていない．</li>
+</ul>
+
+<h2 id="t4">4. 出典・リンク</h2>
+<ul>
+<li>Oxford-NINJAL Corpus of Old Japanese（ONCOJ）：<a href="https://oncoj.ninjal.ac.jp/?lang=ja">https://oncoj.ninjal.ac.jp/</a>（転写の説明・収録テキストの一覧はトップページ）</li>
+<li>国立国語研究所『日本語歴史コーパス』：<a href="https://clrd.ninjal.ac.jp/chj/">https://clrd.ninjal.ac.jp/chj/</a>　検索アプリ「中納言」：<a href="https://chunagon.ninjal.ac.jp/">https://chunagon.ninjal.ac.jp/</a></li>
+<li>Keyaki Treebank（ONCOJ の構文注釈の方針）：<a href="http://www.compling.jp/keyaki/">http://www.compling.jp/keyaki/</a></li>
+</ul>
+<p class="note">この解説の誤りや分かりにくいところは，検索画面の「意見を送る」から知らせてください．</p>
+</main></body></html>

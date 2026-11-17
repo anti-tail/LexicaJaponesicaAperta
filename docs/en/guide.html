@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>About: transcription and ONCOJ — Kätö nö Sıma</title><style>:root{--paper:#f6f1e7;--paper2:#efe7d6;--ink:#2b2622;--muted:#7a6f63;--line:#d9cdb6;--accent:#8e2b2b;
+--mincho:"Hiragino Mincho ProN","Yu Mincho","YuMincho","Noto Serif JP","MS PMincho",serif;
+--gothic:"Hiragino Sans","Yu Gothic UI","Yu Gothic","Noto Sans JP","Meiryo",sans-serif;--mono:ui-monospace,"Cascadia Mono",Consolas,monospace}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.8 var(--gothic)}
+header{background:var(--accent);color:#fff;padding:8px 18px;display:flex;align-items:baseline;gap:16px;flex-wrap:wrap}
+header h1{font:600 17px/1.3 var(--mincho);margin:0;letter-spacing:.06em}
+header a{color:#fff;font-size:13px}
+header .sp{margin-left:auto;display:flex;gap:14px}
+main{max-width:860px;margin:0 auto;padding:18px 20px 60px}
+h2{font:600 21px/1.4 var(--mincho);margin:34px 0 8px;padding-bottom:4px;border-bottom:2px solid var(--line)}
+h3{font:600 16px/1.4 var(--mincho);margin:22px 0 6px}
+nav.toc{background:var(--paper2);border:1px solid var(--line);border-radius:6px;padding:8px 16px;font-size:14px}
+nav.toc ol{margin:4px 0;padding-left:20px}
+table{border-collapse:collapse;margin:8px 0 12px;font-size:14px;width:100%;background:#fffdf8}
+th,td{border:1px solid var(--line);padding:5px 8px;vertical-align:top;text-align:left}
+th{background:var(--paper2);font-weight:600}
+td.c,th.c{text-align:center}
+code,.m{font-family:var(--mono);font-size:.93em}
+code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0 3px}
+.note{color:var(--muted);font-size:13.5px}
+.box{background:#fffdf8;border-left:4px solid var(--accent);padding:6px 12px;margin:10px 0}
+.wrap{overflow-x:auto}
+@media (max-width:640px){body{font-size:14.5px}main{padding:12px 12px 40px}th,td{padding:4px 5px}}
+</style></head><body>
+<header><h1>Kätö nö Sıma</h1><span>About</span>
+<span class="sp"><a href="./">← Search</a><a href="../guide.html">日本語</a></span></header>
+<main>
+<nav class="toc"><b>Contents</b><ol>
+<li><a href="#t1">Reading the transcription (Frellesvig–Whitman notation)</a></li>
+<li><a href="#t2">ONCOJ and Chūnagon (Corpus of Historical Japanese)</a></li>
+<li><a href="#t3">How this search page handles the data</a></li>
+<li><a href="#t4">Sources and links</a></li></ol></nav>
+
+<h2 id="t1">1. Reading the transcription (Frellesvig–Whitman notation)</h2>
+<p>ONCOJ gives each poem in its original script (man'yōgana and logograms) side by side with a phonemic romanization. The romanization follows the notation of Frellesvig and Whitman (F&amp;W),
+which writes the <i>kō-rui</i> / <i>otsu-rui</i> distinctions of Old Japanese (the so-called <i>jōdai tokushu kanazukai</i>) by inserting <b>w</b> or <b>y</b> between consonant and vowel.</p>
+<h3>Kō and otsu syllables</h3>
+<div class="wrap"><table>
+<tr><th>vowel</th><th>kō (甲)</th><th>otsu (乙)</th><th>no distinction</th><th>consonants with the distinction (in the corpus)</th></tr>
+<tr><td class="c">i</td><td><code>Ci</code>  <span class="m">pi</span> ‘sun’</td><td><code>Cwi</code>  <span class="m">pwi</span> ‘fire’</td><td><code>Ci</code>  <span class="m">ti</span> ‘blood’</td><td class="m">k g p b m</td></tr>
+<tr><td class="c">e</td><td><code>Cye</code>  <span class="m">mye</span> ‘woman’</td><td><code>Ce</code>  <span class="m">me</span> ‘eye’</td><td><code>Ce</code>  <span class="m">te</span> ‘hand’</td><td class="m">k g p b m</td></tr>
+<tr><td class="c">o</td><td><code>Cwo</code>  <span class="m">kwo</span> ‘child’</td><td><code>Co</code>  <span class="m">ko</span> ‘this’</td><td><code>Co</code>  <span class="m">po</span> ‘ear of grain’</td><td class="m">k g t d n s z y r m</td></tr>
+</table></div>
+<p>Note which side gets the extra letter: otsu for <i>i</i> (<span class="m">kwi</span> = ki₂), kō for <i>e</i> (<span class="m">kye</span> = ke₁) and kō for <i>o</i> (<span class="m">kwo</span> = ko₁).
+Plain <span class="m">ki ke ko</span> are therefore ki₁, ke₂, ko₂ (or syllables without the distinction).</p>
+<div class="wrap"><table>
+<tr><th>F&amp;W</th><td class="m">ki</td><td class="m">kwi</td><td class="m">kye</td><td class="m">ke</td><td class="m">kwo</td><td class="m">ko</td></tr>
+<tr><th>subscript notation</th><td>ki₁</td><td>ki₂</td><td>ke₁</td><td>ke₂</td><td>ko₁</td><td>ko₂</td></tr>
+</table></div>
+<p class="note">The <span class="m">mwo / mo</span> distinction is found only in the Kojiki songs (37 tokens of <span class="m">mwo</span> in this corpus).</p>
+<h3>Vowel-initial syllables and other consonants</h3>
+<ul>
+<li>Bare vowels are distinct from y- and w-syllables: <span class="m">i</span> / <span class="m">wi</span>, <span class="m">e</span> / <span class="m">ye</span> / <span class="m">we</span>, <span class="m">o</span> / <span class="m">wo</span>. Here <span class="m">wi ye wo</span> are syllables with the glides w/y, not kō/otsu markings.</li>
+<li>The h-row of later Japanese is <span class="m">p</span> (<span class="m">pana</span> ‘flower’); voiced obstruents are <span class="m">b d g z</span>; the others are <span class="m">k s t n m y r w</span>.</li>
+<li>w and y are a notational convention for writing the distinctions in ASCII, not necessarily a claim about pronunciation; the phonetic values of the kō/otsu vowels are debated.</li>
+<li>In the lexicon, bound morphemes are written with hyphens (<span class="m">-ki-</span>, the past auxiliary), and each lemma has an ID such as <span class="m">L050083</span>.</li>
+</ul>
+
+<h2 id="t2">2. ONCOJ and Chūnagon (Corpus of Historical Japanese)</h2>
+<p>Besides ONCOJ, Old Japanese can be searched in the Nara period series of NINJAL's <i>Corpus of Historical Japanese</i> (CHJ) through the search application Chūnagon. Both involve NINJAL, but they are built differently and are good at different things.</p>
+<div class="wrap"><table>
+<tr><th></th><th>ONCOJ (the data on this page)</th><th>CHJ Nara series (Chūnagon)</th></tr>
+<tr><th>Texts</th><td>All Old Japanese poetry: Kojiki and Nihon shoki songs, Fudoki songs, Bussokuseki-ka, Man'yōshū, Kakyō hyōshiki, Shoku Nihongi songs, Jōgū Shōtoku hōō teisetsu; about 90,000 words</td><td>I Man'yōshū (c. 100,000 words), II Shoku Nihongi senmyō (c. 20,000), III Engi-shiki norito (c. 9,000); no Kojiki/Nihon shoki songs</td></tr>
+<tr><th>Text</th><td>Original script and F&amp;W phonemic transcription, with kō/otsu in the transcription itself; mode of writing (phonographic/logographic) per word</td><td>A kanji-kana reading text (for the Man'yōshū, from the Shōgakukan <i>Shinpen Nihon koten bungaku zenshū</i>) with word annotation; the original text can be consulted. Readings are in kana, so kō/otsu must be checked in the original man'yōgana</td></tr>
+<tr><th>Word units</th><td>Lemmas of its own dictionary with English glosses; free words and bound morphemes (auxiliaries, inflectional endings) are separated</td><td>UniDic short and long units; lemma, POS and inflection follow the same scheme as the later-period subcorpora and modern corpora</td></tr>
+<tr><th>Syntax</th><td>Constituency trees (following the Keyaki Treebank) with grammatical functions (subject, object, relative clause …)</td><td>None (search by word sequence and co-occurrence)</td></tr>
+<tr><th>Access</th><td>ONCOJ website (tree search, dictionary) and this page; data downloadable, annotation CC BY 4.0</td><td>Chūnagon (free, registration required); short/long-unit and string search with context conditions</td></tr>
+</table></div>
+<div class="box"><b>Rule of thumb</b><br>
+· Questions about <b>structure</b> (kakari-musubi, relative clauses, word order), searching by <b>form</b> including kō/otsu, or covering all Old Japanese poetry including the chronicle songs → ONCOJ<br>
+· <b>Comparison with later periods</b> on the same criteria, the prose of senmyō and norito, or vocabulary searches on a reading text → Chūnagon (CHJ)</div>
+<p class="note">The same poem may be read (<i>kun</i>) or segmented differently in the two corpora. The ONCOJ tree view links to the corresponding CHJ Nara-period text.</p>
+
+<h2 id="t3">3. How this search page handles the data</h2>
+<ul>
+<li>The data come from the ONCOJ psd (tree) files. Lemma-ID nodes are folded into their POS nodes and writing nodes (PHON, LOG …) become word attributes; the annotation itself is unchanged. See “Tags &amp; structure” → “Data model” on the search page.</li>
+<li>“ignore kō/otsu” removes the w/y (<span class="m">kwo→ko</span>, <span class="m">pwi→pi</span>, <span class="m">kye→ke</span>) before matching, in both the data and the query; “ignore voicing” treats <span class="m">g/k z/s d/t b/p</span> as the same.</li>
+<li>In “Words” mode Old Japanese can also be typed in kana (<span class="m">ひとのこ</span>). Kana cannot show kō/otsu or voicing, so such searches ignore both.</li>
+<li>Kakyō hyōshiki is not included in this version.</li>
+</ul>
+
+<h2 id="t4">4. Sources and links</h2>
+<ul>
+<li>Oxford-NINJAL Corpus of Old Japanese (ONCOJ): <a href="https://oncoj.ninjal.ac.jp/">https://oncoj.ninjal.ac.jp/</a> (the transcription and the list of texts are on the front page)</li>
+<li>NINJAL, Corpus of Historical Japanese: <a href="https://clrd.ninjal.ac.jp/chj/">https://clrd.ninjal.ac.jp/chj/</a>; Chūnagon: <a href="https://chunagon.ninjal.ac.jp/">https://chunagon.ninjal.ac.jp/</a></li>
+<li>Keyaki Treebank (the parsing principles followed by ONCOJ): <a href="http://www.compling.jp/keyaki/">http://www.compling.jp/keyaki/</a></li>
+</ul>
+<p class="note">Please report errors or unclear points in this page with the Feedback button on the search page.</p>
+</main></body></html>

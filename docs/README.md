@@ -3,6 +3,8 @@
 <https://anti-tail.github.io/LexicaJaponesicaAperta/> で公開している検索画面（`index.html` 1 ファイル，データ埋め込み，サーバー不要）．
 スマートフォンでも使える．英語版：<https://anti-tail.github.io/LexicaJaponesicaAperta/en/>（English interface）．
 
+解説（転写の読み方，ONCOJ と中納言のちがい）：<https://anti-tail.github.io/LexicaJaponesicaAperta/guide.html>
+
 意見・要望・不具合・データの誤りは，画面右上の「意見を送る」から（GitHub の Issue になる）．
 
 - 用例検索：語の並び（`pos#VB in#REL`，`lemma:-ki-`，`ka *{0,3} mo` など），構造（TGrep2 の一部：`IP-REL <- #VB+ADN`），転写，万葉仮名の原文
