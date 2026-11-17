@@ -1,0 +1,15 @@
+# Issue のラベル（意見フォーム用）を用意する．このファイルを変えたとき，または手動で動かす
+name: labels
+on:
+  push:
+    paths: [".github/workflows/labels.yml"]
+  workflow_dispatch:
+permissions:
+  issues: write
+jobs:
+  labels:
+    runs-on: ubuntu-latest
+    steps:
+      - run: gh label create feedback --repo "$GITHUB_REPOSITORY" --color 9e4a3a --description "言島の画面から / from the search page" --force
+        env:
+          GH_TOKEN: ${{ github.token }}
