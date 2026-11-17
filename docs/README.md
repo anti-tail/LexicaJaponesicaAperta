@@ -30,3 +30,5 @@
 ONCOJ の注釈は CC BY 4.0．この画面とデータも CC BY 4.0 とする．
 
 > National Institute for Japanese Language and Linguistics (2021) “Oxford-NINJAL Corpus of Old Japanese” http://oncoj.ninjal.ac.jp/
+
+変体仮名の表示のため，Noto Serif Hentaigana の必要な字だけを画面に埋め込んでいる．このフォントは SIL Open Font License 1.1 で，© The Noto Project Authors．
