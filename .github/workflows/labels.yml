@@ -13,3 +13,6 @@ jobs:
       - run: gh label create feedback --repo "$GITHUB_REPOSITORY" --color 9e4a3a --description "言島の画面から / from the search page" --force
         env:
           GH_TOKEN: ${{ github.token }}
+      - run: gh label create construction --repo "$GITHUB_REPOSITORY" --color 3a6b4a --description "構文目録への申請 / construction catalogue request" --force
+        env:
+          GH_TOKEN: ${{ github.token }}

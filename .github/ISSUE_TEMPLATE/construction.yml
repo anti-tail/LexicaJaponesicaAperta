@@ -1,0 +1,34 @@
+name: 構文の追加・修正の申請 / Construction request
+description: 構文目録に入れてほしい構文，定義の修正 / A construction to add to the catalogue, or a correction to a definition
+labels: [construction]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: 構文の名前 / Name
+      description: 例：属格主語，係り結び / e.g. genitive subject
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: 定義・説明 / Definition
+      description: どういう形をこの構文とみなすか．わかれば構造検索の式でも / What counts as this construction; a structure query if you have one
+    validations:
+      required: true
+  - type: textarea
+    id: examples
+    attributes:
+      label: 用例 / Examples
+      description: 歌番号と語．例：MYS.1.1 の … / Poem IDs and words
+  - type: textarea
+    id: source
+    attributes:
+      label: 出典 / Source
+      description: この構文を扱った文献とページ / References and pages
+  - type: textarea
+    id: current
+    attributes:
+      label: いまの定義 / Current definition
+      description: 目録の「定義の修正を申請」から開くと自動で入る / Filled in automatically from the catalogue
+      render: text
