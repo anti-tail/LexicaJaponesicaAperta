@@ -1,0 +1,21 @@
+name: 文献の紹介 / Suggest a reference
+description: 構文目録で参照すべき文献 / Work the construction catalogue should draw on
+labels: [reference]
+body:
+  - type: textarea
+    id: reference
+    attributes:
+      label: 文献 / Reference
+      description: 著者，年，題名，掲載誌や書名，ページ / Author, year, title, venue, pages
+    validations:
+      required: true
+  - type: textarea
+    id: constructions
+    attributes:
+      label: 扱っている構文 / Constructions discussed
+      description: 目録にある構文の名前か，目録にない構文の説明 / Names of catalogue entries, or a description of a construction not yet listed
+  - type: input
+    id: where
+    attributes:
+      label: 入手先 / Where to find it
+      description: URL，DOI など / URL, DOI, etc.
