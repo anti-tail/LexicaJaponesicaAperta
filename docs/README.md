@@ -4,6 +4,7 @@
 スマートフォンでも使える．英語版は <https://anti-tail.github.io/LexicaJaponesicaAperta/en/>．
 
 転写の読み方と，ONCOJ と中納言のちがいは解説のページにまとめた：<https://anti-tail.github.io/LexicaJaponesicaAperta/guide.html>
+ONCOJ と『日本語歴史コーパス』奈良時代編の形態論・統語論の注釈の対照は付録にまとめた：<https://anti-tail.github.io/LexicaJaponesicaAperta/appendix.html>（英語版 <https://anti-tail.github.io/LexicaJaponesicaAperta/en/appendix.html>）
 
 意見・要望・不具合・データの誤りは，画面右上の「意見を送る」から送れる．GitHub の Issue になる．
 
