@@ -228,6 +228,14 @@ table.kwic td.orig{font-family:var(--mincho, serif);letter-spacing:.04em}
 #j-frame .frsug{margin:4px 0;line-height:2}
 #j-frame .note{color:var(--muted);margin:4px 0;line-height:1.5;font-size:12.5px}
 #j-frame .frtab td{vertical-align:top}
+#j-morph .frbox{border:1px solid var(--line);border-radius:5px;background:#fffdf8;padding:6px 10px;margin:6px 0 10px}
+#j-morph h3{margin:2px 0 6px;font-size:15px}
+#j-morph h4{margin:6px 0 2px;font-size:13px;color:var(--accent)}
+#j-morph .frset{gap:6px 12px;flex-wrap:wrap;margin:4px 0}
+#j-morph .frsug{margin:4px 0;line-height:2}
+#j-morph .note{color:var(--muted);margin:4px 0;line-height:1.5;font-size:12.5px}
+#j-morph .mxgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:4px 14px}
+#j-morph .mxhi{font-weight:700;color:var(--accent)}
 #jmet .note{color:var(--muted);margin:4px 0;line-height:1.5}
 .scw-L{color:#8a2d18}
 .scw-N{color:#978c80;font-style:italic}
@@ -353,6 +361,7 @@ h3.pa{font:600 14px var(--gothic);color:var(--accent);margin:14px 0 4px}
     <button data-sub="j-search" class="on">Search</button>
     <button data-sub="j-lex">Lexicon</button>
     <button data-sub="j-frame">Argument structure</button>
+    <button data-sub="j-morph">Inflection &amp; affixes</button>
     <button data-sub="j-tags">Tags &amp; structure</button>
     <button data-sub="j-cat">Constructions</button>
   </div>
@@ -420,6 +429,7 @@ h3.pa{font:600 14px var(--gothic);color:var(--accent);margin:14px 0 4px}
   </div>
 
   <div class="sub" id="j-frame" style="display:none"></div>
+  <div class="sub" id="j-morph" style="display:none"></div>
   <div class="sub" id="j-cat" style="display:none"></div>
   <div class="sub" id="j-tags" style="display:none">
     <div class="sub-tabs small">
@@ -2765,6 +2775,181 @@ function frTSV(rows, name){
   const t = (EN ? "id\tclause\tpredicate\tvoice\tframe\ttext" : "id\t節\t述語\t態\t項の型\t本文") + "\n" + rows.map(r => { const C = r.T.nodes[r.c]; return [r.T.id, r.cl, frLemLabel(r.lem), FR_VOICE[r.voice] || r.voice, frKey(r), r.T.toks.slice(C.a, C.b).map(x => x.f).join(" ")].join("\t"); }).join("\n");
   const a = document.createElement("a"); a.href = URL.createObjectURL(new Blob(["﻿" + t], {type:"text/tab-separated-values"})); a.download = name; a.click();
 }
+/* ---------------- 活用と接辞：動詞・形容詞のまとまりごとに，活用形・助動詞・接頭辞・前後の語を数える ----------------
+   まとまり：VB・ADJ で始まるノードのうち，親が同じ種類でないもの．後ろに続く XTN（らむ・らし・べし など）も含める．
+   結び付きの強さ：ある語のまとまりのうちその特徴をもつものの割合を，同じ品詞のまとまり全体での割合で割った値（O/E）と，
+   対数尤度比 G² で並べる */
+const MX_FORM = EN ? {STM:"stem", INF:"infinitive", CLS:"conclusive", ADN:"adnominal", ADC:"adnominal/conclusive", ADI:"adnominal/infinitive", IFC:"infinitive/conclusive", EXC:"exclamatory (izen)", IMP:"imperative", GER:"gerund (-te)", PRV:"provisional (-eba)", CND:"conditional (-aba)", CSS:"concessive (-edo)", CTT:"continuative (-tutu)", NML:"nominal (-aku)", OPT:"optative", NGC:"negative conjectural (-zi)"}
+  : {STM:"語幹", INF:"連用形", CLS:"終止形", ADN:"連体形", ADC:"終止・連体形", ADI:"連体・連用形", IFC:"連用・終止形", EXC:"已然形", IMP:"命令形", GER:"接続形（て）", PRV:"已然形＋ば", CND:"未然形＋ば", CSS:"已然形＋ど・ども", CTT:"つつ", NML:"ク語法", OPT:"願望形", NGC:"じ"};
+const MX_AUX = EN ? {PRF:"perfective", NEG:"negative", SPST:"past", MPST:"modal past", CJR:"conjectural", STV:"stative", PASS:"passive", CTV:"causative", RSP:"honorific", SJV:"subjunctive", ACP:"adjectival ending", XTN:"auxiliary", PFX:"prefix"}
+  : {PRF:"完了", NEG:"打消", SPST:"過去", MPST:"けり", CJR:"推量", STV:"存続", PASS:"受身", CTV:"使役", RSP:"尊敬", SJV:"まし", ACP:"形容詞の語尾", XTN:"助動詞", PFX:"接頭辞"};
+const MX_KINDS = EN ? [["form", "inflected form"], ["aff", "auxiliaries and endings (each)"], ["chain", "string of auxiliaries"], ["pfx", "prefixes"], ["prev", "preceding word"], ["next", "following word"], ["formnext", "form + following word"]]
+  : [["form", "活用形"], ["aff", "助動詞・語尾（一つずつ）"], ["chain", "助動詞の並び"], ["pfx", "接頭辞"], ["prev", "前の語"], ["next", "後ろの語"], ["formnext", "活用形＋後ろの語"]];
+let MX = null;
+let MXUI = {inN:false, id:null, kind:"form", val:"", pos:"VB", min:3, ikind:"formnext", ipos:"VB", imin:5};
+const mxLemShort = id => { const e = ON.lex[id]; return e ? e[0].split(" / ")[0] : id; };
+function mxTokName(T, k){
+  const t = T.toks[k]; if (!t) return "";
+  const N = T.nodes[t.node], p = N.lab.split("-"), w = N.lem ? mxLemShort(N.lem) : t.f;
+  return `${w}〈${p[0] === "VAX" ? (MX_AUX[p[1]] || p[1]) : p[0] === "ACP" || p[0] === "XTN" ? MX_AUX[p[0]] : p[0] === "P" ? p.slice(0, 2).join("-") : p[0]}〉`;
+}
+function mxIndex(){
+  if (MX) return MX;
+  MX = {units:[], byLem:new Map(), tots:[{VB:{n:0}, ADJ:{n:0}}, {VB:{n:0}, ADJ:{n:0}}]};
+  for (const T of ON.texts) for (const U of T.nodes){
+    const m = U.lab.match(/^(VB|ADJ)(-|$)/); if (!m || U.b <= U.a) continue;
+    const base = m[1], P = U.par >= 0 ? T.nodes[U.par] : null;
+    if (P && new RegExp("^" + base + "(-|$)").test(P.lab)) continue;
+    let lem = U.lem && ON.lex[U.lem] ? U.lem : null;
+    if (!lem){ const st = [...U.ch]; while (st.length){ const x = st.shift(), N = T.nodes[x]; if (N.lem && N.lab.startsWith(base)){ lem = N.lem; break; } st.push(...N.ch); } }
+    if (!lem) continue;
+    let b = U.b, last = U;
+    if (P){ let i = P.ch.indexOf(U.i) + 1; while (i < P.ch.length && /^XTN/.test(T.nodes[P.ch[i]].lab)){ last = T.nodes[P.ch[i]]; b = Math.max(b, last.b); i++; } }
+    const aff = [], pfx = [];
+    for (let k = U.a; k < b; k++){
+      const L = T.nodes[T.toks[k].node].lab;
+      if (/^(VAX|ACP|XTN)/.test(L)) aff.push(mxTokName(T, k));
+      else if (/^PFX/.test(L)) pfx.push(mxTokName(T, k));
+    }
+    const fc = last.lab.split("-").slice(1).find(x => MX_FORM[x]) || "STM";
+    const u = {T, n:U.i, a:U.a, b, base, lem, inN:!!P && /^(N|PLN|PEN)(-|$)/.test(P.lab), form:MX_FORM[fc], aff, chain:aff.join("＋") || (EN ? "(none)" : "（なし）"), pfx, prev:U.a > 0 ? mxTokName(T, U.a - 1) : (EN ? "(beginning)" : "（歌の頭）"), next:b < T.toks.length ? mxTokName(T, b) : (EN ? "(end)" : "（歌の終わり）")};
+    u.formnext = `${u.form} → ${u.next}`;
+    MX.units.push(u);
+    if (!MX.byLem.has(lem)) MX.byLem.set(lem, []);
+    MX.byLem.get(lem).push(u);
+    for (const tot of u.inN ? [MX.tots[1][base]] : [MX.tots[0][base], MX.tots[1][base]]){
+      tot.n++;
+      for (const [k] of MX_KINDS) for (const v of mxVals(u, k)){ const key = k + "\t" + v; tot[key] = (tot[key] || 0) + 1; }
+    }
+  }
+  return MX;
+}
+const mxTot = base => MX.tots[MXUI.inN ? 1 : 0][base];
+const mxUs = id => (MX.byLem.get(id) || []).filter(u => MXUI.inN || !u.inN);
+const mxVals = (u, k) => k === "aff" ? [...new Set(u.aff)] : k === "pfx" ? [...new Set(u.pfx)] : [u[k]];
+function mxG2(a, cl, cf, N){
+  const o = [a, cl - a, cf - a, N - cl - cf + a], e = [cl * cf / N, cl * (N - cf) / N, (N - cl) * cf / N, (N - cl) * (N - cf) / N];
+  let g = 0; for (let i = 0; i < 4; i++) if (o[i] > 0 && e[i] > 0) g += o[i] * Math.log(o[i] / e[i]);
+  return a > e[0] ? 2 * g : -2 * g;
+}
+function mxHits(us, withNext){ return us.map(u => ({T:u.T, a:u.a, b:Math.min(u.T.toks.length, u.b + (withNext ? 1 : 0)), node:u.n, nodes:[u.n]})); }
+function mxShow(us, label, withNext){
+  ONHits = mxHits(us, withNext); ONFilter = null;
+  $("#jq").value = ""; $("#jlem").value = "";
+  switchSub("j-search"); closeDetail(); $("#jview").value = "kwic";
+  $("#jstat").innerHTML = `<b>${fmt(ONHits.length)}</b> ${EN ? "hits" : "件"}・<b>${fmt(new Set(ONHits.map(h => h.T.id)).size)}</b> ${EN ? "poems" : "首"}<div class="nlread">${esc(label)}</div>`;
+  $("#jresctl").style.display = ONHits.length ? "" : "none";
+  renderOncoj();
+}
+function openMorph(id){ MXUI.id = id; switchSub("j-morph"); renderMorph(); }
+const mxSel = (id, opts, cur) => `<select id="${id}">${opts.map(([v, l]) => `<option value="${v}"${v === cur ? " selected" : ""}>${l}</option>`).join("")}</select>`;
+const MX_POS = () => [["VB", EN ? "verbs" : "動詞"], ["ADJ", EN ? "adjectives" : "形容詞"]];
+function renderMorph(){
+  const box = $("#j-morph");
+  box.innerHTML = `<div class="frbox">
+    <h3>${EN ? "Inflection, auxiliaries and neighbours of a verb or adjective" : "動詞・形容詞ごとの活用形・助動詞・前後の語"}</h3>
+    <div class="row"><input type="text" id="mxq" placeholder="${EN ? "verb or adjective: form, gloss or ID (e.g. mi / see / L031712a)" : "動詞・形容詞の語形・語釈・番号　例：mi／見る／see／L031712a"}" autocomplete="off" style="flex:1"></div>
+    <div id="mxsug" class="frsug"></div>
+    <div class="row frset"><label><input type="checkbox" id="mxinn"${MXUI.inN ? " checked" : ""}>${EN ? "include stems inside compound nouns (momitipa, sirwotape, ...)" : "複合名詞の中の語幹も数える（もみちば・しろたへ など）"}</label></div>
+    <div id="mxprof"></div>
+  </div>
+  <div class="frbox">
+    <h3>${EN ? "Find words by an inflected form, auxiliary or neighbour" : "活用形・助動詞・前後の語から語を探す"}</h3>
+    <div class="row frset">${mxSel("mxkind", MX_KINDS, MXUI.kind)} ${mxSel("mxpos", MX_POS(), MXUI.pos)}
+      <input type="text" id="mxval" list="mxvals" value="${esc(MXUI.val)}" placeholder="${EN ? "value (pick from the list)" : "値（一覧から選ぶ）"}" style="flex:1;min-width:12em"><datalist id="mxvals"></datalist>
+      <label>${EN ? "at least" : "回数が"} <input type="number" id="mxmin" value="${MXUI.min}" min="1" style="width:4em"> ${EN ? "times" : "以上"}</label>
+      <button type="button" class="go" id="mxgo">${EN ? "Find" : "探す"}</button></div>
+    <div id="mxrev"></div>
+  </div>
+  <div class="frbox">
+    <h3>${EN ? "Strongest word–feature combinations (idiom candidates)" : "結び付きの強い組み合わせ（言い回しの候補）"}</h3>
+    <div class="row frset">${mxSel("mxikind", MX_KINDS, MXUI.ikind)} ${mxSel("mxipos", MX_POS(), MXUI.ipos)}
+      <label>${EN ? "at least" : "回数が"} <input type="number" id="mximin" value="${MXUI.imin}" min="2" style="width:4em"> ${EN ? "times" : "以上"}</label>
+      <button type="button" class="go" id="mxigo">${EN ? "List" : "並べる"}</button></div>
+    <div id="mxidi"></div>
+    <div class="note">${EN ? "O/E: the share of the feature among this word's occurrences divided by its share among all verbs (or adjectives); above 1 means the word attracts it. G²: log-likelihood ratio, larger means a more reliable association (negative when the word avoids the feature). Units are ONCOJ VB/ADJ nodes not inside another of the same kind, with following XTN extensions (-ram-, -rasi, -be-) included." : "O/E は，その語の用例のうちその特徴をもつものの割合を，動詞（形容詞）全体での割合で割った値．1 より大きければその語に寄っている．G² は対数尤度比で，大きいほど偶然では説明しにくい（その語が避けている特徴では負になる）．数える単位は ONCOJ の VB・ADJ のノードのうち同じ種類のノードの中にないもので，後ろに続く らむ・らし・べし などの XTN も含める．"}</div>
+  </div>`;
+  imeFilter($("#mxq"), v => {
+    const c = v.trim() ? lemCands(ON, v, 30).filter(x => mxIndex().byLem.has(x.id)) : [];
+    $("#mxsug").innerHTML = c.slice(0, 12).map(x => `<span class="chip" data-mid="${esc(x.id)}" style="cursor:pointer">${esc(x.e[0].split(" / ")[0])} <span class="meta">${esc(x.e[2].slice(0, 24))}・${fmt(MX.byLem.get(x.id).length)}</span></span>`).join(" ") || (v.trim() ? `<span class="meta">${EN ? "not found as a verb or adjective" : "動詞・形容詞としての用例のある見出しが見つかりません"}</span>` : "");
+    $("#mxsug").querySelectorAll("[data-mid]").forEach(s => s.onclick = () => { MXUI.id = s.dataset.mid; renderMorphProfile(); });
+  });
+  const fillVals = () => {
+    mxIndex(); const tot = mxTot($("#mxpos").value), k = $("#mxkind").value + "\t";
+    $("#mxvals").innerHTML = Object.entries(tot).filter(([x]) => x.startsWith(k)).sort((a, b) => b[1] - a[1]).slice(0, 400).map(([x, n]) => `<option value="${esc(x.slice(k.length))}">${fmt(n)}</option>`).join("");
+  };
+  $("#mxkind").onchange = () => { MXUI.kind = $("#mxkind").value; $("#mxval").value = ""; fillVals(); };
+  $("#mxpos").onchange = () => { MXUI.pos = $("#mxpos").value; fillVals(); };
+  $("#mxgo").onclick = () => { MXUI.kind = $("#mxkind").value; MXUI.pos = $("#mxpos").value; MXUI.val = $("#mxval").value.trim(); MXUI.min = Math.max(1, +$("#mxmin").value || 1); renderMorphRev(); };
+  $("#mxigo").onclick = () => { MXUI.ikind = $("#mxikind").value; MXUI.ipos = $("#mxipos").value; MXUI.imin = Math.max(2, +$("#mximin").value || 2); renderMorphIdioms(); };
+  $("#mxinn").onchange = e => { MXUI.inN = e.target.checked; fillVals(); renderMorphProfile(); if ($("#mxrev").innerHTML) renderMorphRev(); if ($("#mxidi").innerHTML) renderMorphIdioms(); };
+  fillVals();
+  renderMorphProfile();
+}
+function mxTable(rows, head){
+  return `<table class="lex frtab"><tr>${head.map(h => `<th>${h}</th>`).join("")}</tr>${rows.join("")}</table>`;
+}
+function renderMorphProfile(){
+  const box = $("#mxprof"); if (!box) return;
+  const id = MXUI.id;
+  if (!id){ box.innerHTML = `<div class="note">${EN ? "Type a verb or adjective above, or open this from the card of a word in the search results." : "上の欄に動詞・形容詞を入れて選ぶか，用例検索の見出しの札から開いてください．"}</div>`; return; }
+  mxIndex(); const us = mxUs(id), e = ON.lex[id], n = us.length;
+  if (!n){ box.innerHTML = `<div class="note">${EN ? "No occurrences as a verb or adjective." : "動詞・形容詞としての用例がありません．"}</div>`; return; }
+  const base = us[0].base, tot = mxTot(base);
+  let html = `<div class="lemcard"><h3>${esc(e ? e[0] : id)} <span class="ref">${esc(id)}</span></h3><div>${e ? esc(e[1]) + "　<b>" + esc(e[2]) + "</b>" : ""}</div>
+    <div class="status">${EN ? `${fmt(n)} occurrences` : `用例 ${fmt(n)}`} <button type="button" class="sub" id="mxall">${EN ? "Show all" : "用例をすべて見る"}</button>
+    ${frIndex().byLem.has(id) ? `<button type="button" class="sub" id="mxfr">${EN ? "Argument structure" : "項構造"}</button>` : ""}</div></div>`;
+  const groups = [];
+  for (const [k, kl] of MX_KINDS){
+    const m = new Map();
+    for (const u of us) for (const v of mxVals(u, k)){ if (!m.has(v)) m.set(v, []); m.get(v).push(u); }
+    const rows = [...m].map(([v, l]) => { const cf = tot[k + "\t" + v] || 0; return {v, l, oe:(l.length / n) / (cf / tot.n), g:mxG2(l.length, n, cf, tot.n)}; }).sort((a, b) => b.l.length - a.l.length);
+    groups.push([k, kl, rows]);
+  }
+  html += `<div class="mxgrid">` + groups.map(([k, kl, rows], gi) => `<div><h4>${esc(kl)}</h4>` + mxTable(rows.slice(0, 15).map((r, i) => `<tr data-mg="${gi}" data-mi="${i}" style="cursor:pointer"><td>${esc(r.v)}</td><td class="num">${fmt(r.l.length)}</td><td class="num">${(100 * r.l.length / n).toFixed(0)}%</td><td class="num${r.oe >= 2 && r.g >= 3.84 ? " mxhi" : ""}">${r.oe.toFixed(1)}</td></tr>`), ["", EN ? "n" : "回", "%", "O/E"]) + (rows.length > 15 ? `<div class="meta">${EN ? `and ${rows.length - 15} more` : `ほか ${rows.length - 15} 種`}</div>` : "") + `</div>`).join("") + `</div>`;
+  html += `<div class="note">${EN ? "Bold O/E: at least twice as frequent as with verbs (adjectives) in general, with G² ≥ 3.84. Click a row for its examples." : "太字の O/E は，動詞（形容詞）全体の 2 倍以上で，G² が 3.84 以上のもの．行を押すとその用例．"}</div>`;
+  box.innerHTML = html;
+  const lab = frLemLabel(id);
+  $("#mxall").onclick = () => mxShow(us, lab);
+  if ($("#mxfr")) $("#mxfr").onclick = () => openFrame(id);
+  box.querySelectorAll("[data-mg]").forEach(tr => tr.onclick = () => { const [k, kl, rows] = groups[+tr.dataset.mg], r = rows[+tr.dataset.mi]; mxShow(r.l, `${lab}：${kl} ${r.v}`, /next/.test(k)); });
+}
+function renderMorphRev(){
+  mxIndex(); const box = $("#mxrev"), k = MXUI.kind, v = MXUI.val, tot = mxTot(MXUI.pos);
+  if (!v){ box.innerHTML = `<div class="note">${EN ? "Choose a value." : "値を選んでください．"}</div>`; return; }
+  const cf = tot[k + "\t" + v] || 0, out = [];
+  for (const [id] of MX.byLem){
+    const us = mxUs(id); if (!us.length || us[0].base !== MXUI.pos) continue;
+    const l = us.filter(u => mxVals(u, k).includes(v));
+    if (l.length < MXUI.min) continue;
+    out.push({id, l, n:us.length, oe:(l.length / us.length) / (cf / tot.n), g:mxG2(l.length, us.length, cf, tot.n)});
+  }
+  out.sort((a, b) => b.g - a.g);
+  const kl = MX_KINDS.find(x => x[0] === k)[1];
+  box.innerHTML = `<div class="status">${esc(kl)}「${esc(v)}」：${EN ? `${fmt(cf)} occurrences in all; ${fmt(out.length)} words, strongest association first` : `全体で ${fmt(cf)} 回．${fmt(out.length)} 語を結び付きの強い順に`}</div>` +
+    mxTable(out.slice(0, 200).map((x, i) => `<tr><td><a class="xref" data-mxid="${esc(x.id)}" style="cursor:pointer;color:var(--accent)">${esc(frLemLabel(x.id))}</a></td><td class="num">${fmt(x.l.length)}／${fmt(x.n)}</td><td class="num">${(100 * x.l.length / x.n).toFixed(0)}%</td><td class="num">${x.oe.toFixed(1)}</td><td class="num">${x.g.toFixed(1)}</td><td><button type="button" class="sub" data-mxr="${i}">${EN ? "examples" : "用例"}</button></td></tr>`), [EN ? "word" : "語", EN ? "with it / all" : "当たる／全体", "%", "O/E", "G²", ""]);
+  box.querySelectorAll("[data-mxid]").forEach(a => a.onclick = () => { MXUI.id = a.dataset.mxid; renderMorphProfile(); $("#mxprof").scrollIntoView({block:"start"}); });
+  box.querySelectorAll("[data-mxr]").forEach(b => b.onclick = () => { const x = out[+b.dataset.mxr]; mxShow(x.l, `${frLemLabel(x.id)}：${kl} ${v}`, /next/.test(k)); });
+}
+function renderMorphIdioms(){
+  mxIndex(); const box = $("#mxidi"), k = MXUI.ikind, tot = mxTot(MXUI.ipos), out = [];
+  for (const [id] of MX.byLem){
+    const us = mxUs(id); if (!us.length || us[0].base !== MXUI.ipos) continue;
+    const m = new Map();
+    for (const u of us) for (const v of mxVals(u, k)){ if (!m.has(v)) m.set(v, []); m.get(v).push(u); }
+    for (const [v, l] of m){
+      if (l.length < MXUI.imin) continue;
+      const cf = tot[k + "\t" + v] || 0, g = mxG2(l.length, us.length, cf, tot.n);
+      if (g > 0) out.push({id, v, l, n:us.length, cf, oe:(l.length / us.length) / (cf / tot.n), g});
+    }
+  }
+  out.sort((a, b) => b.g - a.g);
+  const kl = MX_KINDS.find(x => x[0] === k)[1];
+  box.innerHTML = `<div class="status">${EN ? `${fmt(out.length)} combinations, strongest first` : `${fmt(out.length)} 組を結び付きの強い順に`}</div>` +
+    mxTable(out.slice(0, 200).map((x, i) => `<tr data-mxi="${i}" style="cursor:pointer"><td>${esc(mxLemShort(x.id))} <span class="meta">${esc((ON.lex[x.id] || ["", "", ""])[2].slice(0, 20))}</span></td><td>${esc(x.v)}</td><td class="num">${fmt(x.l.length)}／${fmt(x.n)}</td><td class="num">${fmt(x.cf)}</td><td class="num">${x.oe.toFixed(1)}</td><td class="num">${x.g.toFixed(1)}</td></tr>`),
+      [EN ? "word" : "語", esc(kl), EN ? "together / word" : "共起／語の全体", EN ? "feature in all" : "特徴の全体", "O/E", "G²"]);
+  box.querySelectorAll("[data-mxi]").forEach(tr => tr.onclick = () => { const x = out[+tr.dataset.mxi]; mxShow(x.l, `${mxLemShort(x.id)}：${kl} ${x.v}`, /next/.test(k)); });
+}
 function openFrame(id){ FRUI.id = id; switchSub("j-frame"); renderFrame(); }
 function renderFrame(){
   const box = $("#j-frame");
@@ -2828,7 +3013,7 @@ function renderFrameProfile(){
   const fnRows = [...fns].sort((a, b) => FRAME_FN.indexOf(a[0].split("-")[0]) - FRAME_FN.indexOf(b[0].split("-")[0]) || b[1].n - a[1].n);
   let html = `<div class="lemcard"><h3>${esc(e ? e[0] : id)} <span class="ref">${esc(id)}</span></h3><div>${e ? esc(e[1]) + "　<b>" + esc(e[2]) + "</b>" : ""}</div>
     <div class="status">${EN ? `${fmt(n)} clauses with this predicate` : `この語を述語とする節 ${fmt(n)}`}（${[...cls].sort((a, b) => b[1] - a[1]).map(([k, v]) => `${labSpan(k)} ${fmt(v)}`).join("　")}）
-      <button type="button" class="sub" id="frall">${EN ? "Show all" : "用例をすべて見る"}</button> <button type="button" class="sub" id="frtsv">TSV</button> <button type="button" class="sub" id="frlem">${EN ? "Word search" : "語の用例検索へ"}</button></div></div>`;
+      <button type="button" class="sub" id="frall">${EN ? "Show all" : "用例をすべて見る"}</button> <button type="button" class="sub" id="frmx">${EN ? "Inflection & affixes" : "活用と接辞"}</button> <button type="button" class="sub" id="frtsv">TSV</button> <button type="button" class="sub" id="frlem">${EN ? "Word search" : "語の用例検索へ"}</button></div></div>`;
   if (!n){ box.innerHTML = html; bindFrameProfile(rows, types); return; }
   html += `<table class="lex frtab"><tr><th>${EN ? "Argument" : "項"}</th><th>${EN ? "clauses" : "現れる節"}</th><th>${EN ? "markers (click for examples)" : "標示（押すと用例）"}</th></tr>` +
     fnRows.map(([f, F]) => `<tr><td>${esc(frFnName(f))} <span class="ref">${esc(f)}</span></td><td class="num">${fmt(F.n)}　${pct(F.n)}</td><td>${[...F.mk].sort((a, b) => b[1] - a[1]).map(([m, v]) => `<span class="chip" data-ffn="${esc(f)}" data-fmk="${esc(m)}" style="cursor:pointer">${esc(frMkName(m))} ${fmt(v)}</span>`).join(" ")}</td></tr>`).join("") +
@@ -2843,6 +3028,7 @@ function renderFrameProfile(){
 function bindFrameProfile(rows, tl){
   const id = FRUI.id, lab = frLemLabel(id);
   if ($("#frall")) $("#frall").onclick = () => frShowHits(rows, `${EN ? "Clauses with predicate" : "述語"} ${lab}`);
+  if ($("#frmx")) $("#frmx").onclick = () => openMorph(id);
   if ($("#frtsv")) $("#frtsv").onclick = () => frTSV(rows, `frames_${id}.tsv`);
   if ($("#frlem")) $("#frlem").onclick = () => runLemma(id);
   $("#frprof").querySelectorAll("[data-ffn]").forEach(c => c.onclick = () => {
@@ -2909,6 +3095,7 @@ function lemCardHTML(){
       <button type="button" class="sub" id="lc-comp">${L.any ? "Free occurrences only" : "Include parts of compounds"}</button>
       <button type="button" class="sub" id="lc-lex">Lexicon entry &amp; related words</button>
       <button type="button" class="sub" id="lc-pat">Structural types &amp; paradigms</button>
+      ${mxIndex().byLem.has(L.id) ? `<button type="button" class="sub" id="lc-morph">${EN ? "Inflection & affixes" : "活用と接辞"}</button>` : ""}
       ${frIndex().byLem.has(L.id) ? `<button type="button" class="sub" id="lc-frame">${EN ? "Argument structure" : "項構造"}</button>` : ""}
       ${homo.length ? `<span class="meta">Homographs: ${homo.slice(0, 6).map(([k, v]) => `<a class="xref" data-lid="${esc(k)}" style="cursor:pointer;color:var(--accent)">${esc(v[0])}（${esc(v[2]).slice(0, 24)}）</a>`).join("，")}</span>` : ""}
     </div></div>`;
@@ -2920,6 +3107,7 @@ function bindLemCard(box){
   const b2 = box.querySelector("#lc-lex"); if (b2) b2.onclick = () => showLex(L.id);
   const b3 = box.querySelector("#lc-pat"); if (b3) b3.onclick = () => { $("#jview").value = "pat"; renderOncoj(); };
   const b4 = box.querySelector("#lc-frame"); if (b4) b4.onclick = () => openFrame(L.id);
+  const b5 = box.querySelector("#lc-morph"); if (b5) b5.onclick = () => openMorph(L.id);
   box.querySelectorAll("[data-lid]").forEach(a => a.onclick = () => runLemma(a.dataset.lid, L.any));
 }
 function runLemma(id, any = $("#j-incomp").checked){
@@ -4186,6 +4374,7 @@ document.querySelectorAll(".sub-tabs button[data-sub]").forEach(b => b.onclick =
   if (b.dataset.sub === "j-tags" && !$("#tgres").innerHTML) tagList();
   if (b.dataset.sub === "j-cat" && !$("#j-cat").innerHTML) renderCatalog();
   if (b.dataset.sub === "j-frame" && !$("#j-frame").innerHTML) renderFrame();
+  if (b.dataset.sub === "j-morph" && !$("#j-morph").innerHTML) renderMorph();
 });
 
 const PUBLIC_BUILD = "1" === "1";
