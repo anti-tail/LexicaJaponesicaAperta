@@ -33,7 +33,7 @@ code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0
 <p>上代語の二つの注釈つきコーパス，Oxford-NINJAL Corpus of Old Japanese（ONCOJ）と国立国語研究所『日本語歴史コーパス』（CHJ）の奈良時代編を，注釈の作り方の点から比べる．
 いちばん大きな違いは，ONCOJ が<b>原文と音素表記の上に句構造の木と文法機能</b>を付けるのに対し，CHJ は<b>訓読文の上に UniDic の体系による形態論情報</b>を付け，統語の注釈をもたないことである．
 また ONCOJ は助動詞を語の中の拘束形態として扱い，ba・te・tutu なども活用形に含めるが，CHJ はそれらを別の単語として切り出す．</p>
-<p>9 章では，古語辞典で語を調べてから ONCOJ を引く人のために，見出しの立て方と語の切り方の違いをまとめた．四段動詞などの用言は連用形で見出しを立てること，助動詞「けむ」「じ」の見出しがないこと，「の」「に」「と」の一部をコピュラとすることなどである．</p>
+<p>9 章では，古語辞典で語を調べてから ONCOJ を引く人のために，見出しの立て方と語の切り方の違いをまとめた．動詞は連用形で見出しを立てること（古語辞典では『岩波古語辞典』が同じ立て方をとる），助動詞「けむ」「じ」の見出しがないこと，「の」「に」「と」の一部をコピュラとすることなどである．</p>
 <nav class="toc"><b>目次</b><ol>
 <li><a href="#a1">対象と本文</a></li>
 <li><a href="#a2">語の単位</a></li>
@@ -71,11 +71,12 @@ code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0
 対応はおおよそのもので，同じ形でも分析が分かれることがある．件数は言島が ONCOJ の作業データ（2026-11-18）で数えた節点の数．</p>
 <div class="wrap"><table>
 <tr><th>ONCOJ</th><th>内容</th><th class="c">節点数</th><th>CHJ でおおよそ対応するもの</th></tr>
-<tr><td><code>N</code></td><td>名詞</td><td class="c">39,115</td><td>名詞-普通名詞</td></tr>
+<tr><td><code>N</code></td><td>名詞</td><td class="c">39,113</td><td>名詞-普通名詞</td></tr>
 <tr><td><code>DVN</code></td><td>動詞由来名詞（2021 版の N-DVB）</td><td class="c">1,051</td><td>名詞-普通名詞（転成名詞）</td></tr>
 <tr><td><code>PEN</code> / <code>PLN</code></td><td>人名 / 地名</td><td class="c">153 / 3,606</td><td>名詞-固有名詞-人名 / 地名</td></tr>
 <tr><td><code>NUM</code>，<code>CL</code></td><td>数詞，助数詞</td><td class="c">906，338</td><td>名詞-数詞，名詞-普通名詞-助数詞可能など</td></tr>
-<tr><td><code>PRO-N</code>，<code>WH-N</code></td><td>指示的な名詞，不定・疑問の名詞</td><td class="c">2,627，291</td><td>代名詞</td></tr>
+<tr><td><code>PRO-N</code>，<code>WH-N</code></td><td>指示的な名詞，不定・疑問の名詞</td><td class="c">2,627，270</td><td>代名詞</td></tr>
+<tr><td><code>WH-ADV</code>，<code>WH-ADJ</code>，<code>WH-NUM</code></td><td>不定・疑問の副詞（itu，ika ni の ika など），形容詞，数詞（iku）</td><td class="c">125，85，21</td><td>副詞，代名詞，名詞-数詞など</td></tr>
 <tr><td><code>VB</code></td><td>動詞</td><td class="c">34,687</td><td>動詞-一般 / 非自立可能</td></tr>
 <tr><td><code>ADJ</code>，<code>ACP</code></td><td>形容詞，形容詞的繋辞（-ki，-si，-ku などの語尾）</td><td class="c">9,308，3,295</td><td>形容詞（語尾は形容詞 1 語の活用の一部）</td></tr>
 <tr><td><code>COP</code></td><td>繋辞（ni，no，to など）</td><td class="c">4,168</td><td>助動詞（なり・たり）か格助詞（に・の・と）</td></tr>
@@ -115,7 +116,7 @@ code{background:#fffdf8;border:1px solid var(--line);border-radius:3px;padding:0
 <tr><td><code>OPT</code></td><td>願望形（-ana，-ne など）</td><td class="c">225</td><td>未然形＋終助詞「な」「ね」など，または命令形</td></tr>
 <tr><td><code>SEM</code></td><td>様態形</td><td class="c">88</td><td>別の語（助動詞・接尾辞など）として切る</td></tr>
 </table></div>
-<p class="note">CHJ では「ミ語法」も活用形の一つで，長単位では「み」を結合した形式を一長単位とする．ONCOJ では形容詞語幹に形容詞的繋辞 -mi（L000034）が付いた連用形 <code>ADJ-INF</code>（中は <code>ACP-INF</code>）として表す（470 か所）．</p>
+<p class="note">CHJ では「ミ語法」も活用形の一つで，長単位では「み」を結合した形式を一長単位とする．ONCOJ では形容詞語幹に形容詞的繋辞 -mi（L000034）が付いた連用形 <code>ADJ-INF</code>（中は <code>ACP-INF</code>）として表す（470 か所）．「山をさがしみと」のように と が付いた mito は，と まで含めて 1 語の <code>ACP-GER</code>（接続形）とする（39 か所）．</p>
 
 <h2 id="a5">5. 助動詞・助詞</h2>
 <ul>
@@ -134,7 +135,7 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 <div class="wrap"><table>
 <tr><th>種類</th><th>ONCOJ のタグ</th><th>例・説明</th></tr>
 <tr><td>句</td><td><code>NP</code> <code>PP</code> <code>CONJP</code> <code>IP</code> <code>CP</code> <code>FRAG</code></td><td>PP は助詞句（後置詞句），IP は節，CP-FINAL は右方転位要素をもつ節</td></tr>
-<tr><td>節の種類</td><td><code>MAT</code> <code>REL</code> <code>EMB</code> <code>NMZ</code> <code>ADV</code> <code>ARG</code> <code>PRP</code> <code>EPT</code> <code>RDP</code> <code>IHRC</code></td><td>主節，関係節，ギャップのない連体節，名詞化節，副詞節，項節，目的節，枕詞の修飾，重複，主要部内在型関係節</td></tr>
+<tr><td>節の種類</td><td><code>MAT</code> <code>REL</code> <code>EMB</code> <code>NMZ</code> <code>ADV</code> <code>ARG</code> <code>PRP</code> <code>EPT</code> <code>RDP</code> <code>IHRC</code> <code>SUB</code></td><td>主節，関係節，ギャップのない連体節，名詞化節，副詞節，項節，目的節，枕詞の修飾，重複，主要部内在型関係節．<code>SUB</code> は後ろに右方転位の要素が続く節で，倒置のある文の本体にあたる（<code>CP-FINAL</code> の中の <code>IP-SUB</code>，1,250 か所）．主節を数えるときは <code>IP-MAT</code> と合わせる．<code>EMB</code> は凡例にあるが，いまのデータでは使われていない</td></tr>
 <tr><td>文法機能</td><td><code>SBJ</code> <code>OB1</code> <code>OB2</code> <code>ARG</code> <code>PRD</code> <code>VOC</code> <code>MPT</code> <code>APP</code> <code>HST</code>/<code>QFR</code></td><td>主語，第一・第二目的語，主語か目的語か決められない項，述語名詞，呼びかけ，空の主題役，同格，数量詞とその受け手</td></tr>
 <tr><td>意味役割</td><td><code>GOL</code> <code>PTH</code> <code>SRC</code> <code>AGT</code> <code>CZZ</code> <code>XPR</code></td><td>着点，経路，起点，動作主，被使役者，経験者．最新版では <code>PP-OB1-GOL</code> のように文法機能の後に置く</td></tr>
 <tr><td>空範疇</td><td><code>*T*</code></td><td>関係節などの痕跡（最新版で 242 か所）．<code>NULL</code> はシク活用形容詞のゼロ語尾などのゼロ要素</td></tr>
@@ -167,21 +168,23 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 <p class="note">右の列は CHJ の形態論情報規程集から想定した切り方で，中納言の実データとは細部が違うことがある．ONCOJ の木の表示画面から，対応する CHJ のテキストへ移って確かめられる．</p>
 
 <h2 id="a10">9. 古語辞典との違い</h2>
-<p>古語辞典で語を確かめてから ONCOJ を引くと，見出しの形や語の切り方が違うために見つからないことがある．古語辞典は学校文法の枠組みで用言を終止形で立て，助動詞・助詞を一語ずつ切るのがふつうだが，ONCOJ は Frellesvig の体系にしたがって形態素を切り，見出しを立てている．
+<p>古語辞典で語を確かめてから ONCOJ を引くと，見出しの形や語の切り方が違うために見つからないことがある．古語辞典は学校文法の枠組みで，助動詞・助詞を一語ずつ切り，用言を終止形で立てるのがふつうである（小学館『古語大辞典』，三省堂『時代別国語大辞典 上代編』，学習用の古語辞典など）．ONCOJ は Frellesvig の体系にしたがって形態素を切り，見出しを立てている．
 ここでは引くときにつまずきやすい違いを挙げる．件数は言島が 2026-11-18 の作業データで数えたもの（辞書の見出し数とある以外は用例の数）．</p>
+<p>動詞の見出しについては『岩波古語辞典』が例外で，動詞と動詞を作る接尾語を連用形で立てる（思ひ，忘れ）．終止形は使われる度数が一割ほどで，連用形がいちばん多く，名詞にもなり，複合語の前項にもなる，というのがその理由である（同書「序にかえて」と凡例）．
+この辞典に慣れた人には，ONCOJ の動詞の見出しは転写を除けばそのまま通じる（思ひ → omopi）．ただし『岩波古語辞典』も形容詞は終止形で立て（高し，苦し），助動詞・助詞は語として切るので，9.1 の形容詞と 9.2 以下の違いは同じようにある．</p>
 
 <h3 id="a10-1">9.1 用言の見出しは連用形</h3>
 <p>ONCOJ の辞書は動詞を<b>連用形</b>で立てる．四段動詞の「思ふ」は omopi，下二段の「忘る」は wasure で，活用の種類によらない．</p>
 <div class="wrap"><table>
-<tr><th>古語辞典の見出し</th><th>ONCOJ の見出し</th><th>活用型（辞書の表記）</th><th class="c">辞書の見出し数</th></tr>
-<tr><td>思ふ，行く</td><td>omopi L030399a，yuki L031840a</td><td>四段 quadrigrade</td><td class="c">974</td></tr>
-<tr><td>忘る，出づ</td><td>wasure L031907a，ide L030172a</td><td>下二段 lower_bigrade</td><td class="c">350</td></tr>
-<tr><td>恋ふ，過ぐ</td><td>kwopwi L030731a，sugwi L030926a</td><td>上二段 upper_bigrade</td><td class="c">67</td></tr>
-<tr><td>見る，着る</td><td>mi L031712a，ki L030608a</td><td>上一段 upper_monograde</td><td class="c">13</td></tr>
-<tr><td>あり，をり</td><td>ari L030125a，wori L031957a</td><td>ラ変 R-irregular</td><td class="c">6</td></tr>
-<tr><td>死ぬ，去ぬ</td><td>sini L030883a，ini L030186a</td><td>ナ変 N-irregular</td><td class="c">4</td></tr>
-<tr><td>来</td><td>ki / ko L030612a</td><td>カ変 K-irregular</td><td class="c">4</td></tr>
-<tr><td>す</td><td>si / se L030919a</td><td>サ変 S-irregular</td><td class="c">2</td></tr>
+<tr><th>古語辞典の見出し（終止形）</th><th>岩波古語辞典の見出し（連用形）</th><th>ONCOJ の見出し</th><th>活用型（辞書の表記）</th><th class="c">辞書の見出し数</th></tr>
+<tr><td>思ふ，行く</td><td>思ひ，行き</td><td>omopi L030399a，yuki L031840a</td><td>四段 quadrigrade</td><td class="c">975</td></tr>
+<tr><td>忘る，出づ</td><td>忘れ，出で</td><td>wasure L031907a，ide L030172a</td><td>下二段 lower_bigrade</td><td class="c">349</td></tr>
+<tr><td>恋ふ，過ぐ</td><td>恋ひ，過ぎ</td><td>kwopwi L030731a，sugwi L030926a</td><td>上二段 upper_bigrade</td><td class="c">67</td></tr>
+<tr><td>見る，着る</td><td>見，着</td><td>mi L031712a，ki L030608a</td><td>上一段 upper_monograde</td><td class="c">13</td></tr>
+<tr><td>あり，をり</td><td>あり，をり</td><td>ari L030125a，wori L031957a</td><td>ラ変 R-irregular</td><td class="c">6</td></tr>
+<tr><td>死ぬ，去ぬ</td><td>死に，去に</td><td>sini L030883a，ini L030186a</td><td>ナ変 N-irregular</td><td class="c">4</td></tr>
+<tr><td>来</td><td>来（き）</td><td>ki / ko L030612a</td><td>カ変 K-irregular</td><td class="c">4</td></tr>
+<tr><td>す</td><td>為（し）</td><td>si / se L030919a</td><td>サ変 S-irregular</td><td class="c">2</td></tr>
 </table></div>
 <p>助動詞の見出しも同じ考え方で，完了の「ぬ」は ni，「つ」は te，尊敬の「す」は si，受身の「ゆ」は ye，「しむ」は sime を見出しにする（9.3）．</p>
 <p><b>形容詞</b>は，ク活用なら語幹だけ（高し → taka L007005，良し → yo L007015），シク活用なら si までを見出しにする（苦し → kurusi L007096）．
@@ -194,8 +197,8 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 
 <h3 id="a10-2">9.2 四段動詞の語幹と存続の -yer-</h3>
 <p>ONCOJ は四段動詞の語幹を子音で終わる形で切る（nok-，pum-）．
-古語辞典では「残れる」を已然形（命令形）の「残れ」と助動詞「り」の連体形「る」に分けるが，ONCOJ では語幹 nok と存続の助動詞 yeru（L000024，見出し yeri）に分ける．切れ目が一音ずれるので，「り」を探すときは見出し番号で引く．</p>
-<pre class="m" style="white-space:pre-wrap;background:#fffdf8;border:1px solid var(--line);padding:8px 10px;font-size:13px">(VB-ADN (VB-STM (L031371a (PHON nok))) (VAX-STV-ADN (L000024 (PHON yeru))))   残れる　仏足石歌 5</pre>
+古語辞典では「のける」（四段の「のく」＝あとに残す）を已然形（命令形）の「のけ」と助動詞「り」の連体形「る」に分けるが，ONCOJ では語幹 nok と存続の助動詞 yeru（L000024，見出し yeri）に分ける．切れ目が一音ずれるので，「り」を探すときは見出し番号で引く．</p>
+<pre class="m" style="white-space:pre-wrap;background:#fffdf8;border:1px solid var(--line);padding:8px 10px;font-size:13px">(VB-ADN (VB-STM (L031371a (PHON nok))) (VAX-STV-ADN (L000024 (PHON yeru))))   のける（跡のけるらむ）　仏足石歌 5</pre>
 <p class="note">L000024 は 711 か所．yeri と eri の違いは前の子音による書き分けで，エ列の甲乙が区別される k・g・p・b・m の後では yeri（kyeri の甲類と同じ書き方），甲乙が中和する r・s・t などの後では eri になる（例：nok-yeru，tat-eru）．辞書の注によれば ari の形は東国語．未然形・連用形などとの対応は 4 章の <code>STM</code> も参照．</p>
 
 <h3 id="a10-3">9.3 助動詞の立て方</h3>
@@ -210,7 +213,7 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 <tr><td>なり（伝聞・推定）</td><td>拡張 nari（L000804）．断定の「なり」（L031966）とは別の見出し（9.4）</td><td><code>XTN</code></td><td class="c">67</td></tr>
 <tr><td>ましじ，めり</td><td>拡張 masizi（L000802），myeri（L000803）</td><td><code>XTN</code></td><td class="c">16，1</td></tr>
 <tr><td>ず</td><td>見出し nu / zu（L000006a）に ず・ぬ・ね・に・なく などをまとめる．「ざり」は別の見出し（L000012，61 か所）．東国語の「なふ」は nap-（L000045），nana・nani は L000006b</td><td><code>VAX-NEG</code></td><td class="c">1,766</td></tr>
-<tr><td>む</td><td>見出し mu / me（L000002）．ク語法の「まく」もこの見出しの <code>NML</code></td><td><code>VAX-CJR</code></td><td class="c">2,190</td></tr>
+<tr><td>む</td><td>見出し mu / me（L000002）．ク語法の「まく」もこの見出しの <code>NML</code></td><td><code>VAX-CJR</code></td><td class="c">2,189</td></tr>
 <tr><td>き</td><td>見出し ki / si（L000015）．連体形の si がいちばん多い</td><td><code>VAX-SPST</code></td><td class="c">1,077</td></tr>
 <tr><td>けり</td><td>見出し kyeri（L000016）．動詞の kyeri「来あり」（L030684a）とは別</td><td><code>VAX-MPST</code></td><td class="c">421</td></tr>
 <tr><td>ぬ，つ</td><td>連用形の ni（L000018），te（L000023）</td><td><code>VAX-PRF</code></td><td class="c">996，404</td></tr>
@@ -232,7 +235,7 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 <p>古語辞典が格助詞の「に」「の」「と」，連体の格助詞「つ」，断定の助動詞「なり」，接尾語の「なす」などとして扱う形の一部を，ONCOJ は<b>繋辞</b> <code>COP</code> とし，次の三つの見出しにまとめる．</p>
 <div class="wrap"><table>
 <tr><th>見出し</th><th>おもな形とタグ</th><th class="c">か所</th><th>例</th></tr>
-<tr><td>L031965 no / ni / n</td><td><code>COP-ADI</code> no 2,008，<code>COP-INF</code> ni・n 1,644，<code>COP-SEM</code> nasu・nosu 82，<code>COP-GER</code> nisite・nite 54，<code>COP-ADN</code> na</td><td class="c">3,803</td><td>nubatama no（枕詞），yamato no kuni（大和の国），ika ni，naku ni，kagami nasu（鏡なす），iro n idu na（色に出づな，萬葉集 14.3376）</td></tr>
+<tr><td>L031965 no / ni / n</td><td><code>COP-ADI</code> no 2,008，<code>COP-INF</code> ni・n 1,644，<code>COP-SEM</code> nasu・nosu 82，<code>COP-GER</code> nisite・nite など 63，<code>COP-ADN</code> na</td><td class="c">3,803</td><td>nubatama no（枕詞），yamato no kuni（大和の国），ika ni，naku ni，kagami nasu（鏡なす），iro n idu na（色に出づな，萬葉集 14.3376）</td></tr>
 <tr><td>L031966 nari</td><td><code>COP</code> nara，naru，nari，naraba，nareba など</td><td class="c">163</td><td>辞書の活用型は R-irregular</td></tr>
 <tr><td>L031968 to / tu</td><td><code>COP-INF</code> to 126，<code>COP-ADN</code> tu 34</td><td class="c">160</td><td>tuti to pumi（土と踏み，仏足石歌 5），muka tu，topo tu，kami tu</td></tr>
 </table></div>
@@ -245,14 +248,14 @@ CHJ の萬葉集などに係り結びの情報を加える研究はあり，一�
 <p>古語辞典は「が」「の」に，連体修飾節や条件節などの主語を示す主格の用法と，連体格の用法を分けて立てる．
 ONCOJ の助詞のタグは形で決まり，ga（L000503）も no（L000520）も主語を示すときに <code>P-CASE-GEN</code>（属格）のままである．主語であることは句のラベル <code>PP-SBJ</code> で示す．</p>
 <pre class="m" style="white-space:pre-wrap;background:#fffdf8;border:1px solid var(--line);padding:8px 10px;font-size:13px">(PP-SBJ (NP (N (L050090 (PHON pi)))) (P-CASE-GEN (L000503 (PHON ga))))   日が　古事記歌謡 3</pre>
-<p><code>PP-SBJ</code> 4,202 のうち 2,145 が属格の助詞で終わる（構造検索 <code>PP-SBJ &lt; P-CASE-GEN</code>）．主格 <code>P-CASE-NOM</code> は i の 9 か所だけ．</p>
+<p><code>PP-SBJ</code> 4,202 のうち 2,145 が属格の助詞を伴う（構造検索 <code>PP-SBJ &lt; P-CASE-GEN</code>）．主格 <code>P-CASE-NOM</code> は i の 9 か所だけ．</p>
 
 <h3 id="a10-6">9.6 接続助詞とク語法</h3>
-<p>古語辞典で接続助詞とする「ば」「ど」「ども」「て」「つつ」や，ク語法の「く」は，ONCOJ では活用形の一部になる（4 章）．「月待てば」の mateba は確定条件形 <code>VB-PRV</code> の 1 語で，「ば」だけの語はない．
+<p>古語辞典で接続助詞とする「ば」「ど」「ども」「て」「つつ」や，ク語法の「く」は，ONCOJ では活用形の一部になる（4 章）．「月待てば」の mateba は確定条件形 <code>VB-PRV</code> の 1 語で，接続助詞の「ば」という語はない．
 「ば」の付いた形を探すには構造検索で <code>/-(CND|PRV)$/</code>，「て」なら <code>/-GER$/</code> のように活用形の成分で引く．</p>
 
 <h3 id="a10-7">9.7 甲乙と転写</h3>
-<p>見出しと音形は Frellesvig–Whitman 式の転写で書かれる．ハ行は p，上代特殊仮名遣いの甲類は kye・kwo・pwi のように y や w を添えて乙類と書き分ける（「けり」は kyeri，「恋ふ」は kwopwi）．
+<p>古語辞典の見出しは歴史的仮名遣いで，甲乙の別は見出しの形には出ない（『時代別国語大辞典 上代編』は見出しのかなに甲乙の別を示す）．ONCOJ の見出しと音形は Frellesvig–Whitman 式の転写で書かれる．ハ行は p，上代特殊仮名遣いの甲類は kye・kwo・pwi のように y や w を添えて乙類と書き分ける（「けり」は kyeri，「恋ふ」は kwopwi）．
 かなで打てば，「見出し語で用例」の欄では甲乙を，「ことば」の検索モードでは甲乙と清濁を区別しないで照らし合わせるので，転写を知らなくても引ける．</p>
 
 <h2 id="a9">10. 出典</h2>
@@ -263,6 +266,8 @@ ONCOJ の助詞のタグは形で決まり，ga（L000503）も no（L000520）�
 <li>CHJ 奈良時代編の概要：<a href="https://clrd.ninjal.ac.jp/chj/nara-en.html">https://clrd.ninjal.ac.jp/chj/nara-en.html</a>，資料一覧：<a href="https://clrd.ninjal.ac.jp/chj/chj-reference-en.html">chj-reference-en.html</a></li>
 <li>CHJ への係り結び情報の付与：科研費 17K13469 研究成果報告書 <a href="https://kaken.nii.ac.jp/file/KAKENHI-PROJECT-17K13469/17K13469seika.pdf">17K13469seika.pdf</a></li>
 <li>ONCOJ の辞書（見出し・活用型・注）：検索画面の辞書検索から 2026-11-18 に取ったもの．9 章の見出しと活用型はこれによる．</li>
+<li>大野晋・佐竹昭広・前田金五郎編『岩波古語辞典 補訂版』岩波書店，1990 年．動詞を連用形で見出しとすることは「序にかえて」と凡例による．</li>
+<li>中田祝夫・和田利政・北原保雄編『古語大辞典』小学館，1983 年．上代語辞典編修委員会編『時代別国語大辞典 上代編』三省堂，1967 年．</li>
 <li>ONCOJ の件数は言島が ONCOJ の検索画面から 2026-11-18 に取った作業データで数えた．タグの説明は検索画面の「タグと構造」と同じもの．</li>
 </ul>
 <p class="note">この付録の誤りは，検索画面の「意見を送る」から知らせてください．</p>
