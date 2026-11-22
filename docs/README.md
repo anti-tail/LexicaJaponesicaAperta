@@ -36,6 +36,8 @@ ONCOJ と『日本語歴史コーパス』奈良時代編の形態論・統語�
 
 ONCOJ の注釈は CC BY 4.0．この画面とデータも CC BY 4.0 とする．
 
-> National Institute for Japanese Language and Linguistics (2021) “Oxford-NINJAL Corpus of Old Japanese” http://oncoj.ninjal.ac.jp/
+ONCOJ は Frellesvig, Horn et al. (2026) として引用する．
+
+> Frellesvig, Bjarke, Stephen Wright Horn et al. (eds.) 2026. Oxford-NINJAL Corpus of Old Japanese. Available at: http://oncoj.ninjal.ac.jp/ (accessed November 2026)
 
 変体仮名の表示のため，Noto Serif Hentaigana の必要な字だけを画面に埋め込んでいる．このフォントは SIL Open Font License 1.1 で，© The Noto Project Authors．

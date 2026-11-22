@@ -14,3 +14,15 @@ references:
     year: 2021
     url: "https://oncoj.ninjal.ac.jp/"
     license: CC-BY-4.0
+  - type: database
+    title: "Oxford-NINJAL Corpus of Old Japanese"
+    editors:
+      - family-names: Frellesvig
+        given-names: Bjarke
+      - family-names: Horn
+        given-names: Stephen Wright
+      - name: "et al."
+    year: 2026
+    url: "http://oncoj.ninjal.ac.jp/"
+    notes: "Accessed November 2026. Cite as Frellesvig, Horn et al. (2026) for the search interface in docs/; the 2021 entry is the data release used in oncoj/."
+    license: CC-BY-4.0
