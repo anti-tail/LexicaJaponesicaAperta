@@ -27,6 +27,6 @@ Oxford-NINJAL Corpus of Old Japanese（ONCOJ）2021.12 の `oncoj.csv` と `lexi
 ONCOJ の注釈は [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) で公開されている．この表も CC BY 4.0 とする．
 使うときは ONCOJ を次の形で引用し，あわせてこの書き換え（Lexica Japonesica Aperta）を示すこと．
 
-> National Institute for Japanese Language and Linguistics (2021) “Oxford-NINJAL Corpus of Old Japanese” http://oncoj.ninjal.ac.jp/
+> Frellesvig, Bjarke, Stephen Wright Horn et al. (eds.) 2021. *Oxford-NINJAL Corpus of Old Japanese*. Release 2021.12. Available at: http://oncoj.ninjal.ac.jp/
 
 元にしたファイル：`oncoj.csv`（sha256 24d7f28fec2e92d87eccfbeb776cc966a0eeacd153dac3b1b843dee8c37166b4），`lexicon.xml`（sha256 b6c06d00e61c53325217b5494e64130297ad1f30aa9c9dd1347472b8a23b6d2f）．

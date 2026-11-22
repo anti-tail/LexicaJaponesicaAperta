@@ -26,7 +26,13 @@ whose licence has not been confirmed are not included.
 
 ONCOJ を必ず引用すること / Please always cite ONCOJ:
 
-> National Institute for Japanese Language and Linguistics (2021) “Oxford-NINJAL Corpus of Old Japanese” http://oncoj.ninjal.ac.jp/
+言島（`docs/`，2026-11-18 時点の作業データ）/ Kätö nö Sıma (`docs/`, working data as of 2026-11-18):
+
+> Frellesvig, Bjarke, Stephen Wright Horn et al. (eds.) 2026. *Oxford-NINJAL Corpus of Old Japanese*. Available at: http://oncoj.ninjal.ac.jp/ (accessed November 2026)
+
+CLDF の表（`oncoj/`，2021.12 リリース）/ CLDF tables (`oncoj/`, release 2021.12):
+
+> Frellesvig, Bjarke, Stephen Wright Horn et al. (eds.) 2021. *Oxford-NINJAL Corpus of Old Japanese*. Release 2021.12. Available at: http://oncoj.ninjal.ac.jp/
 
 このリポジトリを示すときは `CITATION.cff` も参照．
 

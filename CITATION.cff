@@ -10,7 +10,11 @@ references:
   - type: database
     title: "Oxford-NINJAL Corpus of Old Japanese"
     authors:
-      - name: "National Institute for Japanese Language and Linguistics"
-    year: 2021
+      - family-names: Frellesvig
+        given-names: Bjarke
+      - family-names: Horn
+        given-names: Stephen Wright
+      - name: "et al."
+    year: 2026
     url: "https://oncoj.ninjal.ac.jp/"
     license: CC-BY-4.0
