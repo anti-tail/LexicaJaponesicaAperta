@@ -5,3 +5,12 @@ Legal code: https://creativecommons.org/licenses/by/4.0/legalcode
 The data in oncoj/ and docs/ are adapted from the Oxford-NINJAL Corpus of Old Japanese (ONCOJ), whose corpus
 annotation is licensed under CC BY 4.0: Frellesvig, Bjarke, Stephen Wright Horn et al. (eds.) 2021 (oncoj/, release
 2021.12) and 2026 (docs/, working data as of 2026-11-18). Oxford-NINJAL Corpus of Old Japanese. http://oncoj.ninjal.ac.jp/. The changes made are listed in oncoj/README.md and docs/README.md (search interface in docs/).
+
+Exception: the files in cemj/ and docs/cemj/ (CEMJ, Middle Japanese parse trees) are licensed under the
+Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0), because the text is derived from
+the transcription in 『竹取物語』翻刻データ集成 (https://taketori.himegimi.jp/, by DK), which is licensed under CC BY-SA 4.0.
+https://creativecommons.org/licenses/by-sa/4.0/
+Legal code: https://creativecommons.org/licenses/by-sa/4.0/legalcode
+Changes: transcription marks removed, obvious scribal errors corrected by collation with other witnesses, voicing marks
+added, words segmented and tagged (Chūko Wabun UniDic, corrected by rules and by hand), and phrase-structure trees added
+by rules. See cemj/README.md.

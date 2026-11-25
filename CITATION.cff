@@ -18,3 +18,10 @@ references:
     year: 2026
     url: "https://oncoj.ninjal.ac.jp/"
     license: CC-BY-4.0
+  - type: data
+    title: "『竹取物語』翻刻データ集成"
+    authors:
+      - name: "DK"
+    url: "https://taketori.himegimi.jp/"
+    license: CC-BY-SA-4.0
+    notes: "Source of the CEMJ text (cemj/, docs/cemj/), which is therefore licensed under CC BY-SA 4.0."

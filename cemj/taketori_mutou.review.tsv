@@ -1,0 +1,1360 @@
+node_id	label	kind	why	first_morph	last_morph	text
+tkt.mutou.n000080	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000041	tkt.mutou.m000041	もと
+tkt.mutou.n000079	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000041	tkt.mutou.m000042	もとひかる
+tkt.mutou.n000098	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000054	tkt.mutou.m000055	見るに
+tkt.mutou.n000102	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000056	tkt.mutou.m000058	つつの中
+tkt.mutou.n000120	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000065	tkt.mutou.m000068	三すんばかりなる
+tkt.mutou.n000145	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000075	tkt.mutou.m000075	おきな
+tkt.mutou.n000144	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000075	tkt.mutou.m000076	おきないふ
+tkt.mutou.n000139	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000075	tkt.mutou.m000085	おきないふやうわがあさごとゆふごとにみる
+tkt.mutou.n000172	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000095	tkt.mutou.m000099	子となり給べき
+tkt.mutou.n000169	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000095	tkt.mutou.m000103	子となり給べき人なめりとて
+tkt.mutou.n000215	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000123	tkt.mutou.m000123	うつくしき
+tkt.mutou.n000214	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000123	tkt.mutou.m000124	うつくしき事
+tkt.mutou.n000236	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000134	tkt.mutou.m000140	竹とりのおきな竹をとるに
+tkt.mutou.n000264	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000150	tkt.mutou.m000150	竹
+tkt.mutou.n000284	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000160	tkt.mutou.m000160	こがね
+tkt.mutou.n000283	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000160	tkt.mutou.m000161	こがねある
+tkt.mutou.n000280	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000160	tkt.mutou.m000165	こがねある竹を見つくる
+tkt.mutou.n000279	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000160	tkt.mutou.m000166	こがねある竹を見つくる事
+tkt.mutou.n000297	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000170	tkt.mutou.m000170	おきな
+tkt.mutou.n000310	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000176	tkt.mutou.m000178	このちご
+tkt.mutou.n000309	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000176	tkt.mutou.m000179	このちごやしなふ
+tkt.mutou.n000339	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000188	tkt.mutou.m000192	三月ばかりになる
+tkt.mutou.n000336	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000188	tkt.mutou.m000195	三月ばかりになるほどによき
+tkt.mutou.n000334	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000188	tkt.mutou.m000197	三月ばかりになるほどによきほどなる
+tkt.mutou.n000357	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000203	tkt.mutou.m000203	かみ
+tkt.mutou.n000361	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000206	tkt.mutou.m000206	さう
+tkt.mutou.n000365	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000209	tkt.mutou.m000209	かみ
+tkt.mutou.n000369	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000212	tkt.mutou.m000212	裳ぎ
+tkt.mutou.n000383	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000214	tkt.mutou.m000217	ちやうのうちも
+tkt.mutou.n000382	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000214	tkt.mutou.m000221	ちやうのうちもいださずいつきやしなふ
+tkt.mutou.n000376	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000214	tkt.mutou.m000228	ちやうのうちもいださずいつきやしなふこのちごのかたちけそうなる
+tkt.mutou.n000416	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000237	tkt.mutou.m000237	くらき
+tkt.mutou.n000415	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000237	tkt.mutou.m000238	くらき所
+tkt.mutou.n000406	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000233	tkt.mutou.m000236	屋のうちは
+tkt.mutou.n000420	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m000240	tkt.mutou.m000240	ひかり
+tkt.mutou.n000429	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000243	tkt.mutou.m000244	翁ここち
+tkt.mutou.n000428	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000243	tkt.mutou.m000246	翁ここちあしくくるしき
+tkt.mutou.n000426	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000243	tkt.mutou.m000248	翁ここちあしくくるしき時も
+tkt.mutou.n000448	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000255	tkt.mutou.m000255	くるしき
+tkt.mutou.n000446	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000255	tkt.mutou.m000257	くるしき事も
+tkt.mutou.n000457	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000260	tkt.mutou.m000260	はらだたしき
+tkt.mutou.n000455	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000260	tkt.mutou.m000262	はらだたしきことも
+tkt.mutou.n000465	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000265	tkt.mutou.m000268	おきな竹をとる
+tkt.mutou.n000464	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000265	tkt.mutou.m000269	おきな竹をとる事
+tkt.mutou.n000493	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000281	tkt.mutou.m000283	このこ
+tkt.mutou.n000539	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000309	tkt.mutou.m000316	この程三日うちあげあそぶ
+tkt.mutou.n000578	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000332	tkt.mutou.m000334	いとかしこくあそぶ
+tkt.mutou.n000560	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000324	tkt.mutou.m000325	おとこは
+tkt.mutou.n000605	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000352	tkt.mutou.m000356	見てしがなと
+tkt.mutou.n000640	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000370	tkt.mutou.m000375	家のとにもをる
+tkt.mutou.n000637	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000370	tkt.mutou.m000380	家のとにもをる人だにたはやすくみるまじき
+tkt.mutou.n000666	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000385	tkt.mutou.m000385	やすき
+tkt.mutou.n000664	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000385	tkt.mutou.m000387	やすきいも
+tkt.mutou.n000658	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000383	tkt.mutou.m000384	夜るは
+tkt.mutou.n000700	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000402	tkt.mutou.m000402	さる
+tkt.mutou.n000696	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000402	tkt.mutou.m000408	さる時よりなむよばひとは
+tkt.mutou.n000717	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000409	tkt.mutou.m000410	いひける
+tkt.mutou.n000712	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000409	tkt.mutou.m000417	いひける人の物ともせぬ
+tkt.mutou.n000732	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000423	tkt.mutou.m000425	なにのしるし
+tkt.mutou.n000694	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000402	tkt.mutou.m000441	さる時よりなむよばひとはいひける人の物ともせぬ所にまどひありけどもなにのしるしあるべくもみえず家の人どもに物をだにいはんとて
+tkt.mutou.n000772	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000450	tkt.mutou.m000453	あたりをはなれぬ
+tkt.mutou.n000794	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000463	tkt.mutou.m000464	をろかなる
+tkt.mutou.n000802	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000467	tkt.mutou.m000467	ようなき
+tkt.mutou.n000816	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000474	tkt.mutou.m000477	色ごのみといはるる
+tkt.mutou.n000814	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000474	tkt.mutou.m000482	色ごのみといはるるかぎり五人おもひやむ
+tkt.mutou.n000843	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000485	tkt.mutou.m000487	よるひるきける
+tkt.mutou.n000792	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000463	tkt.mutou.m000466	をろかなる人は
+tkt.mutou.n000830	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m000485	tkt.mutou.m000511	よるひるきけるその名ども石づくりの御子くらもちのみこ左大臣あへのみむらし大納言大伴のみゆき中納言いそのかみのまろたり
+tkt.mutou.n000887	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000516	tkt.mutou.m000518	世中におほかる
+tkt.mutou.n000899	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000524	tkt.mutou.m000524	かたち
+tkt.mutou.n000883	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000516	tkt.mutou.m000526	世中におほかる人をだにすこしもかたちよしと
+tkt.mutou.n000918	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000530	tkt.mutou.m000532	見まほしうする
+tkt.mutou.n000956	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000559	tkt.mutou.m000559	かひ
+tkt.mutou.n000971	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000571	tkt.mutou.m000572	返事も
+tkt.mutou.n000880	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000516	tkt.mutou.m000582	世中におほかる人をだにすこしもかたちよしとききては見まほしうする人どもなりければかぐや姫をみまほしうて物をくはずおもひつつかの家にゆきてたたずみありきけれどかひあるべくもあらず文をかきてやれど返事もせずわび歌などかきておこすれどもかひなしと
+tkt.mutou.n000996	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000590	tkt.mutou.m000595	みな月のてりはたたくにも
+tkt.mutou.n001014	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000600	tkt.mutou.m000602	この人々
+tkt.mutou.n001013	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000600	tkt.mutou.m000603	この人々ある
+tkt.mutou.n001033	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000610	tkt.mutou.m000613	むすめをなさぬ
+tkt.mutou.n001011	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000600	tkt.mutou.m000605	この人々ある時は
+tkt.mutou.n001091	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000644	tkt.mutou.m000646	願をたつ
+tkt.mutou.n001090	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000644	tkt.mutou.m000647	願をたつ思
+tkt.mutou.n001106	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000656	tkt.mutou.m000656	おとこ
+tkt.mutou.n001115	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m000662	tkt.mutou.m000663	はと
+tkt.mutou.n001135	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000672	tkt.mutou.m000675	心ざしを見えありく
+tkt.mutou.n001153	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000681	tkt.mutou.m000684	おきなかぐや姫にいふ
+tkt.mutou.n001179	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000697	tkt.mutou.m000700	さまでやしなひたてまつる
+tkt.mutou.n001191	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000705	tkt.mutou.m000708	おきなの申さん
+tkt.mutou.n001189	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000705	tkt.mutou.m000710	おきなの申さん事は
+tkt.mutou.n001174	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000697	tkt.mutou.m000716	さまでやしなひたてまつるこころざしをろかならずおきなの申さん事はきき給てむやと
+tkt.mutou.n001237	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000727	tkt.mutou.m000731	うけけたまはらざらむ
+tkt.mutou.n001250	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000737	tkt.mutou.m000738	侍けん
+tkt.mutou.n001228	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000725	tkt.mutou.m000726	事は
+tkt.mutou.n001226	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000725	tkt.mutou.m000749	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれと
+tkt.mutou.n001225	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000725	tkt.mutou.m000750	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ
+tkt.mutou.n001224	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000725	tkt.mutou.m000751	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ翁
+tkt.mutou.n001223	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000725	tkt.mutou.m000754	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ翁うれしくものたまふ
+tkt.mutou.n001221	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m000725	tkt.mutou.m000756	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ翁うれしくものたまふ物かな
+tkt.mutou.n001220	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m000725	tkt.mutou.m000757	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ翁うれしくものたまふ物かなと
+tkt.mutou.n001219	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000725	tkt.mutou.m000758	事はうけけたまはらざらむ変化の物にて侍けん身ともしらずおやとこそ思たてまつれといふ翁うれしくものたまふ物かなといふ
+tkt.mutou.n001313	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000781	tkt.mutou.m000783	女にあふ
+tkt.mutou.n001295	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000773	tkt.mutou.m000778	この世の人は
+tkt.mutou.n001329	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000789	tkt.mutou.m000791	男にあふ
+tkt.mutou.n001323	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000787	tkt.mutou.m000788	をんなは
+tkt.mutou.n001347	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000799	tkt.mutou.m000799	門
+tkt.mutou.n001364	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000807	tkt.mutou.m000807	こと
+tkt.mutou.n001372	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000811	tkt.mutou.m000812	おはせん
+tkt.mutou.n001380	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000816	tkt.mutou.m000817	なむでうさる
+tkt.mutou.n001361	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000807	tkt.mutou.m000823	ことなくてはおはせんかぐや姫のいはくなむでうさることかし侍らんと
+tkt.mutou.n001401	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000832	tkt.mutou.m000834	女の身もち
+tkt.mutou.n001413	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000837	tkt.mutou.m000840	翁のあらむ
+tkt.mutou.n001411	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000837	tkt.mutou.m000842	翁のあらむかぎりは
+tkt.mutou.n001467	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000862	tkt.mutou.m000873	ことをおもひさだめてひとりひとりにあひたてまつり給ねと
+tkt.mutou.n001489	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000876	tkt.mutou.m000876	かぐや姫
+tkt.mutou.n001497	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000878	tkt.mutou.m000881	よくもあらぬ
+tkt.mutou.n001494	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000878	tkt.mutou.m000884	よくもあらぬかたちをふかき
+tkt.mutou.n001492	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000878	tkt.mutou.m000886	よくもあらぬかたちをふかき心も
+tkt.mutou.n001510	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000889	tkt.mutou.m000890	あだ心
+tkt.mutou.n001527	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000894	tkt.mutou.m000895	のちくやしき
+tkt.mutou.n001525	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m000894	tkt.mutou.m000897	のちくやしき事も
+tkt.mutou.n001523	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000894	tkt.mutou.m000901	のちくやしき事もあるべきをと
+tkt.mutou.n001520	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000894	tkt.mutou.m000904	のちくやしき事もあるべきをとおもふばかり也
+tkt.mutou.n001517	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000894	tkt.mutou.m000907	のちくやしき事もあるべきをとおもふばかり也世のかしこき
+tkt.mutou.n001548	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000911	tkt.mutou.m000911	ふかき
+tkt.mutou.n001460	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000862	tkt.mutou.m000919	ことをおもひさだめてひとりひとりにあひたてまつり給ねといへばかぐや姫いはくよくもあらぬかたちをふかき心もしらであだ心つきなばのちくやしき事もあるべきをとおもふばかり也世のかしこき人なりともふかき心ざしをしらではあひかたしと
+tkt.mutou.n001458	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000862	tkt.mutou.m000921	ことをおもひさだめてひとりひとりにあひたてまつり給ねといへばかぐや姫いはくよくもあらぬかたちをふかき心もしらであだ心つきなばのちくやしき事もあるべきをとおもふばかり也世のかしこき人なりともふかき心ざしをしらではあひかたしと思と
+tkt.mutou.n001457	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000862	tkt.mutou.m000922	ことをおもひさだめてひとりひとりにあひたてまつり給ねといへばかぐや姫いはくよくもあらぬかたちをふかき心もしらであだ心つきなばのちくやしき事もあるべきをとおもふばかり也世のかしこき人なりともふかき心ざしをしらではあひかたしと思といふ
+tkt.mutou.n001456	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000862	tkt.mutou.m000923	ことをおもひさだめてひとりひとりにあひたてまつり給ねといへばかぐや姫いはくよくもあらぬかたちをふかき心もしらであだ心つきなばのちくやしき事もあるべきをとおもふばかり也世のかしこき人なりともふかき心ざしをしらではあひかたしと思といふ翁
+tkt.mutou.n001565	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000925	tkt.mutou.m000929	おもひのごとくものたまふ
+tkt.mutou.n001563	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m000925	tkt.mutou.m000931	おもひのごとくものたまふ物かな
+tkt.mutou.n001578	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000932	tkt.mutou.m000934	そもそもいかやうなる
+tkt.mutou.n001577	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000932	tkt.mutou.m000935	そもそもいかやうなる心ざし
+tkt.mutou.n001576	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000932	tkt.mutou.m000937	そもそもいかやうなる心ざしあらん
+tkt.mutou.n001453	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000862	tkt.mutou.m000943	ことをおもひさだめてひとりひとりにあひたてまつり給ねといへばかぐや姫いはくよくもあらぬかたちをふかき心もしらであだ心つきなばのちくやしき事もあるべきをとおもふばかり也世のかしこき人なりともふかき心ざしをしらではあひかたしと思といふ翁いはくおもひのごとくものたまふ物かなそもそもいかやうなる心ざしあらん人にかあはむと
+tkt.mutou.n001596	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000946	tkt.mutou.m000949	心ざしおろかならぬ
+tkt.mutou.n001624	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000958	tkt.mutou.m000963	なにばかりのふかきをか
+tkt.mutou.n001616	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000955	tkt.mutou.m000966	かぐや姫のいはくなにばかりのふかきをかみんと
+tkt.mutou.n001615	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000955	tkt.mutou.m000968	かぐや姫のいはくなにばかりのふかきをかみんといはむ
+tkt.mutou.n001611	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000955	tkt.mutou.m000972	かぐや姫のいはくなにばかりのふかきをかみんといはむいささかの事也
+tkt.mutou.n001608	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m000955	tkt.mutou.m000975	かぐや姫のいはくなにばかりのふかきをかみんといはむいささかの事也人の心ざし
+tkt.mutou.n001672	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m000987	tkt.mutou.m000992	五人のなかにゆかしき
+tkt.mutou.n001668	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m000987	tkt.mutou.m000999	五人のなかにゆかしき物をみせたまへらんに
+tkt.mutou.n001666	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000987	tkt.mutou.m001005	五人のなかにゆかしき物をみせたまへらんに御心ざしのまさりたりとて
+tkt.mutou.n001664	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000987	tkt.mutou.m001008	五人のなかにゆかしき物をみせたまへらんに御心ざしのまさりたりとてつかうまつらんと
+tkt.mutou.n001703	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001009	tkt.mutou.m001012	そのおはすらん
+tkt.mutou.n001662	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m000987	tkt.mutou.m001017	五人のなかにゆかしき物をみせたまへらんに御心ざしのまさりたりとてつかうまつらんとそのおはすらん人々に申給へと
+tkt.mutou.n001720	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001019	tkt.mutou.m001019	よき
+tkt.mutou.n001717	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001019	tkt.mutou.m001022	よき事なりと
+tkt.mutou.n001730	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001025	tkt.mutou.m001026	日くるる
+tkt.mutou.n001766	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001046	tkt.mutou.m001051	扇をならしなどするに
+tkt.mutou.n001776	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001052	tkt.mutou.m001052	翁
+tkt.mutou.n001782	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001055	tkt.mutou.m001059	いはくかたじけなくきたなげなる
+tkt.mutou.n001803	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001068	tkt.mutou.m001068	事
+tkt.mutou.n001802	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001068	tkt.mutou.m001070	事きはまりたる
+tkt.mutou.n001819	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001074	tkt.mutou.m001083	翁の命けふあすともしらぬを
+tkt.mutou.n001818	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001074	tkt.mutou.m001085	翁の命けふあすともしらぬをかくのたまふ
+tkt.mutou.n001813	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001074	tkt.mutou.m001095	翁の命けふあすともしらぬをかくのたまふ君たちにもよくおもひさだめてつかふまつれと
+tkt.mutou.n001854	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001100	tkt.mutou.m001101	いづれも
+tkt.mutou.n001863	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001107	tkt.mutou.m001111	御心ざしの程は
+tkt.mutou.n001893	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001114	tkt.mutou.m001115	つかふまつらむ
+tkt.mutou.n001891	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001114	tkt.mutou.m001117	つかふまつらむ事は
+tkt.mutou.n001889	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001114	tkt.mutou.m001123	つかふまつらむ事はそれになむさだむべきと
+tkt.mutou.n001915	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001126	tkt.mutou.m001126	これ
+tkt.mutou.n001914	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001126	tkt.mutou.m001127	これよき
+tkt.mutou.n001912	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001126	tkt.mutou.m001129	これよき事也
+tkt.mutou.n001908	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001126	tkt.mutou.m001134	これよき事也人の御うらみも
+tkt.mutou.n001886	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001114	tkt.mutou.m001137	つかふまつらむ事はそれになむさだむべきといへばこれよき事也人の御うらみもあるまじと
+tkt.mutou.n001885	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001114	tkt.mutou.m001138	つかふまつらむ事はそれになむさだむべきといへばこれよき事也人の御うらみもあるまじといふ
+tkt.mutou.n001881	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001114	tkt.mutou.m001143	つかふまつらむ事はそれになむさだむべきといへばこれよき事也人の御うらみもあるまじといふ五人の人々も
+tkt.mutou.n001880	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001114	tkt.mutou.m001144	つかふまつらむ事はそれになむさだむべきといへばこれよき事也人の御うらみもあるまじといふ五人の人々もよき
+tkt.mutou.n001877	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001114	tkt.mutou.m001147	つかふまつらむ事はそれになむさだむべきといへばこれよき事也人の御うらみもあるまじといふ五人の人々もよきことなりと
+tkt.mutou.n001940	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001150	tkt.mutou.m001150	翁
+tkt.mutou.n001967	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001161	tkt.mutou.m001168	仏の御いしのはちといふ
+tkt.mutou.n001966	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001161	tkt.mutou.m001169	仏の御いしのはちといふ物
+tkt.mutou.n001951	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001154	tkt.mutou.m001176	かぐやひめいしづくりのみこには仏の御いしのはちといふ物ありそれをとりてたまへと
+tkt.mutou.n001950	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001154	tkt.mutou.m001177	かぐやひめいしづくりのみこには仏の御いしのはちといふ物ありそれをとりてたまへといふ
+tkt.mutou.n002007	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001187	tkt.mutou.m001189	ほうらいといふ
+tkt.mutou.n002006	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001187	tkt.mutou.m001190	ほうらいといふ山
+tkt.mutou.n002041	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001200	tkt.mutou.m001205	こがねをくきとししろき
+tkt.mutou.n002061	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001212	tkt.mutou.m001213	たてる
+tkt.mutou.n002060	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001212	tkt.mutou.m001214	たてる木
+tkt.mutou.n002020	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001193	tkt.mutou.m001223	それにしろかねをねとしこがねをくきとししろき玉をみとしてたてる木ありそれ一枝おりて給はらんと
+tkt.mutou.n002019	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001193	tkt.mutou.m001224	それにしろかねをねとしこがねをくきとししろき玉をみとしてたてる木ありそれ一枝おりて給はらんといふ
+tkt.mutou.n002084	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001229	tkt.mutou.m001231	もろこしにある
+tkt.mutou.n002118	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001248	tkt.mutou.m001251	五色にひかる
+tkt.mutou.n002155	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001265	tkt.mutou.m001268	つばくらめのもたる
+tkt.mutou.n002139	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001259	tkt.mutou.m001277	いそのかみの中納言にはつばくらめのもたるこやすのかいひとつとりてたまへと
+tkt.mutou.n002138	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001259	tkt.mutou.m001278	いそのかみの中納言にはつばくらめのもたるこやすのかいひとつとりてたまへといふ
+tkt.mutou.n002136	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001259	tkt.mutou.m001280	いそのかみの中納言にはつばくらめのもたるこやすのかいひとつとりてたまへといふ翁かたき
+tkt.mutou.n002192	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001287	tkt.mutou.m001291	この国にある
+tkt.mutou.n002209	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001297	tkt.mutou.m001298	かくかたき
+tkt.mutou.n002187	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001287	tkt.mutou.m001304	この国にある物にもあらずかくかたきことをばいかに申さむと
+tkt.mutou.n002186	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001287	tkt.mutou.m001305	この国にある物にもあらずかくかたきことをばいかに申さむといふ
+tkt.mutou.n002182	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001287	tkt.mutou.m001311	この国にある物にもあらずかくかたきことをばいかに申さむといふかぐや姫何かかたらんと
+tkt.mutou.n002237	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001319	tkt.mutou.m001321	申さむとて
+tkt.mutou.n002259	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001327	tkt.mutou.m001331	やうにいひ給へと
+tkt.mutou.n002270	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001334	tkt.mutou.m001337	御こたち上達部
+tkt.mutou.n002253	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001327	tkt.mutou.m001350	やうにいひ給へといへば御こたち上達部ききておいらかにあたりよりだになありきそとやは
+tkt.mutou.n002251	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001327	tkt.mutou.m001353	やうにいひ給へといへば御こたち上達部ききておいらかにあたりよりだになありきそとやはのたまはぬと
+tkt.mutou.n002298	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001358	tkt.mutou.m001358	みな
+tkt.mutou.n002305	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001362	tkt.mutou.m001364	この女
+tkt.mutou.n002318	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001368	tkt.mutou.m001371	世にあるまじき
+tkt.mutou.n002332	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001377	tkt.mutou.m001379	天竺にある
+tkt.mutou.n002330	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001377	tkt.mutou.m001381	天竺にある物も
+tkt.mutou.n002344	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001384	tkt.mutou.m001385	こぬ
+tkt.mutou.n002355	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001393	tkt.mutou.m001396	石づくりのみこは
+tkt.mutou.n002363	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m001397	tkt.mutou.m001399	心のしたく
+tkt.mutou.n002394	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001405	tkt.mutou.m001407	二となき
+tkt.mutou.n002402	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001410	tkt.mutou.m001410	百千
+tkt.mutou.n002424	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001422	tkt.mutou.m001424	石のはち
+tkt.mutou.n002381	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001401	tkt.mutou.m001428	人にて天竺に二となきはちを百千おもひてかぐやひめのもとにはけふなん天竺へ石のはちとりにまかると
+tkt.mutou.n002444	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001435	tkt.mutou.m001441	大和国とをちのこほりにある
+tkt.mutou.n002464	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001444	tkt.mutou.m001447	びんづるのまへなる
+tkt.mutou.n002458	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001444	tkt.mutou.m001455	びんづるのまへなるはちのひたくろにすみつきたるを
+tkt.mutou.n002517	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001481	tkt.mutou.m001481	かぐやひめ
+tkt.mutou.n002522	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001485	tkt.mutou.m001486	見るに
+tkt.mutou.n002534	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001491	tkt.mutou.m001491	文
+tkt.mutou.n002556	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001503	tkt.mutou.m001503	をく
+tkt.mutou.n002579	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001516	tkt.mutou.m001516	何
+tkt.mutou.n002576	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001516	tkt.mutou.m001521	何もとめけんとて返しいだす
+tkt.mutou.n002613	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001535	tkt.mutou.m001543	しら山にあへば光のうするかと
+tkt.mutou.n002609	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001535	tkt.mutou.m001552	しら山にあへば光のうするかとはちを捨てもたのまるるかなと
+tkt.mutou.n002647	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001557	tkt.mutou.m001557	かぐや姫
+tkt.mutou.n002684	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001575	tkt.mutou.m001581	事をばはぢをすつとは
+tkt.mutou.n002701	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001582	tkt.mutou.m001583	いひける
+tkt.mutou.n002711	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001588	tkt.mutou.m001588	心たばかり
+tkt.mutou.n002710	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001588	tkt.mutou.m001589	心たばかりある
+tkt.mutou.n002697	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001582	tkt.mutou.m001587	いひけるくらもちのみこは
+tkt.mutou.n002682	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001575	tkt.mutou.m001603	事をばはぢをすつとはいひけるくらもちのみこは心たばかりある人にておほやけにはつくしの国にゆあみにまからむとて
+tkt.mutou.n002736	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001604	tkt.mutou.m001604	いとま
+tkt.mutou.n002750	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001612	tkt.mutou.m001614	玉の枝
+tkt.mutou.n002679	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001575	tkt.mutou.m001619	事をばはぢをすつとはいひけるくらもちのみこは心たばかりある人にておほやけにはつくしの国にゆあみにまからむとていとま申てかぐやひめの家には玉の枝とりになむまかると
+tkt.mutou.n002769	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001623	tkt.mutou.m001625	くだり給に
+tkt.mutou.n002768	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001623	tkt.mutou.m001627	くだり給につかふまつるべき
+tkt.mutou.n002765	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001623	tkt.mutou.m001635	くだり給につかふまつるべき人々みな難波まで御をくりしける
+tkt.mutou.n002764	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001623	tkt.mutou.m001636	くだり給につかふまつるべき人々みな難波まで御をくりしけるみこ
+tkt.mutou.n002791	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001643	tkt.mutou.m001644	人も
+tkt.mutou.n002795	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m001645	tkt.mutou.m001645	あまた
+tkt.mutou.n002805	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001652	tkt.mutou.m001652	かぎり
+tkt.mutou.n002818	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001661	tkt.mutou.m001661	人人
+tkt.mutou.n002827	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001668	tkt.mutou.m001670	おはしぬと
+tkt.mutou.n002864	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001687	tkt.mutou.m001688	事みな
+tkt.mutou.n002873	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001693	tkt.mutou.m001701	その時ひとつのたからなりける
+tkt.mutou.n002899	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001711	tkt.mutou.m001714	人よりくまじき
+tkt.mutou.n002930	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001732	tkt.mutou.m001734	御こも
+tkt.mutou.n002945	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001741	tkt.mutou.m001744	しらせ給たる
+tkt.mutou.n002968	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001755	tkt.mutou.m001757	玉の枝
+tkt.mutou.n002967	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001755	tkt.mutou.m001759	玉の枝つくり給ふ
+tkt.mutou.n002966	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001755	tkt.mutou.m001760	玉の枝つくり給ふかぐや姫
+tkt.mutou.n002965	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001755	tkt.mutou.m001761	玉の枝つくり給ふかぐや姫のたまふ
+tkt.mutou.n003004	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001780	tkt.mutou.m001788	舟にのりて帰りきにけりと
+tkt.mutou.n003018	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001789	tkt.mutou.m001789	さま
+tkt.mutou.n003030	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001797	tkt.mutou.m001797	人
+tkt.mutou.n003053	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001809	tkt.mutou.m001809	物
+tkt.mutou.n003079	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001823	tkt.mutou.m001825	うどんぐゑの花
+tkt.mutou.n003070	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001819	tkt.mutou.m001822	くらもちのみこは
+tkt.mutou.n003068	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001819	tkt.mutou.m001831	くらもちのみこはうどんぐゑの花もちてのぼり給へりと
+tkt.mutou.n003102	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001836	tkt.mutou.m001836	かぐや姫
+tkt.mutou.n003106	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001839	tkt.mutou.m001840	我は
+tkt.mutou.n003095	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001834	tkt.mutou.m001846	これをかぐや姫ききて我はみこにまけぬべしと
+tkt.mutou.n003118	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001847	tkt.mutou.m001848	むねうち
+tkt.mutou.n003131	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001853	tkt.mutou.m001853	かかる
+tkt.mutou.n003141	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001860	tkt.mutou.m001862	くらもちのみこ
+tkt.mutou.n003126	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001853	tkt.mutou.m001865	かかる程にかどをたたきてくらもちのみこおはしたりと
+tkt.mutou.n003153	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001867	tkt.mutou.m001874	たびの御すがたながらおはしたりと
+tkt.mutou.n003179	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001879	tkt.mutou.m001879	御子
+tkt.mutou.n003188	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001885	tkt.mutou.m001889	かの玉の枝
+tkt.mutou.n003174	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001879	tkt.mutou.m001900	御子のたまはく命をすててかの玉の枝もちてきたるとてかぐや姫にみせたてまつり給へと
+tkt.mutou.n003215	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001903	tkt.mutou.m001903	翁
+tkt.mutou.n003246	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001921	tkt.mutou.m001922	身は
+tkt.mutou.n003285	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001944	tkt.mutou.m001945	をるに
+tkt.mutou.n003300	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001950	tkt.mutou.m001950	しり
+tkt.mutou.n003299	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m001950	tkt.mutou.m001951	しりて
+tkt.mutou.n003310	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001953	tkt.mutou.m001959	この御子に申給ひし
+tkt.mutou.n003289	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m001946	tkt.mutou.m001949	竹とりのおきなは
+tkt.mutou.n003361	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m001979	tkt.mutou.m001981	とかく申べき
+tkt.mutou.n003346	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m001975	tkt.mutou.m002008	なにをもちてとかく申べきたびの御すがたながらわが御家へもより給はずしておはしましたりはやこのみこにあひつかふまつり給へと
+tkt.mutou.n003344	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m001975	tkt.mutou.m002010	なにをもちてとかく申べきたびの御すがたながらわが御家へもより給はずしておはしましたりはやこのみこにあひつかふまつり給へといふに
+tkt.mutou.n003402	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002011	tkt.mutou.m002012	物も
+tkt.mutou.n003424	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002025	tkt.mutou.m002036	このみこいまさへなにかといふべからずと
+tkt.mutou.n003423	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002025	tkt.mutou.m002037	このみこいまさへなにかといふべからずといふ
+tkt.mutou.n003456	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002046	tkt.mutou.m002050	おきなことはりに思ふに
+tkt.mutou.n003468	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002051	tkt.mutou.m002056	この国に見えぬ
+tkt.mutou.n003484	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002061	tkt.mutou.m002064	このたびは
+tkt.mutou.n003504	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002070	tkt.mutou.m002071	さまも
+tkt.mutou.n003503	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002070	tkt.mutou.m002072	さまもよき
+tkt.mutou.n003499	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002070	tkt.mutou.m002076	さまもよき人におはすなど
+tkt.mutou.n003526	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002080	tkt.mutou.m002082	かぐや姫のいふ
+tkt.mutou.n003523	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002080	tkt.mutou.m002086	かぐや姫のいふやうおやのの給
+tkt.mutou.n003544	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002091	tkt.mutou.m002093	いなび申さん
+tkt.mutou.n003553	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002097	tkt.mutou.m002100	さにとりがたき
+tkt.mutou.n003569	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002108	tkt.mutou.m002109	きたる
+tkt.mutou.n003593	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002122	tkt.mutou.m002125	おきなみこに申
+tkt.mutou.n003591	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002122	tkt.mutou.m002128	おきなみこに申やういかなる
+tkt.mutou.n003606	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002132	tkt.mutou.m002135	この木は
+tkt.mutou.n003625	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002138	tkt.mutou.m002140	あやしくうるはしくめでたき
+tkt.mutou.n003622	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002138	tkt.mutou.m002145	あやしくうるはしくめでたき物にもと申す
+tkt.mutou.n003621	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002138	tkt.mutou.m002146	あやしくうるはしくめでたき物にもと申すみこ
+tkt.mutou.n003676	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002171	tkt.mutou.m002172	ゆかむ
+tkt.mutou.n003674	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002171	tkt.mutou.m002174	ゆかむかたも
+tkt.mutou.n003689	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002181	tkt.mutou.m002192	ことならで世中にいきてなにかせんと
+tkt.mutou.n003726	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002203	tkt.mutou.m002203	命
+tkt.mutou.n003744	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002212	tkt.mutou.m002213	あらむ
+tkt.mutou.n003755	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002219	tkt.mutou.m002222	蓬莱といふらむ
+tkt.mutou.n003742	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002212	tkt.mutou.m002215	あらむかぎりは
+tkt.mutou.n003736	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002210	tkt.mutou.m002227	いきてあらむかぎりはかくありて蓬莱といふらむ山にあふやと
+tkt.mutou.n003795	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002241	tkt.mutou.m002249	海のそこにもいりぬべくある
+tkt.mutou.n003823	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002257	tkt.mutou.m002258	しらぬ
+tkt.mutou.n003833	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002265	tkt.mutou.m002268	おにのやうなる
+tkt.mutou.n003832	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002265	tkt.mutou.m002269	おにのやうなるもの
+tkt.mutou.n003773	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002231	tkt.mutou.m002275	ただよひありきてわがくにのうちをあれつつ海のそこにもいりぬべくあるときには風につけてしらぬ国にふきよせられておにのやうなるもの出きてころさんと
+tkt.mutou.n003855	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002278	tkt.mutou.m002278	ある
+tkt.mutou.n003864	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002282	tkt.mutou.m002282	きしかた
+tkt.mutou.n003863	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002282	tkt.mutou.m002283	きしかた行
+tkt.mutou.n003861	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002282	tkt.mutou.m002285	きしかた行すゑも
+tkt.mutou.n003851	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002278	tkt.mutou.m002292	ある時にはきしかた行すゑもしらずうみにまぎれんと
+tkt.mutou.n003885	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002295	tkt.mutou.m002295	ある
+tkt.mutou.n003883	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002295	tkt.mutou.m002297	あるときは
+tkt.mutou.n003881	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002295	tkt.mutou.m002300	あるときはかからんと
+tkt.mutou.n003897	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002303	tkt.mutou.m002303	ある
+tkt.mutou.n003917	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002313	tkt.mutou.m002314	人も
+tkt.mutou.n003916	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002313	tkt.mutou.m002315	人もなき
+tkt.mutou.n003940	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002325	tkt.mutou.m002327	かたそらも
+tkt.mutou.n003947	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002330	tkt.mutou.m002333	船の行に
+tkt.mutou.n003967	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002340	tkt.mutou.m002343	五百日といふ
+tkt.mutou.n003990	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002355	tkt.mutou.m002355	山
+tkt.mutou.n004011	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002365	tkt.mutou.m002370	うみのうへにただよへる
+tkt.mutou.n004010	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002365	tkt.mutou.m002371	うみのうへにただよへるやま
+tkt.mutou.n004029	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002377	tkt.mutou.m002381	その山のさま
+tkt.mutou.n004093	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002407	tkt.mutou.m002412	二三日ばかりみありくに
+tkt.mutou.n004108	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002413	tkt.mutou.m002415	天人のよそほひ
+tkt.mutou.n004107	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002413	tkt.mutou.m002417	天人のよそほひしたる
+tkt.mutou.n004136	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002432	tkt.mutou.m002435	水をくみありく
+tkt.mutou.n004057	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002389	tkt.mutou.m002452	やまならむとおもひてさすがにおそろしくおぼえて山のめぐりをさしめぐらして二三日ばかりみありくに天人のよそほひしたる女山の中より出きてしろかねのかなまるをもちて水をくみありくこれを見て舟よりおりて山の名をなにとか申と
+tkt.mutou.n004056	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002389	tkt.mutou.m002453	やまならむとおもひてさすがにおそろしくおぼえて山のめぐりをさしめぐらして二三日ばかりみありくに天人のよそほひしたる女山の中より出きてしろかねのかなまるをもちて水をくみありくこれを見て舟よりおりて山の名をなにとか申ととふ
+tkt.mutou.n004174	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002458	tkt.mutou.m002459	これは
+tkt.mutou.n004052	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002389	tkt.mutou.m002464	やまならむとおもひてさすがにおそろしくおぼえて山のめぐりをさしめぐらして二三日ばかりみありくに天人のよそほひしたる女山の中より出きてしろかねのかなまるをもちて水をくみありくこれを見て舟よりおりて山の名をなにとか申ととふ女こたへていはくこれはほうらいの山なりと
+tkt.mutou.n004196	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002470	tkt.mutou.m002470	うれしき
+tkt.mutou.n004195	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002470	tkt.mutou.m002471	うれしき事
+tkt.mutou.n004203	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002473	tkt.mutou.m002475	この女
+tkt.mutou.n004219	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002483	tkt.mutou.m002486	わが名は
+tkt.mutou.n004248	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002498	tkt.mutou.m002500	その山
+tkt.mutou.n004246	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002498	tkt.mutou.m002502	その山みるに
+tkt.mutou.n004257	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002503	tkt.mutou.m002505	さらにのぼるべき
+tkt.mutou.n004256	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002503	tkt.mutou.m002506	さらにのぼるべきやう
+tkt.mutou.n004282	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002516	tkt.mutou.m002518	世中になき
+tkt.mutou.n004279	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002516	tkt.mutou.m002522	世中になき花の木ども
+tkt.mutou.n004314	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002537	tkt.mutou.m002541	色々の玉のはし
+tkt.mutou.n004328	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002544	tkt.mutou.m002548	そのあたりにてりかがやく
+tkt.mutou.n004327	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002544	tkt.mutou.m002550	そのあたりにてりかがやく木ども
+tkt.mutou.n004375	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002570	tkt.mutou.m002570	もの
+tkt.mutou.n004373	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002570	tkt.mutou.m002573	もの給しに
+tkt.mutou.n004366	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m002566	tkt.mutou.m002577	いとわろかりしかどもの給しにたがはましかばと
+tkt.mutou.n004399	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002588	tkt.mutou.m002589	山は
+tkt.mutou.n004442	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002615	tkt.mutou.m002615	おひ風
+tkt.mutou.n004487	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002640	tkt.mutou.m002644	さらにしほにぬれたる
+tkt.mutou.n004503	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002653	tkt.mutou.m002653	こち
+tkt.mutou.n004482	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002640	tkt.mutou.m002657	さらにしほにぬれたるころもをだにぬぎかへなでなんこちまうできつると
+tkt.mutou.n004544	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002672	tkt.mutou.m002676	ふしをのみみし
+tkt.mutou.n004554	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002679	tkt.mutou.m002680	御こ
+tkt.mutou.n004562	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002684	tkt.mutou.m002687	日ごろおもひわび侍る
+tkt.mutou.n004560	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002684	tkt.mutou.m002689	日ごろおもひわび侍る心は
+tkt.mutou.n004539	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002672	tkt.mutou.m002695	ふしをのみみしこれを御こ聞てここら日ごろおもひわび侍る心はけふなんおちゐぬると
+tkt.mutou.n004593	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002707	tkt.mutou.m002712	さのちくさの数も
+tkt.mutou.n004535	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002672	tkt.mutou.m002717	ふしをのみみしこれを御こ聞てここら日ごろおもひわび侍る心はけふなんおちゐぬるとのたまひて返しわが袂けふかはければ侘しさのちくさの数も忘られぬべしと
+tkt.mutou.n004534	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002672	tkt.mutou.m002719	ふしをのみみしこれを御こ聞てここら日ごろおもひわび侍る心はけふなんおちゐぬるとのたまひて返しわが袂けふかはければ侘しさのちくさの数も忘られぬべしとの給かかる
+tkt.mutou.n004655	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002744	tkt.mutou.m002749	くもんつかさのたくみあやべのうちまろ
+tkt.mutou.n004669	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002751	tkt.mutou.m002757	玉の木をつくりつかうまつりし
+tkt.mutou.n004691	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002766	tkt.mutou.m002766	ろく
+tkt.mutou.n004649	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002744	tkt.mutou.m002779	くもんつかさのたくみあやべのうちまろ申さく玉の木をつくりつかうまつりし事五こくをたちて千にろくいまだ給はらずこれを給てけこに給せんと
+tkt.mutou.n004717	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002784	tkt.mutou.m002792	竹とりの翁このたくみらが申
+tkt.mutou.n004715	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002784	tkt.mutou.m002794	竹とりの翁このたくみらが申ことは
+tkt.mutou.n004759	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002809	tkt.mutou.m002809	きも
+tkt.mutou.n004779	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002816	tkt.mutou.m002816	かぐやひめ
+tkt.mutou.n004785	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002819	tkt.mutou.m002821	このたてまつる
+tkt.mutou.n004772	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002814	tkt.mutou.m002825	これをかぐやひめききてこのたてまつる文をとれと
+tkt.mutou.n004805	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002830	tkt.mutou.m002833	文に申ける
+tkt.mutou.n004801	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002830	tkt.mutou.m002840	文に申けるやうみこの君千日いやしき
+tkt.mutou.n004839	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002853	tkt.mutou.m002853	かしこき
+tkt.mutou.n004836	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002853	tkt.mutou.m002856	かしこき玉のえだ
+tkt.mutou.n004848	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m002861	tkt.mutou.m002862	つかさも
+tkt.mutou.n004766	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002814	tkt.mutou.m002865	これをかぐやひめききてこのたてまつる文をとれといひて見れば文に申けるやうみこの君千日いやしきたくみらともろともにおなじ所にかくれゐたまひてかしこき玉のえだつくらせ給てつかさも給はむと
+tkt.mutou.n004859	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002869	tkt.mutou.m002875	これをこのごろあんずるに
+tkt.mutou.n004875	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002876	tkt.mutou.m002880	御つかひとおはしますべき
+tkt.mutou.n004897	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002884	tkt.mutou.m002888	給べきなりけりと
+tkt.mutou.n004894	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002884	tkt.mutou.m002896	給べきなりけりとうけたまはりて此宮より給はらんと
+tkt.mutou.n004891	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002884	tkt.mutou.m002902	給べきなりけりとうけたまはりて此宮より給はらんと申て給はるべきなりと
+tkt.mutou.n004889	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m002884	tkt.mutou.m002904	給べきなりけりとうけたまはりて此宮より給はらんと申て給はるべきなりといふを
+tkt.mutou.n004931	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002907	tkt.mutou.m002909	かぐや姫のくるる
+tkt.mutou.n004928	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002907	tkt.mutou.m002914	かぐや姫のくるるままに思ひわびつる
+tkt.mutou.n004927	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002907	tkt.mutou.m002915	かぐや姫のくるるままに思ひわびつるここち
+tkt.mutou.n004926	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002907	tkt.mutou.m002917	かぐや姫のくるるままに思ひわびつるここちわらひさかへ
+tkt.mutou.n004977	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002936	tkt.mutou.m002937	かくあさましき
+tkt.mutou.n004972	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002936	tkt.mutou.m002948	かくあさましきそらごとにてありければはやとく返し給へと
+tkt.mutou.n004993	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002951	tkt.mutou.m002951	翁
+tkt.mutou.n005008	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002955	tkt.mutou.m002957	つくらせたる
+tkt.mutou.n005018	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002963	tkt.mutou.m002964	返さむ
+tkt.mutou.n005017	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m002963	tkt.mutou.m002965	返さむ事
+tkt.mutou.n004999	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002953	tkt.mutou.m002968	さだかにつくらせたる物とききつれば返さむ事いとやすしと
+tkt.mutou.n005029	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002971	tkt.mutou.m002971	をり
+tkt.mutou.n005040	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m002977	tkt.mutou.m002978	ありつる
+tkt.mutou.n005066	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m002994	tkt.mutou.m003001	玉の枝にぞありけると
+tkt.mutou.n005092	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003008	tkt.mutou.m003012	返しつ竹とりのおきな
+tkt.mutou.n005090	PP-SBJ	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003008	tkt.mutou.m003017	返しつ竹とりのおきなさばかりかたらひつるが
+tkt.mutou.n005116	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003022	tkt.mutou.m003022	ねぶり
+tkt.mutou.n005115	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003022	tkt.mutou.m003023	ねぶりをり
+tkt.mutou.n005128	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003028	tkt.mutou.m003028	はした
+tkt.mutou.n005113	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003022	tkt.mutou.m003025	ねぶりをり御子は
+tkt.mutou.n005160	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003046	tkt.mutou.m003050	かうれへをしたる
+tkt.mutou.n005170	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003053	tkt.mutou.m003053	かぐや姫
+tkt.mutou.n005176	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003057	tkt.mutou.m003057	うれしき
+tkt.mutou.n005155	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003046	tkt.mutou.m003061	かうれへをしたるたくみをばかぐや姫よびすへてうれしき人どもなりと
+tkt.mutou.n005188	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003064	tkt.mutou.m003064	ろく
+tkt.mutou.n005187	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003064	tkt.mutou.m003069	ろくいとおほくとらせ給
+tkt.mutou.n005185	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m003064	tkt.mutou.m003071	ろくいとおほくとらせ給たくみかな
+tkt.mutou.n005184	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m003064	tkt.mutou.m003072	ろくいとおほくとらせ給たくみかなと
+tkt.mutou.n005212	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003078	tkt.mutou.m003087	くらもちのみこちのながるるまで調ぜさせ給
+tkt.mutou.n005211	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003078	tkt.mutou.m003088	くらもちのみこちのながるるまで調ぜさせ給ろく
+tkt.mutou.n005210	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003078	tkt.mutou.m003090	くらもちのみこちのながるるまで調ぜさせ給ろくえし
+tkt.mutou.n005208	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003078	tkt.mutou.m003092	くらもちのみこちのながるるまで調ぜさせ給ろくえしかひも
+tkt.mutou.n005235	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003094	tkt.mutou.m003094	みな
+tkt.mutou.n005249	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003106	tkt.mutou.m003109	このみこは
+tkt.mutou.n005293	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003129	tkt.mutou.m003135	天下の人の見おもはむ
+tkt.mutou.n005290	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003129	tkt.mutou.m003138	天下の人の見おもはむことのはづかしき
+tkt.mutou.n005289	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003129	tkt.mutou.m003139	天下の人の見おもはむことのはづかしき事
+tkt.mutou.n005313	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003142	tkt.mutou.m003145	ただ一ところふかき
+tkt.mutou.n005330	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003151	tkt.mutou.m003151	宮づかさ
+tkt.mutou.n005329	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003151	tkt.mutou.m003152	宮づかささぶらふ
+tkt.mutou.n005342	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003162	tkt.mutou.m003165	御しにもや
+tkt.mutou.n005360	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003176	tkt.mutou.m003184	御子の御ともにかくし給はんとて
+tkt.mutou.n005384	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003192	tkt.mutou.m003197	これをなむ玉さかるとは
+tkt.mutou.n005398	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003198	tkt.mutou.m003200	いひはじめける
+tkt.mutou.n005415	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003209	tkt.mutou.m003209	家
+tkt.mutou.n005414	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003209	tkt.mutou.m003210	家ひろき
+tkt.mutou.n005394	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003198	tkt.mutou.m003205	いひはじめける右大臣あへのみむらしは
+tkt.mutou.n005444	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003216	tkt.mutou.m003221	その年きたりける
+tkt.mutou.n005439	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003216	tkt.mutou.m003227	その年きたりけるもろこしふねのわうけいといふ
+tkt.mutou.n005471	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003236	tkt.mutou.m003242	火ねずみのかはといふなる
+tkt.mutou.n005470	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003236	tkt.mutou.m003243	火ねずみのかはといふなる物
+tkt.mutou.n005431	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003216	tkt.mutou.m003247	その年きたりけるもろこしふねのわうけいといふ人のもとに文をかきて火ねずみのかはといふなる物かひておこせよとて
+tkt.mutou.n005430	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003216	tkt.mutou.m003248	その年きたりけるもろこしふねのわうけいといふ人のもとに文をかきて火ねずみのかはといふなる物かひておこせよとてつかうまつる
+tkt.mutou.n005493	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003253	tkt.mutou.m003256	心たしかなるを
+tkt.mutou.n005504	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003259	tkt.mutou.m003263	小野のふさもりといふ
+tkt.mutou.n005526	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003272	tkt.mutou.m003274	もろこしにをる
+tkt.mutou.n005559	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003290	tkt.mutou.m003297	火ねずみのかは衣此国になき
+tkt.mutou.n005557	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003290	tkt.mutou.m003299	火ねずみのかは衣此国になき物也
+tkt.mutou.n005552	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003288	tkt.mutou.m003288	返事
+tkt.mutou.n005587	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003309	tkt.mutou.m003311	よにある
+tkt.mutou.n005612	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003325	tkt.mutou.m003326	いとかたき
+tkt.mutou.n005639	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003339	tkt.mutou.m003346	長者のあたりにとぶらひもとめむに
+tkt.mutou.n005638	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003339	tkt.mutou.m003347	長者のあたりにとぶらひもとめむになき
+tkt.mutou.n005618	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003329	tkt.mutou.m003360	しかれどももし天竺にたまさかにもてわたりなば長者のあたりにとぶらひもとめむになき物ならばつかひにそへてかねをば返したてまつらむと
+tkt.mutou.n005674	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003363	tkt.mutou.m003365	かのもろこし船
+tkt.mutou.n005692	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003368	tkt.mutou.m003370	小野のふさもり
+tkt.mutou.n005689	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003368	tkt.mutou.m003375	小野のふさもりまうできてまうのぼると
+tkt.mutou.n005688	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003368	tkt.mutou.m003376	小野のふさもりまうできてまうのぼるといふ
+tkt.mutou.n005711	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003381	tkt.mutou.m003381	あゆみ
+tkt.mutou.n005710	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003381	tkt.mutou.m003383	あゆみとうする
+tkt.mutou.n005753	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003408	tkt.mutou.m003411	文を見るに
+tkt.mutou.n005762	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003413	tkt.mutou.m003416	火ねずみのかは衣
+tkt.mutou.n005804	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003438	tkt.mutou.m003439	たはやすくなき
+tkt.mutou.n005798	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003435	tkt.mutou.m003437	此かはは
+tkt.mutou.n005824	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003443	tkt.mutou.m003444	むかしかしこき
+tkt.mutou.n005843	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003456	tkt.mutou.m003457	侍ける
+tkt.mutou.n005814	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003443	tkt.mutou.m003463	むかしかしこき天竺のひじりこの国にもてわたりて侍ける西の山寺にありと
+tkt.mutou.n005870	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003475	tkt.mutou.m003477	あたいのかね
+tkt.mutou.n005868	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003475	tkt.mutou.m003479	あたいのかねすくなしと
+tkt.mutou.n005886	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003486	tkt.mutou.m003488	わうけいが物
+tkt.mutou.n005907	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003499	tkt.mutou.m003503	舟のかへらむに
+tkt.mutou.n005926	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003509	tkt.mutou.m003509	かね
+tkt.mutou.n005924	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003508	tkt.mutou.m003511	もしかねいへる
+tkt.mutou.n005936	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003516	tkt.mutou.m003516	なに
+tkt.mutou.n005935	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003516	tkt.mutou.m003517	なにおぼす
+tkt.mutou.n005934	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003516	tkt.mutou.m003519	なにおぼすいまかね
+tkt.mutou.n005949	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003525	tkt.mutou.m003527	かならずをくるべき
+tkt.mutou.n005960	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003533	tkt.mutou.m003539	うれしくしておこせたるかなとて
+tkt.mutou.n005991	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003549	tkt.mutou.m003551	このかはきぬ
+tkt.mutou.n005990	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003549	tkt.mutou.m003553	このかはきぬいれたる
+tkt.mutou.n006005	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003558	tkt.mutou.m003560	くさぐさのうるはしき
+tkt.mutou.n006028	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003572	tkt.mutou.m003575	たからと見えうるはしき
+tkt.mutou.n006027	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003572	tkt.mutou.m003576	たからと見えうるはしき事
+tkt.mutou.n006026	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003572	tkt.mutou.m003578	たからと見えうるはしき事ならぶべき
+tkt.mutou.n006025	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003572	tkt.mutou.m003579	たからと見えうるはしき事ならぶべき物
+tkt.mutou.n006043	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003581	tkt.mutou.m003584	火にやけぬ
+tkt.mutou.n006054	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003588	tkt.mutou.m003589	けうらなる
+tkt.mutou.n006053	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003588	tkt.mutou.m003590	けうらなること
+tkt.mutou.n006069	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003593	tkt.mutou.m003593	かぐや姫
+tkt.mutou.n006065	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003592	tkt.mutou.m003601	うべかぐや姫このもしがり給にこそありけれと
+tkt.mutou.n006103	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003618	tkt.mutou.m003620	御身のけさう
+tkt.mutou.n006115	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003625	tkt.mutou.m003628	やがてとまりなん
+tkt.mutou.n006128	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003634	tkt.mutou.m003634	歌
+tkt.mutou.n006140	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003642	tkt.mutou.m003645	その歌は
+tkt.mutou.n006138	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003642	tkt.mutou.m003651	その歌はけふこそはきめと
+tkt.mutou.n006178	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003664	tkt.mutou.m003664	竹とり
+tkt.mutou.n006204	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003680	tkt.mutou.m003681	いはくうるはしき
+tkt.mutou.n006231	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003696	tkt.mutou.m003696	竹とり
+tkt.mutou.n006264	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003715	tkt.mutou.m003715	人
+tkt.mutou.n006261	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003715	tkt.mutou.m003725	人ないたくわびさせ給たてまつらせ給そと
+tkt.mutou.n006300	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003736	tkt.mutou.m003739	このたびは
+tkt.mutou.n006293	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003732	tkt.mutou.m003743	かくよびすへてこのたびはかならずあはむと
+tkt.mutou.n006332	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003755	tkt.mutou.m003759	かぐや姫のやめなるを
+tkt.mutou.n006323	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003751	tkt.mutou.m003754	この翁は
+tkt.mutou.n006290	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003732	tkt.mutou.m003766	かくよびすへてこのたびはかならずあはむと女の心にもおもひをりこの翁はかぐや姫のやめなるをなげかしければ人にあはせんと
+tkt.mutou.n006358	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003772	tkt.mutou.m003774	いなといふ
+tkt.mutou.n006374	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003782	tkt.mutou.m003783	ことはり也
+tkt.mutou.n006391	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003792	tkt.mutou.m003796	火にやかんに
+tkt.mutou.n006382	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003788	tkt.mutou.m003791	この皮ぎぬは
+tkt.mutou.n006284	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003732	tkt.mutou.m003804	かくよびすへてこのたびはかならずあはむと女の心にもおもひをりこの翁はかぐや姫のやめなるをなげかしければ人にあはせんとおもひはかれどせちにいなといふ事なればえしいねばことはり也かぐや姫おきなにいはくこの皮ぎぬは火にやかんにやけずはこそまことならめと
+tkt.mutou.n006413	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003807	tkt.mutou.m003809	人のいふ
+tkt.mutou.n006429	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003815	tkt.mutou.m003817	世になき
+tkt.mutou.n006446	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003825	tkt.mutou.m003825	うたがひ
+tkt.mutou.n006425	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003815	tkt.mutou.m003829	世になき物なればそれをまこととうたがひなく思はんと
+tkt.mutou.n006464	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003831	tkt.mutou.m003838	猶これをやきて心みんと
+tkt.mutou.n006463	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003831	tkt.mutou.m003839	猶これをやきて心みんといふ
+tkt.mutou.n006462	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003831	tkt.mutou.m003841	猶これをやきて心みんといふおきなそれ
+tkt.mutou.n006460	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003831	tkt.mutou.m003847	猶これをやきて心みんといふおきなそれさもいはれたりと
+tkt.mutou.n006457	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003831	tkt.mutou.m003855	猶これをやきて心みんといふおきなそれさもいはれたりといひて大臣にかくなむ申と
+tkt.mutou.n006456	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003831	tkt.mutou.m003856	猶これをやきて心みんといふおきなそれさもいはれたりといひて大臣にかくなむ申といふ
+tkt.mutou.n006455	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003831	tkt.mutou.m003857	猶これをやきて心みんといふおきなそれさもいはれたりといひて大臣にかくなむ申といふ大臣
+tkt.mutou.n006512	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003865	tkt.mutou.m003870	もろこしにもなかりけるを
+tkt.mutou.n006504	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003861	tkt.mutou.m003864	このかはは
+tkt.mutou.n006529	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003877	tkt.mutou.m003879	なにのうたがひ
+tkt.mutou.n006540	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003882	tkt.mutou.m003891	さは申ともはややきて見給へと
+tkt.mutou.n006568	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003901	tkt.mutou.m003904	やかせ給に
+tkt.mutou.n006584	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003909	tkt.mutou.m003917	さればこそこと物のかはなりけりと
+tkt.mutou.n006583	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003909	tkt.mutou.m003918	さればこそこと物のかはなりけりといふ
+tkt.mutou.n006606	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003925	tkt.mutou.m003926	かほは
+tkt.mutou.n006627	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m003937	tkt.mutou.m003938	かぐや姫は
+tkt.mutou.n006647	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m003946	tkt.mutou.m003950	かのよみ給へる
+tkt.mutou.n006666	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003959	tkt.mutou.m003961	なごりなくもゆと
+tkt.mutou.n006685	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m003972	tkt.mutou.m003976	みましをとぞ
+tkt.mutou.n006707	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m003985	tkt.mutou.m003991	世の人人あへの大臣火
+tkt.mutou.n006703	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m003985	tkt.mutou.m004000	世の人人あへの大臣火ね給ふとなここにやいますなど
+tkt.mutou.n006743	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004006	tkt.mutou.m004007	かはは
+tkt.mutou.n006767	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m004022	tkt.mutou.m004022	かぐや姫
+tkt.mutou.n006734	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004002	tkt.mutou.m004026	ある人のいはくかはは火にくべてやきたりしかばめらめらとやけにしかばかぐや姫あひ給はずと
+tkt.mutou.n006797	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004036	tkt.mutou.m004039	物をばあへなしと
+tkt.mutou.n006796	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004036	tkt.mutou.m004041	物をばあへなしといひける
+tkt.mutou.n006790	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004036	tkt.mutou.m004048	物をばあへなしといひける大伴のみゆの大納言は
+tkt.mutou.n006788	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004036	tkt.mutou.m004054	物をばあへなしといひける大伴のみゆの大納言はわが家にありと
+tkt.mutou.n006787	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004036	tkt.mutou.m004055	物をばあへなしといひける大伴のみゆの大納言はわが家にありとある
+tkt.mutou.n006786	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004036	tkt.mutou.m004056	物をばあへなしといひける大伴のみゆの大納言はわが家にありとある人
+tkt.mutou.n006840	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004065	tkt.mutou.m004068	五色にひかる
+tkt.mutou.n006860	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004072	tkt.mutou.m004072	それ
+tkt.mutou.n006866	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004075	tkt.mutou.m004077	たてまつりたらむ
+tkt.mutou.n006875	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004081	tkt.mutou.m004082	ねがはん
+tkt.mutou.n006857	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004072	tkt.mutou.m004087	それとりてたてまつりたらむ人にはねがはんことをかなへんと
+tkt.mutou.n006856	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004072	tkt.mutou.m004088	それとりてたてまつりたらむ人にはねがはんことをかなへんとのたまふ
+tkt.mutou.n006899	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004100	tkt.mutou.m004102	この玉
+tkt.mutou.n006906	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004104	tkt.mutou.m004107	えとらじを
+tkt.mutou.n006913	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004109	tkt.mutou.m004114	たつのくびの玉は
+tkt.mutou.n006895	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004099	tkt.mutou.m004118	ただしこの玉たはやすくえとらじをいはむやたつのくびの玉はいかがとらむと
+tkt.mutou.n006947	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004129	tkt.mutou.m004132	つかひといはん
+tkt.mutou.n006945	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004129	tkt.mutou.m004134	つかひといはんものは
+tkt.mutou.n006942	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004128	tkt.mutou.m004150	のつかひといはんものは命をすててもをのが君の仰ことをばかなへんとこそ
+tkt.mutou.n006989	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004153	tkt.mutou.m004157	この国になき
+tkt.mutou.n007021	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004173	tkt.mutou.m004174	をりのぼる
+tkt.mutou.n007016	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004171	tkt.mutou.m004172	たつは
+tkt.mutou.n007032	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004181	tkt.mutou.m004182	きんぢら
+tkt.mutou.n007041	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004184	tkt.mutou.m004187	ものと申べき
+tkt.mutou.n007040	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004184	tkt.mutou.m004189	ものと申べきおのこども
+tkt.mutou.n007039	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004184	tkt.mutou.m004190	ものと申べきおのこども申
+tkt.mutou.n007038	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004184	tkt.mutou.m004191	ものと申べきおのこども申やう
+tkt.mutou.n007067	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004198	tkt.mutou.m004198	かたき
+tkt.mutou.n007062	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004198	tkt.mutou.m004209	かたき事なりともおほせごとにしたがひてもとめまからむと
+tkt.mutou.n007060	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004198	tkt.mutou.m004212	かたき事なりともおほせごとにしたがひてもとめまからむと申にと
+tkt.mutou.n007111	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004228	tkt.mutou.m004232	たつのくびの玉
+tkt.mutou.n007147	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004247	tkt.mutou.m004254	とのうちのきぬわたせになどある
+tkt.mutou.n007146	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004247	tkt.mutou.m004255	とのうちのきぬわたせになどあるかぎり
+tkt.mutou.n007174	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004262	tkt.mutou.m004265	この人々ども
+tkt.mutou.n007197	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004274	tkt.mutou.m004275	をらん
+tkt.mutou.n007194	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004274	tkt.mutou.m004278	をらんこの玉
+tkt.mutou.n007189	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004272	tkt.mutou.m004273	吾は
+tkt.mutou.n007168	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004262	tkt.mutou.m004288	この人々ども帰るまでいもゐをして吾はをらんこの玉とりえては家にかへりくなと
+tkt.mutou.n007219	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004291	tkt.mutou.m004292	をのをのおほせ
+tkt.mutou.n007240	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004298	tkt.mutou.m004302	たつのくびの玉
+tkt.mutou.n007237	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004298	tkt.mutou.m004310	たつのくびの玉とりえずはかへりくなと
+tkt.mutou.n007270	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004317	tkt.mutou.m004321	あしのむきたらん
+tkt.mutou.n007260	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004313	tkt.mutou.m004314	いづちも
+tkt.mutou.n007234	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004298	tkt.mutou.m004326	たつのくびの玉とりえずはかへりくなとのたまへばいづちもいづちもあしのむきたらんかたへいなむと
+tkt.mutou.n007233	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004298	tkt.mutou.m004327	たつのくびの玉とりえずはかへりくなとのたまへばいづちもいづちもあしのむきたらんかたへいなむとかかる
+tkt.mutou.n007230	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004298	tkt.mutou.m004331	たつのくびの玉とりえずはかへりくなとのたまへばいづちもいづちもあしのむきたらんかたへいなむとかかるすき事をしたまふ
+tkt.mutou.n007296	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004337	tkt.mutou.m004338	給はせたる
+tkt.mutou.n007295	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004337	tkt.mutou.m004340	給はせたる物をのをの
+tkt.mutou.n007320	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004352	tkt.mutou.m004355	をのがゆかまほしき
+tkt.mutou.n007344	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004364	tkt.mutou.m004365	かくつきなき
+tkt.mutou.n007341	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004364	tkt.mutou.m004369	かくつきなきことを仰給ふ
+tkt.mutou.n007356	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004372	tkt.mutou.m004372	事
+tkt.mutou.n007355	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004372	tkt.mutou.m004374	事ゆかぬ
+tkt.mutou.n007378	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004383	tkt.mutou.m004383	かぐや姫
+tkt.mutou.n007376	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004383	tkt.mutou.m004387	かぐや姫すへんには
+tkt.mutou.n007374	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004383	tkt.mutou.m004394	かぐや姫すへんにはれいのやうには見にくしと
+tkt.mutou.n007398	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004397	tkt.mutou.m004397	うるはしき
+tkt.mutou.n007410	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004406	tkt.mutou.m004406	まきゑ
+tkt.mutou.n007453	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004431	tkt.mutou.m004435	いふべくもあらぬ
+tkt.mutou.n007486	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004452	tkt.mutou.m004456	かぐや姫をかならずあはん
+tkt.mutou.n007485	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004452	tkt.mutou.m004457	かぐや姫をかならずあはんまうけ
+tkt.mutou.n007500	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004460	tkt.mutou.m004460	ひとり
+tkt.mutou.n007499	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004460	tkt.mutou.m004465	ひとりあかしくらし給つかはしし
+tkt.mutou.n007514	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004468	tkt.mutou.m004471	よるひるまち給に
+tkt.mutou.n007527	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004475	tkt.mutou.m004476	をとも
+tkt.mutou.n007475	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004447	tkt.mutou.m004451	もとのめどもは
+tkt.mutou.n007608	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004517	tkt.mutou.m004517	たつ
+tkt.mutou.n007582	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004503	tkt.mutou.m004504	事は
+tkt.mutou.n007612	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m004520	tkt.mutou.m004524	そがくびの玉
+tkt.mutou.n007580	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004503	tkt.mutou.m004528	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとや
+tkt.mutou.n007578	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004503	tkt.mutou.m004530	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくと
+tkt.mutou.n007576	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004503	tkt.mutou.m004533	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに
+tkt.mutou.n007631	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004534	tkt.mutou.m004534	船人
+tkt.mutou.n007638	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004537	tkt.mutou.m004538	いはくあやしき
+tkt.mutou.n007636	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m004537	tkt.mutou.m004540	いはくあやしき事かな
+tkt.mutou.n007635	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m004537	tkt.mutou.m004541	いはくあやしき事かなと
+tkt.mutou.n007651	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004544	tkt.mutou.m004544	さる
+tkt.mutou.n007650	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004544	tkt.mutou.m004545	さるわざ
+tkt.mutou.n007649	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004544	tkt.mutou.m004546	さるわざする
+tkt.mutou.n007647	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004544	tkt.mutou.m004548	さるわざするふねも
+tkt.mutou.n007572	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004503	tkt.mutou.m004550	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに船人こたへていはくあやしき事かなとわらひてさるわざするふねもなしと
+tkt.mutou.n007570	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004503	tkt.mutou.m004552	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに船人こたへていはくあやしき事かなとわらひてさるわざするふねもなしとこたふるに
+tkt.mutou.n007569	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004503	tkt.mutou.m004553	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに船人こたへていはくあやしき事かなとわらひてさるわざするふねもなしとこたふるにをぢなき
+tkt.mutou.n007568	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004503	tkt.mutou.m004554	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに船人こたへていはくあやしき事かなとわらひてさるわざするふねもなしとこたふるにをぢなき事
+tkt.mutou.n007567	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004503	tkt.mutou.m004555	事は大伴の大納言殿の人や舟にのりてたつころしてそがくびの玉とれるとやきくととはするに船人こたへていはくあやしき事かなとわらひてさるわざするふねもなしとこたふるにをぢなき事する
+tkt.mutou.n007671	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004561	tkt.mutou.m004566	えしらでかくいふと
+tkt.mutou.n007696	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004575	tkt.mutou.m004575	たつ
+tkt.mutou.n007682	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004569	tkt.mutou.m004574	わがゆみのちからは
+tkt.mutou.n007723	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004588	tkt.mutou.m004589	をそくくる
+tkt.mutou.n007719	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004588	tkt.mutou.m004594	をそくくるやつばらをまたじと
+tkt.mutou.n007774	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004622	tkt.mutou.m004622	はやき
+tkt.mutou.n007773	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004622	tkt.mutou.m004623	はやき風
+tkt.mutou.n007779	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004626	tkt.mutou.m004626	せかい
+tkt.mutou.n007841	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004664	tkt.mutou.m004665	おちかかる
+tkt.mutou.n007820	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004653	tkt.mutou.m004654	浪は
+tkt.mutou.n007848	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004669	tkt.mutou.m004670	かかるに
+tkt.mutou.n007852	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004671	tkt.mutou.m004673	大納言は
+tkt.mutou.n007865	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004678	tkt.mutou.m004678	わびしき
+tkt.mutou.n007864	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004678	tkt.mutou.m004679	わびしきめ
+tkt.mutou.n007887	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004690	tkt.mutou.m004690	かぢとり
+tkt.mutou.n007907	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004702	tkt.mutou.m004704	まだかくわびしき
+tkt.mutou.n007928	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004718	tkt.mutou.m004718	神
+tkt.mutou.n007941	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004726	tkt.mutou.m004728	神のたすけ
+tkt.mutou.n007968	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004740	tkt.mutou.m004741	すずろなる
+tkt.mutou.n007963	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004740	tkt.mutou.m004748	すずろなるしにをすべかめるかなと
+tkt.mutou.n007979	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004749	tkt.mutou.m004749	かぢとり
+tkt.mutou.n008006	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004763	tkt.mutou.m004765	かぢとりの申
+tkt.mutou.n008017	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004769	tkt.mutou.m004769	たかき
+tkt.mutou.n007983	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004751	tkt.mutou.m004773	大納言これをききての給はく船にのりてはかぢとりの申ことをこそたかき山とたのめなど
+tkt.mutou.n008044	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004787	tkt.mutou.m004787	かぢとり
+tkt.mutou.n008062	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004795	tkt.mutou.m004798	なにわざをつかうまつらむ
+tkt.mutou.n008061	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004795	tkt.mutou.m004799	なにわざをつかうまつらむ風
+tkt.mutou.n008071	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004801	tkt.mutou.m004801	浪
+tkt.mutou.n008082	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004806	tkt.mutou.m004809	いただきにおちかかる
+tkt.mutou.n008051	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004791	tkt.mutou.m004817	神ならねばなにわざをつかうまつらむ風ふき浪はげしけれどもかみさへいただきにおちかかるやうなるはたつをころさんと
+tkt.mutou.n008117	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004830	tkt.mutou.m004835	はや神にいのりたまへと
+tkt.mutou.n008132	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004837	tkt.mutou.m004837	よき
+tkt.mutou.n008129	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004837	tkt.mutou.m004840	よき事也とて
+tkt.mutou.n008137	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004841	tkt.mutou.m004844	かぢとりの御神
+tkt.mutou.n008147	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004846	tkt.mutou.m004846	をと
+tkt.mutou.n008171	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004858	tkt.mutou.m004859	後は
+tkt.mutou.n008165	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004856	tkt.mutou.m004870	いまより後は毛のすゑ一すぢをだにうごかしたてまつらじと
+tkt.mutou.n008202	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004877	tkt.mutou.m004879	なくなくよばひ給
+tkt.mutou.n008199	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004877	tkt.mutou.m004885	なくなくよばひ給事千たびばかり申給ふ
+tkt.mutou.n008219	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004892	tkt.mutou.m004892	かみなり
+tkt.mutou.n008235	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004900	tkt.mutou.m004902	なをはやく吹
+tkt.mutou.n008228	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m004898	tkt.mutou.m004899	風は
+tkt.mutou.n008260	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004915	tkt.mutou.m004918	吹かせはよき
+tkt.mutou.n008279	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004923	tkt.mutou.m004923	あしき
+tkt.mutou.n008289	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004929	tkt.mutou.m004931	あらずよき
+tkt.mutou.n008273	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004923	tkt.mutou.m004938	あしきかたのかぜにはあらずよきかたにおもむきてふくなりと
+tkt.mutou.n008341	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m004967	tkt.mutou.m004981	大納言南海のはまにふきよせられたるにやあらんと
+tkt.mutou.n008362	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004982	tkt.mutou.m004982	いき
+tkt.mutou.n008373	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m004987	tkt.mutou.m004989	船にある
+tkt.mutou.n008388	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m004997	tkt.mutou.m004999	国のつかさ
+tkt.mutou.n008386	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m004997	tkt.mutou.m005003	国のつかさまうでとぶらふにも
+tkt.mutou.n008416	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005016	tkt.mutou.m005017	御むしろ
+tkt.mutou.n008427	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005022	tkt.mutou.m005032	その時にぞ南海にあらざりけりと
+tkt.mutou.n008447	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005035	tkt.mutou.m005040	からうしておきあがり給へるを
+tkt.mutou.n008460	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005043	tkt.mutou.m005043	風
+tkt.mutou.n008459	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005043	tkt.mutou.m005045	風いとおもき
+tkt.mutou.n008466	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005048	tkt.mutou.m005048	はら
+tkt.mutou.n008480	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005056	tkt.mutou.m005061	すももをふたつつけたる
+tkt.mutou.n008501	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005069	tkt.mutou.m005072	国のつかさも
+tkt.mutou.n008522	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005080	tkt.mutou.m005080	たごし
+tkt.mutou.n008533	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005090	tkt.mutou.m005095	家に入給ひぬるを
+tkt.mutou.n008551	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005100	tkt.mutou.m005101	つかはしし
+tkt.mutou.n008550	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005100	tkt.mutou.m005103	つかはししをのこども
+tkt.mutou.n008598	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005122	tkt.mutou.m005125	えまいらざりし
+tkt.mutou.n008595	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005122	tkt.mutou.m005130	えまいらざりし玉のとりがたかりし
+tkt.mutou.n008615	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005138	tkt.mutou.m005138	かむだう
+tkt.mutou.n008566	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005107	tkt.mutou.m005141	やうたつのくびの玉をえとらざりしかば南殿へもえまいらざりし玉のとりがたかりし事をしり給へればなんかむだうあらじとて
+tkt.mutou.n008563	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005107	tkt.mutou.m005145	やうたつのくびの玉をえとらざりしかば南殿へもえまいらざりし玉のとりがたかりし事をしり給へればなんかむだうあらじとてまいりつると申
+tkt.mutou.n008562	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005107	tkt.mutou.m005147	やうたつのくびの玉をえとらざりしかば南殿へもえまいらざりし玉のとりがたかりし事をしり給へればなんかむだうあらじとてまいりつると申大納言
+tkt.mutou.n008631	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005152	tkt.mutou.m005153	なむぢら
+tkt.mutou.n008642	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005161	tkt.mutou.m005162	たつは
+tkt.mutou.n008659	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005170	tkt.mutou.m005176	それが玉をとらむとて
+tkt.mutou.n008675	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m005179	tkt.mutou.m005181	人々のがい
+tkt.mutou.n008657	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005170	tkt.mutou.m005186	それが玉をとらむとてそこらの人々のがいせられなむと
+tkt.mutou.n008700	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005196	tkt.mutou.m005197	ことも
+tkt.mutou.n008705	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005199	tkt.mutou.m005200	我は
+tkt.mutou.n008709	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m005201	tkt.mutou.m005201	がい
+tkt.mutou.n008732	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005212	tkt.mutou.m005212	かぐや姫
+tkt.mutou.n008731	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005212	tkt.mutou.m005213	かぐや姫てふ
+tkt.mutou.n008723	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005212	tkt.mutou.m005223	かぐや姫てふおほぬす人のやつが人をころさんと
+tkt.mutou.n008757	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005231	tkt.mutou.m005232	いまは
+tkt.mutou.n008767	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005235	tkt.mutou.m005237	をのこどもも
+tkt.mutou.n008764	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005235	tkt.mutou.m005241	をのこどももなありきそとて
+tkt.mutou.n008782	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005244	tkt.mutou.m005247	すこしのこりたりける
+tkt.mutou.n008792	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005251	tkt.mutou.m005256	たつの玉をとらぬ
+tkt.mutou.n008780	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005244	tkt.mutou.m005250	すこしのこりたりける物どもは
+tkt.mutou.n008820	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005266	tkt.mutou.m005268	はなれ給ひし
+tkt.mutou.n008816	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005266	tkt.mutou.m005272	はなれ給ひしもとのうへは
+tkt.mutou.n008840	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005279	tkt.mutou.m005284	いとをふかせつくりし
+tkt.mutou.n008861	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005292	tkt.mutou.m005292	みな
+tkt.mutou.n008838	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005279	tkt.mutou.m005286	いとをふかせつくりし屋は
+tkt.mutou.n008881	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005304	tkt.mutou.m005308	大伴の大納言は
+tkt.mutou.n008926	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005328	tkt.mutou.m005331	すもものやうなる
+tkt.mutou.n008909	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005319	tkt.mutou.m005339	いなさもあらずみまなこ二にすもものやうなる玉をぞそへていましたると
+tkt.mutou.n008994	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005360	tkt.mutou.m005362	いひはじめける
+tkt.mutou.n008987	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005360	tkt.mutou.m005372	いひはじめける中納言いそのかみのまろたりの家につかはるる
+tkt.mutou.n008970	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005354	tkt.mutou.m005384	事をばあなたへがたとはいひはじめける中納言いそのかみのまろたりの家につかはるるをのこどものもとにつばくらめのすくひたらばつげよと
+tkt.mutou.n008968	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005354	tkt.mutou.m005386	事をばあなたへがたとはいひはじめける中納言いそのかみのまろたりの家につかはるるをのこどものもとにつばくらめのすくひたらばつげよとのたまふを
+tkt.mutou.n008965	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005354	tkt.mutou.m005396	事をばあなたへがたとはいひはじめける中納言いそのかみのまろたりの家につかはるるをのこどものもとにつばくらめのすくひたらばつげよとのたまふをうけたまはりて何のようにかあらんと
+tkt.mutou.n009053	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005401	tkt.mutou.m005405	やうつばくらめのもたる
+tkt.mutou.n009048	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005401	tkt.mutou.m005411	やうつばくらめのもたるこやすのかひをとらむ
+tkt.mutou.n009045	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005401	tkt.mutou.m005414	やうつばくらめのもたるこやすのかひをとらむれう也と
+tkt.mutou.n009044	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005401	tkt.mutou.m005415	やうつばくらめのもたるこやすのかひをとらむれう也とのたまふ
+tkt.mutou.n009043	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005401	tkt.mutou.m005417	やうつばくらめのもたるこやすのかひをとらむれう也とのたまふをのこども
+tkt.mutou.n009082	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005423	tkt.mutou.m005423	あまた
+tkt.mutou.n009095	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005430	tkt.mutou.m005431	なにも
+tkt.mutou.n009094	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005430	tkt.mutou.m005432	なにもなき
+tkt.mutou.n009107	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005436	tkt.mutou.m005436	子
+tkt.mutou.n009106	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005436	tkt.mutou.m005437	子うむ
+tkt.mutou.n009132	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005449	tkt.mutou.m005455	人だにみればうせぬと
+tkt.mutou.n009131	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005449	tkt.mutou.m005456	人だにみればうせぬと申
+tkt.mutou.n009128	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005449	tkt.mutou.m005459	人だにみればうせぬと申又人の申
+tkt.mutou.n009154	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005462	tkt.mutou.m005465	おほいづかさのいひかしぐ
+tkt.mutou.n009126	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005449	tkt.mutou.m005461	人だにみればうせぬと申又人の申やうは
+tkt.mutou.n009182	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005477	tkt.mutou.m005480	すをくひ侍る
+tkt.mutou.n009193	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005483	tkt.mutou.m005485	まめならむ
+tkt.mutou.n009174	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005475	tkt.mutou.m005476	つばくらめは
+tkt.mutou.n009221	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005499	tkt.mutou.m005506	はさてこそとらしめ給はめと
+tkt.mutou.n009220	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005499	tkt.mutou.m005507	はさてこそとらしめ給はめと申
+tkt.mutou.n009218	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m005499	tkt.mutou.m005509	はさてこそとらしめ給はめと申中かな
+tkt.mutou.n009238	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005510	tkt.mutou.m005514	もつともえしらざりつる
+tkt.mutou.n009237	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005510	tkt.mutou.m005515	もつともえしらざりつるけう
+tkt.mutou.n009236	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005510	tkt.mutou.m005516	もつともえしらざりつるけうある
+tkt.mutou.n009235	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005510	tkt.mutou.m005517	もつともえしらざりつるけうあること
+tkt.mutou.n009216	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005499	tkt.mutou.m005520	はさてこそとらしめ給はめと申中かなもつともえしらざりつるけうあること申たりと
+tkt.mutou.n009254	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005523	tkt.mutou.m005524	まめなる
+tkt.mutou.n009296	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005540	tkt.mutou.m005541	つかひひま
+tkt.mutou.n009302	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005545	tkt.mutou.m005547	こやすの貝
+tkt.mutou.n009288	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005538	tkt.mutou.m005551	殿よりつかひひまなくたまはせてこやすの貝とりたるかと
+tkt.mutou.n009287	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005538	tkt.mutou.m005554	殿よりつかひひまなくたまはせてこやすの貝とりたるかととはせ給
+tkt.mutou.n009319	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005557	tkt.mutou.m005559	人のあまた
+tkt.mutou.n009317	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005557	tkt.mutou.m005563	人のあまたのぼりゐたるに
+tkt.mutou.n009285	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005538	tkt.mutou.m005556	殿よりつかひひまなくたまはせてこやすの貝とりたるかととはせ給つばくらめも
+tkt.mutou.n009335	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005566	tkt.mutou.m005572	すにものぼりこずかかる
+tkt.mutou.n009367	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005590	tkt.mutou.m005597	かのつかさの官人くらつまろと申
+tkt.mutou.n009366	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005590	tkt.mutou.m005598	かのつかさの官人くらつまろと申翁
+tkt.mutou.n009365	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005590	tkt.mutou.m005599	かのつかさの官人くらつまろと申翁申
+tkt.mutou.n009364	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005590	tkt.mutou.m005602	かのつかさの官人くらつまろと申翁申やうこやすかい
+tkt.mutou.n009279	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005538	tkt.mutou.m005605	殿よりつかひひまなくたまはせてこやすの貝とりたるかととはせ給つばくらめも人のあまたのぼりゐたるにおぢてすにものぼりこずかかるよしの返事を申たればきき給ていかがすべきとおぼしわづらふにかのつかさの官人くらつまろと申翁申やうこやすかいとらんと
+tkt.mutou.n009276	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005538	tkt.mutou.m005611	殿よりつかひひまなくたまはせてこやすの貝とりたるかととはせ給つばくらめも人のあまたのぼりゐたるにおぢてすにものぼりこずかかるよしの返事を申たればきき給ていかがすべきとおぼしわづらふにかのつかさの官人くらつまろと申翁申やうこやすかいとらんとおぼしめさばたばかり申さんとて
+tkt.mutou.n009418	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005627	tkt.mutou.m005629	くらつまろが申
+tkt.mutou.n009416	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005627	tkt.mutou.m005635	くらつまろが申やう此つばくらめこやすかひは
+tkt.mutou.n009464	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m005650	tkt.mutou.m005664	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてより
+tkt.mutou.n009496	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005669	tkt.mutou.m005670	人みな
+tkt.mutou.n009503	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005673	tkt.mutou.m005675	まめならん
+tkt.mutou.n009527	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005688	tkt.mutou.m005688	鳥の子
+tkt.mutou.n009526	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005688	tkt.mutou.m005690	鳥の子うまむ
+tkt.mutou.n009457	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005650	tkt.mutou.m005709	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてよりあなないをこほちて人みなしりぞきてまめならん人ひとりをあらこにのせすへてつなをかまへて鳥の子うまむあひだにつなをつりあげさせてふとこやすかひをとらせ給はんなむよかるべきと
+tkt.mutou.n009456	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005650	tkt.mutou.m005710	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてよりあなないをこほちて人みなしりぞきてまめならん人ひとりをあらこにのせすへてつなをかまへて鳥の子うまむあひだにつなをつりあげさせてふとこやすかひをとらせ給はんなむよかるべきと申
+tkt.mutou.n009454	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005650	tkt.mutou.m005713	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてよりあなないをこほちて人みなしりぞきてまめならん人ひとりをあらこにのせすへてつなをかまへて鳥の子うまむあひだにつなをつりあげさせてふとこやすかひをとらせ給はんなむよかるべきと申中納言の給
+tkt.mutou.n009452	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005650	tkt.mutou.m005716	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてよりあなないをこほちて人みなしりぞきてまめならん人ひとりをあらこにのせすへてつなをかまへて鳥の子うまむあひだにつなをつりあげさせてふとこやすかひをとらせ給はんなむよかるべきと申中納言の給やういとよき
+tkt.mutou.n009449	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005650	tkt.mutou.m005719	あなないにおどろおどろしく廿人の人ののぼりて侍ればあれてよりあなないをこほちて人みなしりぞきてまめならん人ひとりをあらこにのせすへてつなをかまへて鳥の子うまむあひだにつなをつりあげさせてふとこやすかひをとらせ給はんなむよかるべきと申中納言の給やういとよき事也とて
+tkt.mutou.n009571	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005723	tkt.mutou.m005724	人みな
+tkt.mutou.n009601	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005736	tkt.mutou.m005737	いかなる
+tkt.mutou.n009595	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005734	tkt.mutou.m005735	つばくらめは
+tkt.mutou.n009608	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m005741	tkt.mutou.m005741	子
+tkt.mutou.n009585	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005729	tkt.mutou.m005743	中納言くらつまろにのたまはくつばくらめはいかなる時にか子うむと
+tkt.mutou.n009617	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005746	tkt.mutou.m005751	人をばあぐべきとの給
+tkt.mutou.n009616	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005746	tkt.mutou.m005752	人をばあぐべきとの給くらつまろ
+tkt.mutou.n009615	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005746	tkt.mutou.m005753	人をばあぐべきとの給くらつまろ申
+tkt.mutou.n009614	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005746	tkt.mutou.m005756	人をばあぐべきとの給くらつまろ申やうつばくらめこ
+tkt.mutou.n009582	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005729	tkt.mutou.m005759	中納言くらつまろにのたまはくつばくらめはいかなる時にか子うむとしりて人をばあぐべきとの給くらつまろ申やうつばくらめこうまむと
+tkt.mutou.n009581	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005729	tkt.mutou.m005760	中納言くらつまろにのたまはくつばくらめはいかなる時にか子うむとしりて人をばあぐべきとの給くらつまろ申やうつばくらめこうまむとする
+tkt.mutou.n009579	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005729	tkt.mutou.m005762	中納言くらつまろにのたまはくつばくらめはいかなる時にか子うむとしりて人をばあぐべきとの給くらつまろ申やうつばくらめこうまむとする時は
+tkt.mutou.n009669	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005775	tkt.mutou.m005778	七とめぐらむ
+tkt.mutou.n009679	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005783	tkt.mutou.m005788	そのおりこやすかひは
+tkt.mutou.n009664	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005774	tkt.mutou.m005792	さて七とめぐらむおりひきあげてそのおりこやすかひはとらせ給へと
+tkt.mutou.n009663	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005774	tkt.mutou.m005793	さて七とめぐらむおりひきあげてそのおりこやすかひはとらせ給へと申
+tkt.mutou.n009749	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005830	tkt.mutou.m005830	くらつまろ
+tkt.mutou.n009747	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005830	tkt.mutou.m005833	くらつまろかく申を
+tkt.mutou.n009766	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005839	tkt.mutou.m005842	ここにつかはるる
+tkt.mutou.n009762	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005839	tkt.mutou.m005847	ここにつかはるる人にもなきに
+tkt.mutou.n009782	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005848	tkt.mutou.m005850	ねがひをかなふる
+tkt.mutou.n009794	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005857	tkt.mutou.m005857	御ぞ
+tkt.mutou.n009823	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005875	tkt.mutou.m005877	みたまふに
+tkt.mutou.n009832	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005880	tkt.mutou.m005881	つばくらめす
+tkt.mutou.n009863	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005884	tkt.mutou.m005884	くらつまろ
+tkt.mutou.n009862	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005884	tkt.mutou.m005885	くらつまろ申
+tkt.mutou.n009901	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005911	tkt.mutou.m005912	さぐるに
+tkt.mutou.n009905	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005913	tkt.mutou.m005914	物も
+tkt.mutou.n009853	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005884	tkt.mutou.m005916	くらつまろ申やうをうけてめぐるにあらこに人をのぼせてつりあげさせてつばくらめのすに手をさし入させてさぐるに物もなしと
+tkt.mutou.n009851	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005884	tkt.mutou.m005918	くらつまろ申やうをうけてめぐるにあらこに人をのぼせてつりあげさせてつばくらめのすに手をさし入させてさぐるに物もなしと申に
+tkt.mutou.n009913	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005919	tkt.mutou.m005920	中納言
+tkt.mutou.n009848	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005884	tkt.mutou.m005926	くらつまろ申やうをうけてめぐるにあらこに人をのぼせてつりあげさせてつばくらめのすに手をさし入させてさぐるに物もなしと申に中納言あしくさぐればなき也と
+tkt.mutou.n009924	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005929	tkt.mutou.m005934	たればかりおぼえんにとて
+tkt.mutou.n009934	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005935	tkt.mutou.m005935	吾
+tkt.mutou.n009844	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005884	tkt.mutou.m005940	くらつまろ申やうをうけてめぐるにあらこに人をのぼせてつりあげさせてつばくらめのすに手をさし入させてさぐるに物もなしと申に中納言あしくさぐればなき也とはらだちてたればかりおぼえんにとて吾のぼりてさぐらむと
+tkt.mutou.n009953	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005951	tkt.mutou.m005954	うかがひ給へるに
+tkt.mutou.n009966	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005960	tkt.mutou.m005962	いたくめぐるに
+tkt.mutou.n009979	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m005969	tkt.mutou.m005971	さぐり給に
+tkt.mutou.n009988	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005972	tkt.mutou.m005975	手にひらめる
+tkt.mutou.n009987	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005972	tkt.mutou.m005976	手にひらめる物
+tkt.mutou.n009986	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m005972	tkt.mutou.m005977	手にひらめる物さはる
+tkt.mutou.n009999	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005980	tkt.mutou.m005981	われ物
+tkt.mutou.n010005	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m005984	tkt.mutou.m005985	いまは
+tkt.mutou.n010019	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m005988	tkt.mutou.m005988	おきな
+tkt.mutou.n010017	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005988	tkt.mutou.m005992	おきなしえたりと
+tkt.mutou.n010014	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m005988	tkt.mutou.m005999	おきなしえたりとの給あつまりてとくおろさんとて
+tkt.mutou.n010042	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006005	tkt.mutou.m006005	つな
+tkt.mutou.n010041	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006005	tkt.mutou.m006006	つなたゆる
+tkt.mutou.n010071	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006021	tkt.mutou.m006021	人々
+tkt.mutou.n010081	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006030	tkt.mutou.m006032	御めは
+tkt.mutou.n010104	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006044	tkt.mutou.m006049	からうしていき出給へるに
+tkt.mutou.n010121	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006055	tkt.mutou.m006056	手とりあし
+tkt.mutou.n010135	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006066	tkt.mutou.m006068	御ここちは
+tkt.mutou.n010196	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006103	tkt.mutou.m006103	しそく
+tkt.mutou.n010200	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006106	tkt.mutou.m006109	ここの貝かほ
+tkt.mutou.n010192	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006102	tkt.mutou.m006112	まづしそくさしてここの貝かほ見んと
+tkt.mutou.n010210	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006113	tkt.mutou.m006113	御ぐし
+tkt.mutou.n010214	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006116	tkt.mutou.m006122	御手をひろげ給へるに
+tkt.mutou.n010227	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006123	tkt.mutou.m006127	つばくらめのまりおける
+tkt.mutou.n010264	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m006148	tkt.mutou.m006149	よりぞ
+tkt.mutou.n010279	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006151	tkt.mutou.m006152	にたがふ
+tkt.mutou.n010275	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006151	tkt.mutou.m006157	にたがふ事をばかひなしとは
+tkt.mutou.n010289	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006158	tkt.mutou.m006159	いひける
+tkt.mutou.n010273	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006151	tkt.mutou.m006165	にたがふ事をばかひなしとはいひけるかひにもあらずと
+tkt.mutou.n010271	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006151	tkt.mutou.m006169	にたがふ事をばかひなしとはいひけるかひにもあらずと見給けるに
+tkt.mutou.n010302	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006170	tkt.mutou.m006172	御ここちも
+tkt.mutou.n010320	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006184	tkt.mutou.m006186	御こしは
+tkt.mutou.n010336	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006193	tkt.mutou.m006195	いいいけたる
+tkt.mutou.n010335	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006193	tkt.mutou.m006196	いいいけたるわざ
+tkt.mutou.n010329	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006190	tkt.mutou.m006192	中納言は
+tkt.mutou.n010347	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006200	tkt.mutou.m006207	ことを人にきかせじと
+tkt.mutou.n010398	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006232	tkt.mutou.m006236	人のききわらはん
+tkt.mutou.n010427	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006253	tkt.mutou.m006253	人ぎき
+tkt.mutou.n010441	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006261	tkt.mutou.m006261	かぐや姫
+tkt.mutou.n010465	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006272	tkt.mutou.m006272	浪
+tkt.mutou.n010464	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006272	tkt.mutou.m006275	浪たちよらぬ
+tkt.mutou.n010461	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006272	tkt.mutou.m006278	浪たちよらぬ住の江の松
+tkt.mutou.n010451	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006267	tkt.mutou.m006280	うた年をへて浪たちよらぬ住の江の松かひなしと
+tkt.mutou.n010495	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006291	tkt.mutou.m006292	いとよはき
+tkt.mutou.n010500	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006295	tkt.mutou.m006295	かしら
+tkt.mutou.n010517	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006305	tkt.mutou.m006305	くるしき
+tkt.mutou.n010523	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006308	tkt.mutou.m006310	からうじてかき給
+tkt.mutou.n010532	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006313	tkt.mutou.m006315	なく有ける
+tkt.mutou.n010543	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006321	tkt.mutou.m006321	しぬる
+tkt.mutou.n010521	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006308	tkt.mutou.m006312	からうじてかき給かひは
+tkt.mutou.n010573	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006340	tkt.mutou.m006340	かぐや姫
+tkt.mutou.n010582	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m006346	tkt.mutou.m006346	かひ
+tkt.mutou.n010564	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006336	tkt.mutou.m006349	これをききてかぐや姫すこしあはれときことをばかひありとは
+tkt.mutou.n010602	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006353	tkt.mutou.m006360	かぐや姫かたちの世ににずめでたき
+tkt.mutou.n010617	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006363	tkt.mutou.m006363	御門
+tkt.mutou.n010627	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006366	tkt.mutou.m006371	内侍なかとみのふさこにのたまふ
+tkt.mutou.n010651	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006382	tkt.mutou.m006384	あはざなる
+tkt.mutou.n010649	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006382	tkt.mutou.m006386	あはざなるかぐや姫は
+tkt.mutou.n010594	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006352	tkt.mutou.m006398	さてかぐや姫かたちの世ににずめでたきことを御門きこしめして内侍なかとみのふさこにのたまふおほくの人の身をいたづらになしてあはざなるかぐや姫はいかばかりの女ぞとまかりて見てまいれと
+tkt.mutou.n010593	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006352	tkt.mutou.m006399	さてかぐや姫かたちの世ににずめでたきことを御門きこしめして内侍なかとみのふさこにのたまふおほくの人の身をいたづらになしてあはざなるかぐや姫はいかばかりの女ぞとまかりて見てまいれとの給ふ
+tkt.mutou.n010592	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006352	tkt.mutou.m006400	さてかぐや姫かたちの世ににずめでたきことを御門きこしめして内侍なかとみのふさこにのたまふおほくの人の身をいたづらになしてあはざなるかぐや姫はいかばかりの女ぞとまかりて見てまいれとの給ふさこ
+tkt.mutou.n010692	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006410	tkt.mutou.m006410	内侍
+tkt.mutou.n010691	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006410	tkt.mutou.m006411	内侍のたまふ
+tkt.mutou.n010722	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006424	tkt.mutou.m006425	まいるべき
+tkt.mutou.n010721	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006424	tkt.mutou.m006426	まいるべきよし
+tkt.mutou.n010719	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006424	tkt.mutou.m006430	まいるべきよしのたまはせつるになむ
+tkt.mutou.n010713	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006421	tkt.mutou.m006433	よく見てまいるべきよしのたまはせつるになむまいりつると
+tkt.mutou.n010709	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006421	tkt.mutou.m006441	よく見てまいるべきよしのたまはせつるになむまいりつるといへばさらば申侍らんと
+tkt.mutou.n010768	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006454	tkt.mutou.m006454	たいめん
+tkt.mutou.n010752	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006446	tkt.mutou.m006457	かぐやひめにはやかの御つかひにたいめんし給へと
+tkt.mutou.n010778	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006460	tkt.mutou.m006460	かぐや姫
+tkt.mutou.n010777	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006460	tkt.mutou.m006461	かぐや姫よき
+tkt.mutou.n010748	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006446	tkt.mutou.m006471	かぐやひめにはやかの御つかひにたいめんし給へといへばかぐや姫よきかたちにもあらずいかでか見ゆべきと
+tkt.mutou.n010807	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006478	tkt.mutou.m006491	御門の君の御つかひをばいかでかおろかにせむと
+tkt.mutou.n010836	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006494	tkt.mutou.m006496	かぐや姫のこたふる
+tkt.mutou.n010848	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006502	tkt.mutou.m006503	のたまはん
+tkt.mutou.n010847	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006502	tkt.mutou.m006504	のたまはん事
+tkt.mutou.n010803	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006478	tkt.mutou.m006507	御門の君の御つかひをばいかでかおろかにせむといへばかぐや姫のこたふるやう御かどのめしてのたまはん事かしこしとも
+tkt.mutou.n010801	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006478	tkt.mutou.m006510	御門の君の御つかひをばいかでかおろかにせむといへばかぐや姫のこたふるやう御かどのめしてのたまはん事かしこしともおもはずと
+tkt.mutou.n010880	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006519	tkt.mutou.m006520	むめる
+tkt.mutou.n010894	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006531	tkt.mutou.m006532	をろそかなる
+tkt.mutou.n010929	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006554	tkt.mutou.m006556	このおさなき
+tkt.mutou.n010940	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006559	tkt.mutou.m006560	こはく侍る
+tkt.mutou.n010950	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006564	tkt.mutou.m006564	たいめん
+tkt.mutou.n010947	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006564	tkt.mutou.m006568	たいめんすまじきと申
+tkt.mutou.n010946	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006564	tkt.mutou.m006569	たいめんすまじきと申内侍
+tkt.mutou.n010927	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006554	tkt.mutou.m006558	このおさなきものは
+tkt.mutou.n010868	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006519	tkt.mutou.m006574	むめる子のやうにあれどいと心はづかしげにをろそかなるやうにいひければこころのままにもえせめず内侍のもとにかへり出てくちおしくこのおさなきものはこはく侍るものにてたいめんすまじきと申内侍かならずみてまいれと
+tkt.mutou.n010965	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006575	tkt.mutou.m006575	おほせ事
+tkt.mutou.n010964	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006575	tkt.mutou.m006577	おほせ事ありつる
+tkt.mutou.n010997	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006589	tkt.mutou.m006599	国王の仰ことをまさによにすみ給はん
+tkt.mutou.n011021	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006606	tkt.mutou.m006606	かぐや姫
+tkt.mutou.n010989	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006589	tkt.mutou.m006623	国王の仰ことをまさによにすみ給はん人のうけたまはり給はでましてかぐや姫きくべくもあらず国王のおほせごとをそむかばはやころし給ひてよかしと
+tkt.mutou.n010988	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006589	tkt.mutou.m006624	国王の仰ことをまさによにすみ給はん人のうけたまはり給はでましてかぐや姫きくべくもあらず国王のおほせごとをそむかばはやころし給ひてよかしといふ
+tkt.mutou.n010987	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006589	tkt.mutou.m006626	国王の仰ことをまさによにすみ給はん人のうけたまはり給はでましてかぐや姫きくべくもあらず国王のおほせごとをそむかばはやころし給ひてよかしといふ此内侍
+tkt.mutou.n010983	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006589	tkt.mutou.m006646	国王の仰ことをまさによにすみ給はん人のうけたまはり給はでましてかぐや姫きくべくもあらず国王のおほせごとをそむかばはやころし給ひてよかしといふ此内侍かへりまいりこのよしをとおぼしおはしましてこの女のたばかりにやまけむと
+tkt.mutou.n011089	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006655	tkt.mutou.m006655	侍る
+tkt.mutou.n011088	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006655	tkt.mutou.m006656	侍るかぐや姫
+tkt.mutou.n011098	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006658	tkt.mutou.m006658	かほかたち
+tkt.mutou.n011096	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006658	tkt.mutou.m006660	かほかたちよしと
+tkt.mutou.n011134	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006684	tkt.mutou.m006684	おきな
+tkt.mutou.n011143	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006687	tkt.mutou.m006688	御返事
+tkt.mutou.n011142	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006687	tkt.mutou.m006689	御返事申
+tkt.mutou.n011160	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006698	tkt.mutou.m006698	宮づかへ
+tkt.mutou.n011158	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006698	tkt.mutou.m006705	宮づかへつかうまつるべくもあらず侍るを
+tkt.mutou.n011178	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006713	tkt.mutou.m006713	おほせ
+tkt.mutou.n011138	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006687	tkt.mutou.m006695	御返事申やう此めのわらはは
+tkt.mutou.n011204	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006726	tkt.mutou.m006732	ものを心にまかせざらむ
+tkt.mutou.n011200	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006726	tkt.mutou.m006736	ものを心にまかせざらむこの女も
+tkt.mutou.n011199	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006726	tkt.mutou.m006739	ものを心にまかせざらむこの女もしたてまつりたる
+tkt.mutou.n011244	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006753	tkt.mutou.m006753	翁
+tkt.mutou.n011255	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006760	tkt.mutou.m006762	かぐや姫にかたらふ
+tkt.mutou.n011254	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m006760	tkt.mutou.m006763	かぐや姫にかたらふやう
+tkt.mutou.n011281	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006771	tkt.mutou.m006777	なをやはつかうまつり給はぬと
+tkt.mutou.n011293	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006780	tkt.mutou.m006780	かぐや姫
+tkt.mutou.n011300	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006785	tkt.mutou.m006787	さやうの宮づかへ
+tkt.mutou.n011277	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006771	tkt.mutou.m006790	なをやはつかうまつり給はぬといへばかぐや姫こたへていはくもはらさやうの宮づかへつかうまつらじと
+tkt.mutou.n011275	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006771	tkt.mutou.m006792	なをやはつかうまつり給はぬといへばかぐや姫こたへていはくもはらさやうの宮づかへつかうまつらじと思ふを
+tkt.mutou.n011323	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006803	tkt.mutou.m006805	みつかさかうぶり
+tkt.mutou.n011334	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006809	tkt.mutou.m006810	ばかり也
+tkt.mutou.n011333	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006809	tkt.mutou.m006811	ばかり也おきな
+tkt.mutou.n011332	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006809	tkt.mutou.m006812	ばかり也おきないらふる
+tkt.mutou.n011331	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006809	tkt.mutou.m006813	ばかり也おきないらふるやう
+tkt.mutou.n011345	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006815	tkt.mutou.m006815	給
+tkt.mutou.n011343	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006815	tkt.mutou.m006818	給つかさかうぶりも
+tkt.mutou.n011393	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006845	tkt.mutou.m006847	しに給べき
+tkt.mutou.n011389	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006845	tkt.mutou.m006852	しに給べきやうやあるべきと
+tkt.mutou.n011404	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006854	tkt.mutou.m006865	猶そら事かとつかうまつらせてしなずやあると
+tkt.mutou.n011426	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m006868	tkt.mutou.m006877	あまたの人の心ざしおろかならざりしを
+tkt.mutou.n011464	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006889	tkt.mutou.m006890	まつるまじき
+tkt.mutou.n011459	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006889	tkt.mutou.m006897	まつるまじきことをまいりて申さんとて
+tkt.mutou.n011492	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006901	tkt.mutou.m006915	やう仰の事のかしこさにかのわらはをまいらせむとて
+tkt.mutou.n011488	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006901	tkt.mutou.m006925	やう仰の事のかしこさにかのわらはをまいらせむとてつかうまつれば宮づかへに出したてばしぬべしと
+tkt.mutou.n011487	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006901	tkt.mutou.m006926	やう仰の事のかしこさにかのわらはをまいらせむとてつかうまつれば宮づかへに出したてばしぬべしと申
+tkt.mutou.n011482	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006901	tkt.mutou.m006933	やう仰の事のかしこさにかのわらはをまいらせむとてつかうまつれば宮づかへに出したてばしぬべしと申宮つこまろが手にうませたる
+tkt.mutou.n011558	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006948	tkt.mutou.m006949	心ばせも
+tkt.mutou.n011591	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006960	tkt.mutou.m006963	御門仰かりみゆき
+tkt.mutou.n011590	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006960	tkt.mutou.m006966	御門仰かりみゆきし給はん
+tkt.mutou.n011585	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006960	tkt.mutou.m006974	御門仰かりみゆきし給はんやうにてみてんやと
+tkt.mutou.n011584	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006960	tkt.mutou.m006975	御門仰かりみゆきし給はんやうにてみてんやとのたまはす
+tkt.mutou.n011583	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006960	tkt.mutou.m006976	御門仰かりみゆきし給はんやうにてみてんやとのたまはす宮つこまろ
+tkt.mutou.n011582	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006960	tkt.mutou.m006977	御門仰かりみゆきし給はんやうにてみてんやとのたまはす宮つこまろ申
+tkt.mutou.n011581	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006960	tkt.mutou.m006978	御門仰かりみゆきし給はんやうにてみてんやとのたまはす宮つこまろ申やう
+tkt.mutou.n011580	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006960	tkt.mutou.m006980	御門仰かりみゆきし給はんやうにてみてんやとのたまはす宮つこまろ申やういとよき
+tkt.mutou.n011621	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m006985	tkt.mutou.m006986	心も
+tkt.mutou.n011645	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006993	tkt.mutou.m006993	みゆき
+tkt.mutou.n011651	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006996	tkt.mutou.m006996	御覧
+tkt.mutou.n011650	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m006996	tkt.mutou.m006998	御覧せむ
+tkt.mutou.n011649	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m006996	tkt.mutou.m006999	御覧せむ御覧
+tkt.mutou.n011640	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m006991	tkt.mutou.m007004	にふとみゆきして御覧せむ御覧ぜられなむと
+tkt.mutou.n011692	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007027	tkt.mutou.m007029	見給に
+tkt.mutou.n011697	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007030	tkt.mutou.m007030	ひかり
+tkt.mutou.n011706	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007036	tkt.mutou.m007037	ゐたる
+tkt.mutou.n011705	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007036	tkt.mutou.m007038	ゐたる人
+tkt.mutou.n011720	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007046	tkt.mutou.m007050	ちかくよらせ給に
+tkt.mutou.n011763	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007067	tkt.mutou.m007067	御らん
+tkt.mutou.n011738	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007054	tkt.mutou.m007079	袖をとらへ給へばおもてをふたぎて候へどはじめよく御らんじつればたぐひなくめでたくおぼえさせ給てゆるさじと
+tkt.mutou.n011736	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007054	tkt.mutou.m007081	袖をとらへ給へばおもてをふたぎて候へどはじめよく御らんじつればたぐひなくめでたくおぼえさせ給てゆるさじとすとて
+tkt.mutou.n011733	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007054	tkt.mutou.m007086	袖をとらへ給へばおもてをふたぎて候へどはじめよく御らんじつればたぐひなくめでたくおぼえさせ給てゆるさじとすとていておはしまさんと
+tkt.mutou.n011731	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007054	tkt.mutou.m007088	袖をとらへ給へばおもてをふたぎて候へどはじめよく御らんじつればたぐひなくめでたくおぼえさせ給てゆるさじとすとていておはしまさんとするに
+tkt.mutou.n011786	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007089	tkt.mutou.m007089	かぐや姫
+tkt.mutou.n011791	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007092	tkt.mutou.m007095	をのが身は
+tkt.mutou.n011815	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007107	tkt.mutou.m007115	いといておはしましがたくや侍らんと
+tkt.mutou.n011829	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007117	tkt.mutou.m007117	御門
+tkt.mutou.n011838	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007123	tkt.mutou.m007128	猶いておはしまさんとて
+tkt.mutou.n011847	PP-PRD	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007129	tkt.mutou.m007133	御こしをよせ給に
+tkt.mutou.n011856	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007134	tkt.mutou.m007136	このかぐや姫
+tkt.mutou.n011874	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007142	tkt.mutou.m007144	はかなくくちおしと
+tkt.mutou.n011871	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007142	tkt.mutou.m007154	はかなくくちおしとおぼしてげにただ人にはあらざりけりと
+tkt.mutou.n011919	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007173	tkt.mutou.m007181	それを見てだに帰なむと
+tkt.mutou.n011951	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007192	tkt.mutou.m007192	御門
+tkt.mutou.n011976	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007206	tkt.mutou.m007208	かへり給はん
+tkt.mutou.n011989	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007217	tkt.mutou.m007220	玉しゐをとどめたる
+tkt.mutou.n011988	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007217	tkt.mutou.m007221	玉しゐをとどめたるここち
+tkt.mutou.n012022	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007237	tkt.mutou.m007239	帰るさのみゆき
+tkt.mutou.n012038	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007246	tkt.mutou.m007250	かぐやひめゆへ御かへりごとむぐら
+tkt.mutou.n012037	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007246	tkt.mutou.m007251	かぐやひめゆへ御かへりごとむぐらはふ
+tkt.mutou.n012056	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007257	tkt.mutou.m007258	へぬる
+tkt.mutou.n012066	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007263	tkt.mutou.m007269	玉のうてなをも見む
+tkt.mutou.n012080	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007272	tkt.mutou.m007273	御門御らん
+tkt.mutou.n012087	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007276	tkt.mutou.m007279	いかがかへり給はん
+tkt.mutou.n012048	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007255	tkt.mutou.m007256	年は
+tkt.mutou.n012101	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007285	tkt.mutou.m007287	御心は
+tkt.mutou.n012099	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007285	tkt.mutou.m007299	御心はさらにたちかへるべくもおぼされざりけれどさりとて
+tkt.mutou.n012139	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007313	tkt.mutou.m007315	つねにつかうまつる
+tkt.mutou.n012135	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007313	tkt.mutou.m007320	つねにつかうまつる人を見たまふに
+tkt.mutou.n012165	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007331	tkt.mutou.m007336	こと人よりはけうらなりと
+tkt.mutou.n012216	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007359	tkt.mutou.m007359	ひとり
+tkt.mutou.n012214	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007358	tkt.mutou.m007362	ただひとりすみし給
+tkt.mutou.n012213	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007358	tkt.mutou.m007363	ただひとりすみし給よし
+tkt.mutou.n012294	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007410	tkt.mutou.m007416	御心をたがひになぐさめ給
+tkt.mutou.n012316	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007424	tkt.mutou.m007428	春のはじめよりたる
+tkt.mutou.n012331	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007431	tkt.mutou.m007435	ある人の月がほ
+tkt.mutou.n012354	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007438	tkt.mutou.m007438	いむ
+tkt.mutou.n012348	PP	前に付く語のない助詞	直前の句に付けた	tkt.mutou.m007438	tkt.mutou.m007455	いむことにせいしけれ共ともすればひとまにも月をみてば
+tkt.mutou.n012347	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007438	tkt.mutou.m007458	いむことにせいしけれ共ともすればひとまにも月をみてばいみじくなき給ふ
+tkt.mutou.n012396	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007471	tkt.mutou.m007471	物
+tkt.mutou.n012395	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007471	tkt.mutou.m007473	物おもへる
+tkt.mutou.n012410	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007476	tkt.mutou.m007478	ちかくつかはるる
+tkt.mutou.n012423	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007487	tkt.mutou.m007490	かぐや姫のれいも
+tkt.mutou.n012435	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m007493	tkt.mutou.m007493	あはれ
+tkt.mutou.n012461	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007510	tkt.mutou.m007512	いみじくおぼしなげく
+tkt.mutou.n012460	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007510	tkt.mutou.m007513	いみじくおぼしなげく事
+tkt.mutou.n012473	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007516	tkt.mutou.m007521	よくよくみたてまつらせ給へと
+tkt.mutou.n012471	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007516	tkt.mutou.m007523	よくよくみたてまつらせ給へといふを
+tkt.mutou.n012486	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007526	tkt.mutou.m007528	かぐや姫にいふ
+tkt.mutou.n012485	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007526	tkt.mutou.m007531	かぐや姫にいふやうなんてう心ち
+tkt.mutou.n012500	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007535	tkt.mutou.m007538	物を思ひたる
+tkt.mutou.n012523	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007547	tkt.mutou.m007550	世にといふ
+tkt.mutou.n012522	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007547	tkt.mutou.m007551	世にといふかぐや姫
+tkt.mutou.n012533	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007554	tkt.mutou.m007554	せけん
+tkt.mutou.n012549	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007559	tkt.mutou.m007566	なでう物をかなげき侍べきと
+tkt.mutou.n012548	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007559	tkt.mutou.m007567	なでう物をかなげき侍べきといふ
+tkt.mutou.n012545	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007559	tkt.mutou.m007570	なでう物をかなげき侍べきといふかぐや姫のある
+tkt.mutou.n012574	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007578	tkt.mutou.m007578	物
+tkt.mutou.n012572	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007577	tkt.mutou.m007580	なを物思へる
+tkt.mutou.n012590	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007587	tkt.mutou.m007590	あがほとけなに事
+tkt.mutou.n012615	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007604	tkt.mutou.m007605	ことも
+tkt.mutou.n012623	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007607	tkt.mutou.m007611	物なむ心ぼそくおぼゆると
+tkt.mutou.n012634	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007614	tkt.mutou.m007615	翁月
+tkt.mutou.n012658	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007625	tkt.mutou.m007625	物
+tkt.mutou.n012657	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007625	tkt.mutou.m007626	物おぼす
+tkt.mutou.n012656	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007625	tkt.mutou.m007627	物おぼすけしき
+tkt.mutou.n012644	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007620	tkt.mutou.m007641	これを見給へば物おぼすけしきあるぞといへばいかで月をみてはあらんとて
+tkt.mutou.n012681	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007643	tkt.mutou.m007643	月
+tkt.mutou.n012706	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007656	tkt.mutou.m007656	物
+tkt.mutou.n012705	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007656	tkt.mutou.m007658	物おもはぬ
+tkt.mutou.n012703	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007656	tkt.mutou.m007660	物おもはぬけしき也
+tkt.mutou.n012720	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007669	tkt.mutou.m007670	時々は
+tkt.mutou.n012738	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007675	tkt.mutou.m007677	これをつかふ
+tkt.mutou.n012737	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007675	tkt.mutou.m007679	これをつかふものども
+tkt.mutou.n012747	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m007681	tkt.mutou.m007681	物
+tkt.mutou.n012736	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007675	tkt.mutou.m007682	これをつかふものどもなを物おぼす
+tkt.mutou.n012735	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007675	tkt.mutou.m007683	これをつかふものどもなを物おぼす事
+tkt.mutou.n012733	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007675	tkt.mutou.m007686	これをつかふものどもなを物おぼす事あるべしと
+tkt.mutou.n012787	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007709	tkt.mutou.m007709	かぐや姫
+tkt.mutou.n012786	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007709	tkt.mutou.m007713	かぐや姫いといたくなき給
+tkt.mutou.n012802	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007718	tkt.mutou.m007722	つつみ給はずなき給
+tkt.mutou.n012784	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007709	tkt.mutou.m007715	かぐや姫いといたくなき給人めも
+tkt.mutou.n012825	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007735	tkt.mutou.m007735	かぐや姫
+tkt.mutou.n012831	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007738	tkt.mutou.m007742	さきさきも申さむと
+tkt.mutou.n012846	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007747	tkt.mutou.m007747	心
+tkt.mutou.n012844	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007746	tkt.mutou.m007750	かならず心まどはし給はん
+tkt.mutou.n012879	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007772	tkt.mutou.m007775	をのが身は
+tkt.mutou.n012927	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007800	tkt.mutou.m007801	いまは
+tkt.mutou.n012970	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m007825	tkt.mutou.m007825	人々
+tkt.mutou.n012989	PP-SBJ	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007835	tkt.mutou.m007838	おぼしなげかんが
+tkt.mutou.n012988	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007835	tkt.mutou.m007839	おぼしなげかんがかなしき
+tkt.mutou.n012977	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007829	tkt.mutou.m007850	さらずまかりぬべければおぼしなげかんがかなしきことをこの春よりおもひなげき侍る也と
+tkt.mutou.n013013	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m007853	tkt.mutou.m007855	いみじくなくを
+tkt.mutou.n013026	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007860	tkt.mutou.m007860	事
+tkt.mutou.n013018	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007856	tkt.mutou.m007858	翁こは
+tkt.mutou.n013045	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m007873	tkt.mutou.m007875	なたねのおほきさ
+tkt.mutou.n013060	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007879	tkt.mutou.m007879	わかたけ
+tkt.mutou.n013057	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007879	tkt.mutou.m007885	わかたけたちならぶまでやしなひたてまつりたる
+tkt.mutou.n013089	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007893	tkt.mutou.m007897	まさにゆるさんやと
+tkt.mutou.n013086	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007893	tkt.mutou.m007904	まさにゆるさんやといひてわれこそしなめとて
+tkt.mutou.n013085	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007893	tkt.mutou.m007905	まさにゆるさんやといひてわれこそしなめとてなきののしる
+tkt.mutou.n013084	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007893	tkt.mutou.m007906	まさにゆるさんやといひてわれこそしなめとてなきののしる事
+tkt.mutou.n013083	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007893	tkt.mutou.m007911	まさにゆるさんやといひてわれこそしなめとてなきののしる事いとたへがたげ也
+tkt.mutou.n013128	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m007921	tkt.mutou.m007921	ちちはは
+tkt.mutou.n013170	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007941	tkt.mutou.m007950	あまたのとしをへぬるになん有ける
+tkt.mutou.n013162	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007941	tkt.mutou.m007958	あまたのとしをへぬるになん有けるかの国のちち母の事も
+tkt.mutou.n013208	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m007969	tkt.mutou.m007973	ならひたてまつれりいみじからむ
+tkt.mutou.n013206	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m007969	tkt.mutou.m007975	ならひたてまつれりいみじからむ心ちも
+tkt.mutou.n013225	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m007981	tkt.mutou.m007991	されどをのが心ならずまかりなむと
+tkt.mutou.n013258	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008000	tkt.mutou.m008001	つかはるる
+tkt.mutou.n013268	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008006	tkt.mutou.m008007	うつくしかりつる
+tkt.mutou.n013278	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008013	tkt.mutou.m008014	恋しからむ
+tkt.mutou.n013286	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008019	tkt.mutou.m008019	ゆ水
+tkt.mutou.n013310	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008033	tkt.mutou.m008033	御門
+tkt.mutou.n013325	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008040	tkt.mutou.m008041	御つかひ
+tkt.mutou.n013324	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008040	tkt.mutou.m008044	御つかひつかはさせ給
+tkt.mutou.n013334	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008048	tkt.mutou.m008048	たけとり
+tkt.mutou.n013341	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008053	tkt.mutou.m008053	事
+tkt.mutou.n013348	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008056	tkt.mutou.m008059	事をなげくに
+tkt.mutou.n013356	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008060	tkt.mutou.m008061	ひげも
+tkt.mutou.n013361	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008063	tkt.mutou.m008064	こしも
+tkt.mutou.n013366	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008066	tkt.mutou.m008067	めも
+tkt.mutou.n013391	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008079	tkt.mutou.m008079	物
+tkt.mutou.n013389	PP-PRD	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008079	tkt.mutou.m008082	物おもふには
+tkt.mutou.n013376	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008071	tkt.mutou.m008073	おきなことしは
+tkt.mutou.n013374	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008071	tkt.mutou.m008091	おきなことしは五十ばかりなりけれども物おもふにはかた時になむ老になりにけると
+tkt.mutou.n013428	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008102	tkt.mutou.m008102	物
+tkt.mutou.n013446	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008111	tkt.mutou.m008111	竹とり
+tkt.mutou.n013445	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008111	tkt.mutou.m008113	竹とりなくなく申
+tkt.mutou.n013487	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008132	tkt.mutou.m008135	たうとくとはせ給
+tkt.mutou.n013500	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008142	tkt.mutou.m008142	人々
+tkt.mutou.n013504	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008145	tkt.mutou.m008149	月の宮この人
+tkt.mutou.n013483	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008132	tkt.mutou.m008141	たうとくとはせ給この十五日は
+tkt.mutou.n013481	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008132	tkt.mutou.m008156	たうとくとはせ給この十五日は人々たまはりて月の宮この人まうでこばとらへさせんと
+tkt.mutou.n013480	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008132	tkt.mutou.m008157	たうとくとはせ給この十五日は人々たまはりて月の宮この人まうでこばとらへさせんと申
+tkt.mutou.n013527	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008163	tkt.mutou.m008165	翁のありさま
+tkt.mutou.n013541	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008170	tkt.mutou.m008171	事ども
+tkt.mutou.n013539	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008170	tkt.mutou.m008173	事ども申を
+tkt.mutou.n013555	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008177	tkt.mutou.m008181	一めみたまひし
+tkt.mutou.n013551	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008177	tkt.mutou.m008189	一めみたまひし御心にだにわすれ給はぬに
+tkt.mutou.n013573	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008190	tkt.mutou.m008190	あけくれ
+tkt.mutou.n013572	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008190	tkt.mutou.m008193	あけくれみなれたる
+tkt.mutou.n013592	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008199	tkt.mutou.m008201	いかが思ふべき
+tkt.mutou.n013607	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008211	tkt.mutou.m008217	勅使少将髙野のおほくにといふ
+tkt.mutou.n013623	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008222	tkt.mutou.m008224	六衛のつかさ
+tkt.mutou.n013633	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008227	tkt.mutou.m008236	二千人の人を竹とりが家につかはす
+tkt.mutou.n013666	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008245	tkt.mutou.m008248	千人家の人々
+tkt.mutou.n013664	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008245	tkt.mutou.m008252	千人家の人々いとおほかりけるに
+tkt.mutou.n013681	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008255	tkt.mutou.m008256	あける
+tkt.mutou.n013679	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008255	tkt.mutou.m008258	あけるひまも
+tkt.mutou.n013693	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008262	tkt.mutou.m008264	このまもる
+tkt.mutou.n013691	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008262	tkt.mutou.m008266	このまもる人々も
+tkt.mutou.n013746	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008293	tkt.mutou.m008293	て
+tkt.mutou.n013757	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008295	tkt.mutou.m008296	翁も
+tkt.mutou.n013784	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008309	tkt.mutou.m008311	かばかりまもる
+tkt.mutou.n013752	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008295	tkt.mutou.m008322	翁もぬりごめの戸をさしてとぐちにをりおきなのいはくかばかりまもる所に天の人にもまけむやと
+tkt.mutou.n013809	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008325	tkt.mutou.m008329	屋のうへにをる
+tkt.mutou.n013840	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008343	tkt.mutou.m008343	まもる
+tkt.mutou.n013858	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008352	tkt.mutou.m008366	所にはり一だにあらばまづいころしてほかにさらんと
+tkt.mutou.n013855	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008352	tkt.mutou.m008370	所にはり一だにあらばまづいころしてほかにさらんと思ひ侍るといふ
+tkt.mutou.n013915	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008388	tkt.mutou.m008390	まもりたたかふべき
+tkt.mutou.n013925	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008396	tkt.mutou.m008405	あの国の人をえたたかはぬ也
+tkt.mutou.n013924	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008396	tkt.mutou.m008406	あの国の人をえたたかはぬ也ゆみや
+tkt.mutou.n013903	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008383	tkt.mutou.m008384	かぐや姫は
+tkt.mutou.n013960	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008418	tkt.mutou.m008422	かのくにの人
+tkt.mutou.n013972	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008425	tkt.mutou.m008425	みな
+tkt.mutou.n013949	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008412	tkt.mutou.m008429	かくさしこめてありともかのくにの人こばみなあきなむと
+tkt.mutou.n013982	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008431	tkt.mutou.m008434	あひたたかはんと
+tkt.mutou.n013990	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008437	tkt.mutou.m008441	かの国の人
+tkt.mutou.n014007	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008445	tkt.mutou.m008445	たけき
+tkt.mutou.n014006	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008445	tkt.mutou.m008446	たけき心
+tkt.mutou.n014005	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008445	tkt.mutou.m008447	たけき心つかふ
+tkt.mutou.n014003	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008445	tkt.mutou.m008449	たけき心つかふ人も
+tkt.mutou.n014035	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008453	tkt.mutou.m008455	おきなのいふ
+tkt.mutou.n014032	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008453	tkt.mutou.m008461	おきなのいふやう御むかへにこむ
+tkt.mutou.n014029	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008453	tkt.mutou.m008464	おきなのいふやう御むかへにこむ人をばながき
+tkt.mutou.n014028	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008453	tkt.mutou.m008465	おきなのいふやう御むかへにこむ人をばながきつめ
+tkt.mutou.n014055	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008468	tkt.mutou.m008472	まなこをつかみつぶさん
+tkt.mutou.n014069	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008477	tkt.mutou.m008479	かなぐりおとさむ
+tkt.mutou.n014022	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008453	tkt.mutou.m008495	おきなのいふやう御むかへにこむ人をばながきつめしてまなこをつかみつぶさんさかかみをとりてかなぐりおとさむさかしりをかきいでてここらのおほやけ人に見せてはぢをみせんと
+tkt.mutou.n014021	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008453	tkt.mutou.m008497	おきなのいふやう御むかへにこむ人をばながきつめしてまなこをつかみつぶさんさかかみをとりてかなぐりおとさむさかしりをかきいでてここらのおほやけ人に見せてはぢをみせんとはらだちをる
+tkt.mutou.n014020	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008453	tkt.mutou.m008498	おきなのいふやう御むかへにこむ人をばながきつめしてまなこをつかみつぶさんさかかみをとりてかなぐりおとさむさかしりをかきいでてここらのおほやけ人に見せてはぢをみせんとはらだちをるかぐや姫
+tkt.mutou.n014109	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008505	tkt.mutou.m008509	屋のうへにをる
+tkt.mutou.n014105	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008505	tkt.mutou.m008514	屋のうへにをる人どものきくに
+tkt.mutou.n014138	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008522	tkt.mutou.m008522	ながき
+tkt.mutou.n014180	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008548	tkt.mutou.m008549	まからむ
+tkt.mutou.n014178	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008548	tkt.mutou.m008551	まからむみちも
+tkt.mutou.n014190	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008557	tkt.mutou.m008558	日比も
+tkt.mutou.n014209	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008570	tkt.mutou.m008574	さらにゆるされぬに
+tkt.mutou.n014235	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008588	tkt.mutou.m008590	さりなむ
+tkt.mutou.n014266	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008607	tkt.mutou.m008612	おいをせずなんおもふ
+tkt.mutou.n014247	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008598	tkt.mutou.m008603	かのみやこの人は
+tkt.mutou.n014294	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008618	tkt.mutou.m008618	さる
+tkt.mutou.n014289	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008618	tkt.mutou.m008631	さる所へまからむずるもいみじくも侍らずおいおとろへ給へる
+tkt.mutou.n014283	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008618	tkt.mutou.m008641	さる所へまからむずるもいみじくも侍らずおいおとろへ給へるさまをみたてまつらざらむこそ恋しからめと
+tkt.mutou.n014323	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008644	tkt.mutou.m008645	翁むね
+tkt.mutou.n014322	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008644	tkt.mutou.m008646	翁むねいたき
+tkt.mutou.n014321	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008644	tkt.mutou.m008647	翁むねいたき事
+tkt.mutou.n014343	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008651	tkt.mutou.m008651	うるはしき
+tkt.mutou.n014342	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008651	tkt.mutou.m008652	うるはしきすがた
+tkt.mutou.n014341	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008651	tkt.mutou.m008654	うるはしきすがたしたる
+tkt.mutou.n014337	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008651	tkt.mutou.m008660	うるはしきすがたしたるつかひにもさはらじと
+tkt.mutou.n014336	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008651	tkt.mutou.m008663	うるはしきすがたしたるつかひにもさはらじとねたみをりかかる
+tkt.mutou.n014421	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008698	tkt.mutou.m008698	ある
+tkt.mutou.n014414	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008698	tkt.mutou.m008705	ある人のけのあなさへみゆる
+tkt.mutou.n014439	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008710	tkt.mutou.m008712	尺ばかりあがる
+tkt.mutou.n014465	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008722	tkt.mutou.m008723	うちとなる
+tkt.mutou.n014460	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008722	tkt.mutou.m008731	うちとなる人の心ども物におそはるる
+tkt.mutou.n014482	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008735	tkt.mutou.m008737	あひたたかはん
+tkt.mutou.n014480	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008735	tkt.mutou.m008739	あひたたかはん心も
+tkt.mutou.n014514	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008756	tkt.mutou.m008757	ちからも
+tkt.mutou.n014539	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008766	tkt.mutou.m008766	心
+tkt.mutou.n014538	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008766	tkt.mutou.m008767	心さかしき
+tkt.mutou.n014537	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008766	tkt.mutou.m008768	心さかしきもの
+tkt.mutou.n014530	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008764	tkt.mutou.m008773	中に心さかしきものねんじていんと
+tkt.mutou.n014558	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008782	tkt.mutou.m008783	あれも
+tkt.mutou.n014564	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008786	tkt.mutou.m008786	心ち
+tkt.mutou.n014577	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008795	tkt.mutou.m008796	たてる
+tkt.mutou.n014587	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008800	tkt.mutou.m008803	装束のきよらなる
+tkt.mutou.n014584	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008800	tkt.mutou.m008809	装束のきよらなること物にもにずとぶ
+tkt.mutou.n014575	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008795	tkt.mutou.m008799	たてる人どもは
+tkt.mutou.n014606	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008814	tkt.mutou.m008814	羅がい
+tkt.mutou.n014629	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008821	tkt.mutou.m008823	わうとおぼしき
+tkt.mutou.n014638	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008827	tkt.mutou.m008827	宮つこまろ
+tkt.mutou.n014617	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008817	tkt.mutou.m008830	その中にわうとおぼしき人家に宮つこまろまうでこと
+tkt.mutou.n014615	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008817	tkt.mutou.m008832	その中にわうとおぼしき人家に宮つこまろまうでこといふに
+tkt.mutou.n014614	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008817	tkt.mutou.m008835	その中にわうとおぼしき人家に宮つこまろまうでこといふにたけくおもひつる
+tkt.mutou.n014651	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008838	tkt.mutou.m008841	物にゑひたる
+tkt.mutou.n014612	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008817	tkt.mutou.m008837	その中にわうとおぼしき人家に宮つこまろまうでこといふにたけくおもひつるみやつこまろも
+tkt.mutou.n014650	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m008838	tkt.mutou.m008842	物にゑひたるここち
+tkt.mutou.n014680	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008850	tkt.mutou.m008850	なんぢ
+tkt.mutou.n014679	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008850	tkt.mutou.m008851	なんぢおさなき
+tkt.mutou.n014677	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008850	tkt.mutou.m008854	なんぢおさなき人いささかなる
+tkt.mutou.n014688	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008857	tkt.mutou.m008857	おきな
+tkt.mutou.n014673	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008850	tkt.mutou.m008860	なんぢおさなき人いささかなるくどくをおきなつくりけるに
+tkt.mutou.n014704	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008868	tkt.mutou.m008874	かた時のほどとてくだししを
+tkt.mutou.n014725	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m008880	tkt.mutou.m008880	こがね
+tkt.mutou.n014730	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008883	tkt.mutou.m008886	身をかへたる
+tkt.mutou.n014729	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008883	tkt.mutou.m008887	身をかへたること
+tkt.mutou.n014759	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008900	tkt.mutou.m008901	かくいやしき
+tkt.mutou.n014741	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008891	tkt.mutou.m008892	かぐや姫は
+tkt.mutou.n014772	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008910	tkt.mutou.m008912	つみのかぎり
+tkt.mutou.n014781	PP-OB1	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m008916	tkt.mutou.m008918	かくむかふるを
+tkt.mutou.n014786	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008919	tkt.mutou.m008920	翁は
+tkt.mutou.n014794	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008923	tkt.mutou.m008924	あたはぬ
+tkt.mutou.n014804	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008927	tkt.mutou.m008930	はや出したてまつれと
+tkt.mutou.n014803	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008927	tkt.mutou.m008931	はや出したてまつれといふ
+tkt.mutou.n014802	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m008927	tkt.mutou.m008932	はや出したてまつれといふおきな
+tkt.mutou.n014817	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008936	tkt.mutou.m008939	かぐや姫をやしなひたてまつる
+tkt.mutou.n014867	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008959	tkt.mutou.m008961	かぐやひめと申
+tkt.mutou.n014858	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008956	tkt.mutou.m008966	又こと所にかぐやひめと申人ぞおはすらむと
+tkt.mutou.n014857	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008956	tkt.mutou.m008967	又こと所にかぐやひめと申人ぞおはすらむといふ
+tkt.mutou.n014854	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008956	tkt.mutou.m008970	又こと所にかぐやひめと申人ぞおはすらむといふここにおはする
+tkt.mutou.n014887	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008973	tkt.mutou.m008973	おもき
+tkt.mutou.n014852	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008956	tkt.mutou.m008972	又こと所にかぐやひめと申人ぞおはすらむといふここにおはするかぐや姫は
+tkt.mutou.n014850	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008956	tkt.mutou.m008983	又こと所にかぐやひめと申人ぞおはすらむといふここにおはするかぐや姫はおもきやまひをし給へばえいでおはしますまじと
+tkt.mutou.n014912	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m008991	tkt.mutou.m008995	屋のうへにとぶ
+tkt.mutou.n014930	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009001	tkt.mutou.m009001	かぐや姫
+tkt.mutou.n014929	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009001	tkt.mutou.m009002	かぐや姫きたなき
+tkt.mutou.n014901	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m008986	tkt.mutou.m008988	そ返事は
+tkt.mutou.n014847	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m008956	tkt.mutou.m009010	又こと所にかぐやひめと申人ぞおはすらむといふここにおはするかぐや姫はおもきやまひをし給へばえいでおはしますまじと申せばそ返事はなくて屋のうへにとぶくるまをよせていざかぐや姫きたなき所にいかでか久しくおはせんと
+tkt.mutou.n014952	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009012	tkt.mutou.m009014	たてこめたる
+tkt.mutou.n014949	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009012	tkt.mutou.m009018	たてこめたるところの戸すなはち
+tkt.mutou.n014947	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m009012	tkt.mutou.m009021	たてこめたるところの戸すなはちただあきに
+tkt.mutou.n014946	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009012	tkt.mutou.m009023	たてこめたるところの戸すなはちただあきにあきぬ
+tkt.mutou.n014978	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009032	tkt.mutou.m009033	あきぬ
+tkt.mutou.n014977	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009032	tkt.mutou.m009034	あきぬ女
+tkt.mutou.n014986	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009037	tkt.mutou.m009038	ゐたる
+tkt.mutou.n014944	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009012	tkt.mutou.m009026	たてこめたるところの戸すなはちただあきにあきぬかうしどもも
+tkt.mutou.n015019	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009054	tkt.mutou.m009055	竹とり心
+tkt.mutou.n015026	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009058	tkt.mutou.m009060	なきふせる
+tkt.mutou.n015015	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009054	tkt.mutou.m009070	竹とり心まどひてなきふせる所によりてかぐやにみをくり給へと
+tkt.mutou.n015044	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009073	tkt.mutou.m009073	なに
+tkt.mutou.n015051	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m009076	tkt.mutou.m009077	かなしきに
+tkt.mutou.n015050	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009076	tkt.mutou.m009081	かなしきに見をくりたてまつらむ
+tkt.mutou.n015011	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009054	tkt.mutou.m009086	竹とり心まどひてなきふせる所によりてかぐやにみをくり給へといへどもなにしにかなしきに見をくりたてまつらむ我をいかにせよとて
+tkt.mutou.n015008	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009054	tkt.mutou.m009099	竹とり心まどひてなきふせる所によりてかぐやにみをくり給へといへどもなにしにかなしきに見をくりたてまつらむ我をいかにせよとてすててはのぼり給ふぞぐしていておはせねと
+tkt.mutou.n015089	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009103	tkt.mutou.m009104	恋しからむ
+tkt.mutou.n015088	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009103	tkt.mutou.m009105	恋しからむおりおり
+tkt.mutou.n015086	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009103	tkt.mutou.m009110	恋しからむおりおりとり出で見給へとて
+tkt.mutou.n015122	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009125	tkt.mutou.m009128	なげかせたてまつらぬ
+tkt.mutou.n015132	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009133	tkt.mutou.m009135	すぎ別ぬる
+tkt.mutou.n015102	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009115	tkt.mutou.m009116	こと葉は
+tkt.mutou.n015131	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m009133	tkt.mutou.m009136	すぎ別ぬる事
+tkt.mutou.n015138	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m009138	tkt.mutou.m009138	ほい
+tkt.mutou.n015147	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009143	tkt.mutou.m009144	ぬぎをく
+tkt.mutou.n015161	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009151	tkt.mutou.m009155	月のいでたらむ
+tkt.mutou.n015159	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009151	tkt.mutou.m009157	月のいでたらむ夜は
+tkt.mutou.n015176	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009161	tkt.mutou.m009161	み
+tkt.mutou.n015194	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009166	tkt.mutou.m009171	空よりもおちぬべき
+tkt.mutou.n015193	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009166	tkt.mutou.m009172	空よりもおちぬべき心ち
+tkt.mutou.n015190	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009166	tkt.mutou.m009176	空よりもおちぬべき心ちすると書をく
+tkt.mutou.n015185	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009166	tkt.mutou.m009183	空よりもおちぬべき心ちすると書をく天人の中にもたせたる
+tkt.mutou.n015184	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009166	tkt.mutou.m009184	空よりもおちぬべき心ちすると書をく天人の中にもたせたる箱
+tkt.mutou.n015217	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009186	tkt.mutou.m009188	あまのは衣
+tkt.mutou.n015231	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009194	tkt.mutou.m009196	ふしのくすり
+tkt.mutou.n015244	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009199	tkt.mutou.m009201	ひとりの天人
+tkt.mutou.n015243	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009199	tkt.mutou.m009202	ひとりの天人いふ
+tkt.mutou.n015241	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009199	tkt.mutou.m009204	ひとりの天人いふつぼなる
+tkt.mutou.n015240	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009199	tkt.mutou.m009206	ひとりの天人いふつぼなる御くすり
+tkt.mutou.n015261	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009208	tkt.mutou.m009208	きたなき
+tkt.mutou.n015258	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009208	tkt.mutou.m009211	きたなき所のもの
+tkt.mutou.n015272	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009215	tkt.mutou.m009216	御ここち
+tkt.mutou.n015271	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009215	tkt.mutou.m009218	御ここちあしからむ
+tkt.mutou.n015302	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009231	tkt.mutou.m009235	すこしかた見とてぬぎをく
+tkt.mutou.n015295	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009229	tkt.mutou.m009240	給てすこしかた見とてぬぎをくきぬにつつまんと
+tkt.mutou.n015318	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009243	tkt.mutou.m009243	ある
+tkt.mutou.n015317	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009243	tkt.mutou.m009244	ある天人
+tkt.mutou.n015290	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009229	tkt.mutou.m009255	給てすこしかた見とてぬぎをくきぬにつつまんとすればある天人つつませずみぞをとり出てきせんと
+tkt.mutou.n015371	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009261	tkt.mutou.m009261	かぐや姫
+tkt.mutou.n015361	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009257	tkt.mutou.m009264	その時にかぐや姫しばしまてと
+tkt.mutou.n015360	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009265	その時にかぐや姫しばしまてといふ
+tkt.mutou.n015359	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009257	tkt.mutou.m009266	その時にかぐや姫しばしまてといふきぬ
+tkt.mutou.n015358	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009268	その時にかぐや姫しばしまてといふきぬきせつる
+tkt.mutou.n015356	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009257	tkt.mutou.m009270	その時にかぐや姫しばしまてといふきぬきせつる人は
+tkt.mutou.n015354	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009257	tkt.mutou.m009275	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりと
+tkt.mutou.n015353	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009276	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ
+tkt.mutou.n015351	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009282	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき
+tkt.mutou.n015348	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009257	tkt.mutou.m009286	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき事ありけりと
+tkt.mutou.n015402	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009289	tkt.mutou.m009289	文
+tkt.mutou.n015405	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m009291	tkt.mutou.m009291	天人
+tkt.mutou.n015345	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009257	tkt.mutou.m009293	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき事ありけりといひて文かく天人おそしと
+tkt.mutou.n015344	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009296	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき事ありけりといひて文かく天人おそしと心もとながり給
+tkt.mutou.n015342	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009257	tkt.mutou.m009300	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき事ありけりといひて文かく天人おそしと心もとながり給かぐや姫物しらぬ
+tkt.mutou.n015338	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009257	tkt.mutou.m009305	その時にかぐや姫しばしまてといふきぬきせつる人は心ことになるなりといふ物ひとこといひをくべき事ありけりといひて文かく天人おそしと心もとながり給かぐや姫物しらぬことなの給そとて
+tkt.mutou.n015431	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009311	tkt.mutou.m009312	御ふみ
+tkt.mutou.n015430	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009311	tkt.mutou.m009316	御ふみたてまつり給あはてぬ
+tkt.mutou.n015454	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009319	tkt.mutou.m009329	かくあまたの人をたまひてとどめさせ給へと
+tkt.mutou.n015453	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009319	tkt.mutou.m009331	かくあまたの人をたまひてとどめさせ給へとゆるさぬ
+tkt.mutou.n015452	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009319	tkt.mutou.m009332	かくあまたの人をたまひてとどめさせ給へとゆるさぬむかへ
+tkt.mutou.n015486	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009341	tkt.mutou.m009342	くちおしくかなしき
+tkt.mutou.n015485	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009341	tkt.mutou.m009344	くちおしくかなしき事宮づかへ
+tkt.mutou.n015497	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009350	tkt.mutou.m009351	かくわづらはしき
+tkt.mutou.n015518	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009364	tkt.mutou.m009369	心づよくうけたまはらずなりにし
+tkt.mutou.n015517	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009364	tkt.mutou.m009370	心づよくうけたまはらずなりにし事
+tkt.mutou.n015516	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009364	tkt.mutou.m009373	心づよくうけたまはらずなりにし事なめげなる
+tkt.mutou.n015445	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009319	tkt.mutou.m009386	かくあまたの人をたまひてとどめさせ給へとゆるさぬむかへまうできてとりいでまかりぬればくちおしくかなしき事宮づかへつかうまつらずなりぬるもかくわづらはしき身にて侍れば心えずおぼしめされつらめども心づよくうけたまはらずなりにし事なめげなる物におぼしめしとどめられぬるなん心にとどまり侍りぬとて
+tkt.mutou.n015552	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009390	tkt.mutou.m009392	天のは衣
+tkt.mutou.n015551	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009390	tkt.mutou.m009393	天のは衣きる
+tkt.mutou.n015544	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009387	tkt.mutou.m009389	今はとて
+tkt.mutou.n015443	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009319	tkt.mutou.m009403	かくあまたの人をたまひてとどめさせ給へとゆるさぬむかへまうできてとりいでまかりぬればくちおしくかなしき事宮づかへつかうまつらずなりぬるもかくわづらはしき身にて侍れば心えずおぼしめされつらめども心づよくうけたまはらずなりにし事なめげなる物におぼしめしとどめられぬるなん心にとどまり侍りぬとて今はとて天のは衣きるおりぞ君をあはれとおもひいでけるとて
+tkt.mutou.n015573	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009404	tkt.mutou.m009406	つぼの薬
+tkt.mutou.n015581	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009409	tkt.mutou.m009410	頭中将
+tkt.mutou.n015595	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009418	tkt.mutou.m009418	天人
+tkt.mutou.n015608	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009422	tkt.mutou.m009422	中将
+tkt.mutou.n015614	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009427	tkt.mutou.m009430	あまのは衣うち
+tkt.mutou.n015604	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009422	tkt.mutou.m009439	中将とりつればふとあまのは衣うちきせたてまつりつれば翁をいとおしくかなしと
+tkt.mutou.n015603	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009422	tkt.mutou.m009441	中将とりつればふとあまのは衣うちきせたてまつりつれば翁をいとおしくかなしとおぼしつる
+tkt.mutou.n015601	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009422	tkt.mutou.m009443	中将とりつればふとあまのは衣うちきせたてまつりつれば翁をいとおしくかなしとおぼしつる事も
+tkt.mutou.n015642	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009446	tkt.mutou.m009447	此きぬ
+tkt.mutou.n015641	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009446	tkt.mutou.m009449	此きぬきつる
+tkt.mutou.n015639	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009446	tkt.mutou.m009451	此きぬきつる人は
+tkt.mutou.n015649	NP	無助詞の名詞句	機能を付けていない（目的語か，副詞的な句か）	tkt.mutou.m009452	tkt.mutou.m009452	物おもひ
+tkt.mutou.n015671	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009465	tkt.mutou.m009465	天人
+tkt.mutou.n015704	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009484	tkt.mutou.m009488	あの書をきし
+tkt.mutou.n015721	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009496	tkt.mutou.m009496	なに
+tkt.mutou.n015719	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m009496	tkt.mutou.m009500	なにせむにか
+tkt.mutou.n015727	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009501	tkt.mutou.m009502	命も
+tkt.mutou.n015747	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009510	tkt.mutou.m009511	何事も
+tkt.mutou.n015736	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009505	tkt.mutou.m009515	たが為にか何事もようもなしとて
+tkt.mutou.n015757	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009516	tkt.mutou.m009517	薬も
+tkt.mutou.n015774	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009528	tkt.mutou.m009529	中将人々
+tkt.mutou.n015784	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009536	tkt.mutou.m009543	かぐや姫をえたたかひとめず成ぬる
+tkt.mutou.n015783	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009536	tkt.mutou.m009544	かぐや姫をえたたかひとめず成ぬる事
+tkt.mutou.n015810	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009552	tkt.mutou.m009553	御文
+tkt.mutou.n015823	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009559	tkt.mutou.m009559	御覧
+tkt.mutou.n015828	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009562	tkt.mutou.m009563	いとたく
+tkt.mutou.n015827	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009562	tkt.mutou.m009564	いとたくあはれ
+tkt.mutou.n015836	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009569	tkt.mutou.m009570	物も
+tkt.mutou.n015853	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009579	tkt.mutou.m009591	大臣上達部をめしていづれの山か天にちかきと
+tkt.mutou.n015851	PP	連体形＋に・を・が	準体句＋格助詞とした．接続助詞なら IP-ADV に直す	tkt.mutou.m009579	tkt.mutou.m009595	大臣上達部をめしていづれの山か天にちかきととはせ給ふに
+tkt.mutou.n015881	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009596	tkt.mutou.m009596	人
+tkt.mutou.n015889	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009598	tkt.mutou.m009603	するがの国にあるなる
+tkt.mutou.n015903	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009606	tkt.mutou.m009609	このみやこも
+tkt.mutou.n015912	PP-SBJ	主語（は・も の句）	節にほかの主語がないので主語とした	tkt.mutou.m009611	tkt.mutou.m009612	天も
+tkt.mutou.n015885	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009598	tkt.mutou.m009615	するがの国にあるなる山なんこのみやこもちかく天もちかく侍ると
+tkt.mutou.n015944	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009629	tkt.mutou.m009631	かのたてまつる
+tkt.mutou.n015955	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009637	tkt.mutou.m009637	つぼ
+tkt.mutou.n015979	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009647	tkt.mutou.m009649	つきのいはかさといふ
+tkt.mutou.n015997	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009654	tkt.mutou.m009659	するがの国にあなる
+tkt.mutou.n015992	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009654	tkt.mutou.m009666	するがの国にあなる山のいただきにもてつくべき
+tkt.mutou.n015991	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009654	tkt.mutou.m009667	するがの国にあなる山のいただきにもてつくべきよし
+tkt.mutou.n015990	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009654	tkt.mutou.m009669	するがの国にあなる山のいただきにもてつくべきよし仰給
+tkt.mutou.n016026	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009673	tkt.mutou.m009674	すべき
+tkt.mutou.n016025	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009673	tkt.mutou.m009675	すべきやう
+tkt.mutou.n016024	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009673	tkt.mutou.m009678	すべきやうをしへさせ給
+tkt.mutou.n016021	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009673	tkt.mutou.m009684	すべきやうをしへさせ給御ふみふしの薬つぼ
+tkt.mutou.n016052	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009691	tkt.mutou.m009692	もやすべき
+tkt.mutou.n016051	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009691	tkt.mutou.m009693	もやすべきよし
+tkt.mutou.n016050	IP-REL	連体修飾節	内の関係（IP-REL）とした．外の関係なら IP-EMB に直す	tkt.mutou.m009691	tkt.mutou.m009695	もやすべきよしおほせ給
+tkt.mutou.n016047	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009691	tkt.mutou.m009698	もやすべきよしおほせ給そのよし
+tkt.mutou.n016063	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009701	tkt.mutou.m009703	つはものどもあまた
+tkt.mutou.n016101	NP-SBJ	主語（無助詞）	節にほかの主語がないので主語とした	tkt.mutou.m009723	tkt.mutou.m009725	そのけぶり
+tkt.mutou.n016099	CP-THT	引用の範囲	引用の始まりを前の文の切れ目とした	tkt.mutou.m009723	tkt.mutou.m009734	そのけぶりいまだ雲のなかへたちのぼるとぞ

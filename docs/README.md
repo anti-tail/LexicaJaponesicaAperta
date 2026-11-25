@@ -1,7 +1,7 @@
 # 言島 Kätö nö Sıma — ONCOJ の上代語検索
 
 <https://anti-tail.github.io/LexicaJaponesicaAperta/> で公開している検索画面．`index.html` 1 ファイルにデータを埋め込んであり，サーバーは要らない．
-スマートフォンでも使える．英語版は <https://anti-tail.github.io/LexicaJaponesicaAperta/en/>．
+スマートフォンでも使える．中古語の木（CEMJ，試験公開・未査読の下書き，CC BY-SA 4.0）は <https://anti-tail.github.io/LexicaJaponesicaAperta/cemj/>．英語版は <https://anti-tail.github.io/LexicaJaponesicaAperta/en/>．
 
 転写の読み方と，ONCOJ と中納言のちがいは解説のページにまとめた：<https://anti-tail.github.io/LexicaJaponesicaAperta/guide.html>
 ONCOJ と『日本語歴史コーパス』奈良時代編の形態論・統語論の注釈の対照は付録にまとめた：<https://anti-tail.github.io/LexicaJaponesicaAperta/appendix.html>（英語版 <https://anti-tail.github.io/LexicaJaponesicaAperta/en/appendix.html>）
